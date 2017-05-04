@@ -17,8 +17,6 @@ class Station{
 private:
     Station* _initCheck;
     string naam;
-    string vorige;
-    string volgende;
     string type;
     set<string> passagier;
     map<int, Spoor*> sporen;

@@ -85,6 +85,8 @@ void Tram::setHuidigStation(string huidigStation) {
 }
 
 string Tram::getType() {
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling getType.");
     return type;
 }
 
@@ -96,6 +98,8 @@ void Tram::setType(string type) {
 }
 
 int Tram::getVoertuigNr() {
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling getVoertuigNr.");
     return voertuigNr;
 }
 

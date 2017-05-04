@@ -85,12 +85,18 @@ TEST_F(SystemDomainTest, HappyDay) {
 //    EXPECT_EQ(output, expected);
 }
 
-
-TEST_F(SystemDomainTest, SetNameViolation) {
+// Station Class Tests
+TEST_F(SystemDomainTest, SetStationNameViolation) {
     Station testStation;
     EXPECT_DEATH(testStation.setNaam(""), "No empty string for Station Name allowed");
 }
 
+TEST_F(SystemDomainTest, SetStationTypeViolation) {
+    Station testStation;
+    EXPECT_DEATH(testStation.setType(""), "No empty string for Station type allowed");
+}
+
+// Track Class Tests
 TEST_F(SystemDomainTest, SetTrackNrViolation) {
     Spoor testSpoor;
     EXPECT_DEATH(testSpoor.setSpoorNr(-5), "No negative Track number allowed");
@@ -106,11 +112,7 @@ TEST_F(SystemDomainTest, SetVolgendeViolation) {
     EXPECT_DEATH(testSpoor.setVolgende(""), "No empty string for next Station allowed");
 }
 
-TEST_F(SystemDomainTest, SetStationTypeViolation) {
-    Station testStation;
-    EXPECT_DEATH(testStation.setType(""), "No empty string for Station type allowed");
-}
-
+// Tram Class Tests
 TEST_F(SystemDomainTest, SetLijnNrViolation) {
     Tram testTram;
     EXPECT_DEATH(testTram.setLijnNr(-60), "No negative line numbers allowed");
@@ -126,12 +128,12 @@ TEST_F(SystemDomainTest, SetSpeedViolation) {
     EXPECT_DEATH(testTram.setSnelheid(-20), "No negative speed allowed");
 }
 
-TEST_F(SystemDomainTest, SetBeginstationViolation) {
+TEST_F(SystemDomainTest, SetTramBeginstationViolation) {
     Tram testTram;
     EXPECT_DEATH(testTram.setBeginStation(""), "No empty string for Starting Station allowed");
 }
 
-TEST_F(SystemDomainTest, SetHuidigstationViolation) {
+TEST_F(SystemDomainTest, SetTramHuidigstationViolation) {
     Tram testTram;
     EXPECT_DEATH(testTram.setHuidigStation(""), "No empty string for Current Station allowed");
 }
@@ -144,6 +146,27 @@ TEST_F(SystemDomainTest, SetTramTypeViolation) {
 TEST_F(SystemDomainTest, SetVehicleNrViolation) {
     Tram testTram;
     EXPECT_DEATH(testTram.setVoertuigNr(-10), "No empty string for vehicle number allowed");
+}
+
+// Passenger Class Tests
+TEST_F(SystemDomainTest, SetPassengerNameViolation) {
+    Passagier testPassagier;
+    EXPECT_DEATH(testPassagier.setNaam(""), "No empty string for Passenger Name allowed");
+}
+
+TEST_F(SystemDomainTest, SetPassengerBeginstationViolation) {
+    Passagier testPassagier;
+    EXPECT_DEATH(testPassagier.setBeginStation(""), "No empty string for Starting Station allowed");
+}
+
+TEST_F(SystemDomainTest, SetPassengerEndstationViolation) {
+    Passagier testPassagier;
+    EXPECT_DEATH(testPassagier.setEindStation(""), "No empty string for End Station allowed");
+}
+
+TEST_F(SystemDomainTest, SetPassengerAmountViolation) {
+    Passagier testPassagier;
+    EXPECT_DEATH(testPassagier.setHoeveelheid(-12), "No negative amount of passengers allowed");
 }
 
 class SystemInputTests: public ::testing::Test {
@@ -172,11 +195,11 @@ TEST_F(SystemInputTests, InputFileTests) {
     EXPECT_FALSE(importResult);
 }
 
-TEST_F(SystemInputTests, CircularTest) {
-    parser.XmlParser("testInput/testInput2.xml");
-
-    EXPECT_FALSE(parser.getSystem()->Valid_circuit());
-}
+//TEST_F(SystemInputTests, CircularTest) {
+//    parser.XmlParser("testInput/testInput2.xml");
+//
+//    EXPECT_FALSE(parser.getSystem()->Valid_circuit());
+//}
 
 TEST_F(SystemInputTests, EmptyStationName){
     parser.XmlParser("testInput/StationsNaam.xml");

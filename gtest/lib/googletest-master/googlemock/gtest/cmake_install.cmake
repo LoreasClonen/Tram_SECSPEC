@@ -1,4 +1,4 @@
-# Install script for directory: /home/uauser/CLionProjects/Tram_SecSpec_4_5/gtest/lib/googletest-master/googletest
+# Install script for directory: /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,15 +32,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/Tram_SecSpec_4_5/gtest/lib/googletest-master/googlemock/gtest/libgtest.a")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest.a")
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/Tram_SecSpec_4_5/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a")
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/uauser/CLionProjects/Tram_SecSpec_4_5/gtest/lib/googletest-master/googletest/include/gtest")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include/gtest")
 endif()
 

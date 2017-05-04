@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/DesignByContract.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/DesignByContract.h
 assert.h
 -
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Parser.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Parser.cpp
 Parser.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Parser.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Parser.h
 iostream
 -
 fstream
@@ -20,37 +20,39 @@ fstream
 algorithm
 -
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Parser.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Parser.h
 tinyxml.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxml.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxml.h
 iostream
 -
 System.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/System.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/System.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Passagier.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Passagier.cpp
 Passagier.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Passagier.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Passagier.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Passagier.h
-iostream
--
-
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Spoor.cpp
-Spoor.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Spoor.h
-
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Spoor.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Passagier.h
 iostream
 -
 DesignByContract.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/DesignByContract.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/DesignByContract.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Station.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Spoor.cpp
+Spoor.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Spoor.h
+
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Spoor.h
+iostream
+-
+DesignByContract.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/DesignByContract.h
+
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Station.cpp
 Station.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Station.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Station.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Station.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Station.h
 iostream
 -
 set
@@ -58,63 +60,63 @@ set
 map
 -
 DesignByContract.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/DesignByContract.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/DesignByContract.h
 Spoor.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Spoor.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Spoor.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/System.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/System.cpp
 System.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/System.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/System.h
 memory
 -
 fstream
 -
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/System.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/System.h
 Station.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Station.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Station.h
 Tram.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Tram.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Tram.h
 Passagier.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Passagier.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Passagier.h
 iostream
 -
 map
 -
 DesignByContract.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/DesignByContract.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/DesignByContract.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Tram.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Tram.cpp
 Tram.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Tram.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Tram.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Tram.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Tram.h
 iostream
 -
 set
 -
 DesignByContract.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/DesignByContract.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/DesignByContract.h
 Passagier.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Passagier.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Passagier.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/main.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/main.cpp
 Parser.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/Parser.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/Parser.h
 iostream
 -
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinystr.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinystr.cpp
 tinystr.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinystr.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinystr.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinystr.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinystr.h
 assert.h
 -
 string.h
 -
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxml.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxml.cpp
 ctype.h
 -
 sstream
@@ -122,9 +124,9 @@ sstream
 iostream
 -
 tinyxml.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxml.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxml.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxml.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxml.h
 ctype.h
 -
 stdio.h
@@ -142,19 +144,19 @@ iostream
 sstream
 -
 tinystr.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinystr.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinystr.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxmlerror.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxmlerror.cpp
 tinyxml.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxml.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxml.h
 
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxmlparser.cpp
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxmlparser.cpp
 ctype.h
 -
 stddef.h
 -
 tinyxml.h
-/home/uauser/CLionProjects/Tram_SecSpec_4_5/src/tinyxml.h
+/home/luuk/CLionProjects/Tram_SECSPEC/src/tinyxml.h
 windows.h
 -
 

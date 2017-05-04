@@ -22,7 +22,7 @@ public:
 
     bool properlyInitialized();
 
-    int getSpoorNr() const;
+    int getSpoorNr();
 
     void setSpoorNr(int spoorNr);
 

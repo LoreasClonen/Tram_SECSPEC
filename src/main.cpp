@@ -13,7 +13,7 @@ int main(){
     parser.XmlParser("InputFiles/XML_Test.xml");
     System* system = parser.getSystem();
     system->properlyparsed();
-    system->ronde_rijden(false);
+//    system->ronde_rijden(false);
     system->Output();
 }
 

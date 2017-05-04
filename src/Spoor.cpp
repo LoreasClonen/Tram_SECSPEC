@@ -15,7 +15,9 @@ bool Spoor::properlyInitialized() {
     return _initCheck == this;
 }
 
-int Spoor::getSpoorNr() const {
+int Spoor::getSpoorNr() {
+    REQUIRE(this->properlyInitialized(),
+            "Spoor wasn't initialized when calling getSpoorNr.");
     return spoorNr;
 }
 
@@ -27,6 +29,8 @@ void Spoor::setSpoorNr(int spoorNr) {
 }
 
 string Spoor::getVolgende() {
+    REQUIRE(this->properlyInitialized(),
+            "Spoor wasn't initialized when calling getVolgende.");
     return volgende;
 }
 
@@ -38,6 +42,8 @@ void Spoor::setVolgende(string volgende) {
 }
 
 string Spoor::getVorige() {
+    REQUIRE(this->properlyInitialized(),
+            "Spoor wasn't initialized when calling getVorige.");
     return vorige;
 }
 

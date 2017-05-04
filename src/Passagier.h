@@ -6,11 +6,13 @@
 #define TRAM_NETWERK_PASSAGIER_H
 
 #include <iostream>
+#include "DesignByContract.h"
 
 using namespace std;
 
 class Passagier {
 private:
+    Passagier* _initCheck;
     string naam;
     string beginStation;
     string eindStation;
@@ -18,6 +20,8 @@ private:
 
 public:
     Passagier();
+
+    bool properlyInitialized();
 
     string getNaam();
 

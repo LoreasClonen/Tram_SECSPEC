@@ -1,0 +1,33 @@
+--== STATIONS ==--
+Station A
+Type: metrostation
+--== SPOREN ==--
+Spoor 12
+-> Station B
+<- Station C
+Wachtende passagiers:
+ - Groep1, 15 mensen, reist naar Station: C
+Station B
+Type: halte
+--== SPOREN ==--
+Spoor 12
+-> Station C
+<- Station A
+Wachtende passagiers:
+Station C
+Type: metrostation
+--== SPOREN ==--
+Spoor 12
+-> Station A
+<- Station B
+Wachtende passagiers:
+
+--== TRAMS ==--
+Tram 10 nr 120
+Zitplaatsen: 32
+Snelheid: 60km/h
+Huidig Station: B
+Tram 12 nr 165
+Zitplaatsen: 32
+Snelheid: 60km/h
+Huidig Station: A
