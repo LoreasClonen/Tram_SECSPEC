@@ -1,0 +1,11 @@
+<SYSTEM>
+	<station>
+		<naam>A</naam>
+		<spoor>
+			<spoorNr>10</spoorNr>
+			<vorige>B</vorige>
+			<volgende>C</volgende>
+		</spoor>
+		<type>metrostation</type>
+	</station>
+</SYSTEM>

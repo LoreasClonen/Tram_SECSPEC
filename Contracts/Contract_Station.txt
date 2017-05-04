@@ -1,0 +1,54 @@
+Operation Contract Station:
+==============================
+
++constructor():
+//Maakt een Station object aan.
+//Pre:
+//Post:Er is een Station object aangemaakt en de members hebben een defaultwaarde gekregen.
+
++getNaam(out string: naam):
+//Geeft een string naam terug die een member variable is van het Station object.
+//Pre: Er bestaat een naam in het station object.
+//Post: Indien de integer bestaat wordt deze teruggegeven.
+
++getVolgende(out string: volgende ):
+//Geeft een string volgende terug die een member variable is van het Station object.
+//Pre: Er bestaat een string volgende in het station object.
+//Post: Indien de string bestaat wordt deze teruggegeven.
+
++getVorige(out string: Vorige):
+//Geeft een string Vorige terug die een member variable is van het Station object.
+//Pre: Er bestaat een string Vorige in het Station object.
+//Post: Indien de string bestaat wordt deze teruggegeven.
+
++getSpoor(out int: spoor):
+//Geeft een integer spoor terug die een member variable is van het Station object.
+//Pre: Er bestaat een integer naam in het Station object.
+//Post: Indien de integer bestaat wordt deze teruggegeven.
+
++setNaam(in string: naam):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Station Object.
+//Post: De waarde is in de member variabele gezet.
+
++setVorige(in string: vorige):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Station Object.
+//Post: De waarde is in de member variabele gezet.
+
++setVolgende(in string: Volgende):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Station Object.
+//Post: De waarde is in de member variabele gezet.
+
++setSpoor(in int: spoor):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Station Object.
+//Post: De waarde is in de member variabele gezet.
+
++ProperlyInitialized(out succes: bool):
+//Geeft een bool terug voor een juist geinitializeerd object.
+//Pre: Er bestaat een Station object.
+//Post: Geeft true terug wanneer het object correct is geinitialiseerd, zo niet geeft de functie false terug.
+
+

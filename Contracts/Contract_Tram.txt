@@ -1,0 +1,64 @@
+Operation Contract Tram:
+==============================
+
++constructor():
+//Maakt een Tram object aan.
+//Pre:
+//Post:Er is een Tram object aangemaakt en de members hebben een defaultwaarde gekregen.
+
++getLijnNr(out int: LijnNr):
+//Geeft een int LijnNr terug die een member variable is van het Tram object.
+//Pre: Er bestaat een integer LijnNr in het Tram object.
+//Post: Indien de integer bestaat wordt deze teruggegeven.
+
++getZitplaatsen(out integer: zitplaatsen):
+//Geeft een string volgende terug die een member variable is van het Tram object.
+//Pre: Er bestaat een integer Zitplaatsen in het Tram object.
+//Post: Indien de integer bestaat wordt deze teruggegeven.
+
++getSnelheid(out integer: snelheid):
+//Geeft een string Vorige terug die een member variable is van het Tram object.
+//Pre: Er bestaat een integer snelheid in het Tram object.
+//Post: Indien de integer bestaat wordt deze teruggegeven.
+
++getBeginStation(out string: beginStation):
+//Geeft een integer spoor terug die een member variable is van het Tram object.
+//Pre: Er bestaat een string beginStation in het Tram object.
+//Post: Indien de string bestaat wordt deze teruggegeven.
+
++getHuidigStation(out string: huidigStation):
+//Geeft een integer spoor terug die een member variable is van het Tram object.
+//Pre: Er bestaat een string HuidigStation in het Tram object.
+//Post: Indien de string bestaat wordt deze teruggegeven.
+
++setLijnNr(in int: lijnNr):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Tram Object.
+//Post: De waarde is in de member variabele gezet.
+
++setSnelheid(in integer: snelheid):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Tram Object.
+//Post: De waarde is in de member variabele gezet.
+
++setZitplaatsen(in integer: zitplaatsen):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Tram Object.
+//Post: De waarde is in de member variabele gezet.
+
++setBeginStation(in string: beginStation):
+//Wijst de waarde toe aan de member variabele.
+//Pre: Er bestaat een Tram Object.
+//Post: De waarde is in de member variabele gezet.
+
++setHuidigStation(in string: huidigStation)
+//Wijst de waarde toe aan de membervariabele.
+//Pre: Er bestaat een Tram object.
+//Post: De waarde is in de member variabele gezet.
+
++ProperlyInitialized(out succes: bool):
+//Geeft een bool terug voor een juist geinitializeerd object.
+//Pre: Er bestaat een Tram object.
+//Post: Geeft true terug wanneer het object correct is geinitialiseerd, zo niet geeft de functie false terug.
+
+

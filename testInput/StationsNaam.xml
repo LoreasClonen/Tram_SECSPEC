@@ -1,0 +1,14 @@
+<SYSTEM>
+	<station>
+		<naam></naam>
+		<volgende>B</volgende>
+		<vorige>C</vorige>
+		<spoor>12</spoor>
+	</station>
+	<tram>
+		<lijnNr>12</lijnNr>
+		<zitplaatsen>32</zitplaatsen>
+		<snelheid>60</snelheid>
+		<beginStation>A</beginStation>
+	</tram>
+</SYSTEM>

@@ -1,0 +1,15 @@
+--== STATIONS ==--
+Station A
+Type: halte
+--== SPOREN ==--
+Spoor 10
+-> Station B
+<- Station C
+Wachtende passagiers:
+ - Groep1, 25 mensen, reist naar Station: B
+
+--== TRAMS ==--
+Tram 10 nr 22
+Zitplaatsen: 55
+Snelheid: 60km/h
+Huidig Station: A
