@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "DesignByContract.h"
+#include "Tram.h"
 
 using namespace std;
 
@@ -38,6 +39,8 @@ public:
     int getHoeveelheid();
 
     void setHoeveelheid(int hoeveelheid);
+
+
 };
 
 

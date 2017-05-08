@@ -229,7 +229,7 @@ bool Parser::XmlParser(string inputFile) {
                     output = false;
                 }
                 else {
-                    system->addTram(lijnNr, tram);
+                    system->addTram(voertuigNr, tram);
                     tram->setLijnNr(lijnNr);
                     tram->setZitplaatsen(zitplaatsen);
                     tram->setSnelheid(snelheid);

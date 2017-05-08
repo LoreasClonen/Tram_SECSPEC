@@ -60,9 +60,9 @@ public:
 
     bool plaatsenTeKort(int);
 
-    void addPassagiers(string);
+    string addPassagiers(string, int, string);
 
-    void removePassagiers(string);
+    string removePassagiers(string, int, string);
 
     set<string> getPassagiers();
 

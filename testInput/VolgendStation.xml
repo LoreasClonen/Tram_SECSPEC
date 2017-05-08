@@ -1,14 +1,21 @@
 <SYSTEM>
 	<station>
 		<naam>A</naam>
-		<volgende></volgende>
+		<volgende>B</volgende>
 		<vorige>C</vorige>
-		<spoor>12</spoor>
+		<spoor>
+			<spoorNr>12</spoorNr>
+			<volgende>C</volgende>
+			<vorige>C</vorige>
+		</spoor>
+		<type>halte</type>
 	</station>
 	<tram>
 		<lijnNr>12</lijnNr>
-		<zitplaatsen>32</zitplaatsen>
-		<snelheid>60</snelheid>
+		<zitplaatsen></zitplaatsen>
+		<snelheid>50</snelheid>
 		<beginStation>A</beginStation>
+		<type>PCC</type>
+		<voertuigNr>150</voertuigNr>
 	</tram>
 </SYSTEM>

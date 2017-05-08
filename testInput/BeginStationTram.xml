@@ -3,12 +3,19 @@
 		<naam>A</naam>
 		<volgende>B</volgende>
 		<vorige>C</vorige>
-		<spoor>12</spoor>
+		<spoor>
+			<spoorNr>12</spoorNr>
+			<volgende>C</volgende>
+			<vorige>C</vorige>
+		</spoor>
+		<type>halte</type>
 	</station>
 	<tram>
 		<lijnNr>12</lijnNr>
 		<zitplaatsen>32</zitplaatsen>
 		<snelheid>50</snelheid>
 		<beginStation></beginStation>
+		<type>PCC</type>
+		<voertuigNr>150</voertuigNr>
 	</tram>
 </SYSTEM>

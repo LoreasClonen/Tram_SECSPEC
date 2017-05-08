@@ -111,22 +111,41 @@ void Tram::setVoertuigNr(int voertuigNr) {
 
 bool Tram::plaatsenTeKort(int n ) {
     if(Tram::zitplaatsen < n) {
-        return true;
-    }
-    else{
         return false;
     }
+    else{
+        return true;
+    }
 }
 
-void Tram::addPassagiers(string passagier) {
-    Tram::passagiers.insert(passagier);
+string Tram::addPassagiers(string passagier, int aantal, string station) {
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling addPassagiers.");
+    string output;
+    if(!plaatsenTeKort(aantal)){
+        output += "Plaatsen te kort voor " + passagier + "\n";
+    }
+    else{
+        Tram::passagiers.insert(passagier);
+        setZitplaatsen(getZitplaatsen() - aantal);
+        output += "\t" + passagier + " stapt op op Tram " + to_string(getVoertuigNr()) + " vanaf Station " + station + "\n";
+    }
+    return output;
 }
 
-void Tram::removePassagiers(string passagier) {
+string Tram::removePassagiers(string passagier, int aantal, string station) {
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling addPassagiers.");
+    string output;
     Tram::passagiers.erase(passagier);
+    setZitplaatsen(getZitplaatsen() + aantal);
+    output += "\t" + passagier + " stapt af uit Tram " + to_string(getVoertuigNr()) + " op Station " + station + "\n";
+    return output;
 }
 
 set<string> Tram::getPassagiers() {
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling getPassagiers.");
     return passagiers;
 }
 

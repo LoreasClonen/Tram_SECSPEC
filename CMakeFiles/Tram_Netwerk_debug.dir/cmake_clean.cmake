@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o"
-  "CMakeFiles/Tram_Netwerk_debug.dir/src/SystemTests.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o"
@@ -8,9 +8,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o"
-  "CMakeFiles/Tram_Netwerk_debug.dir/src/TestUtils.cpp.o"
+  "CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o"
+  "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o"
+  "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o"
+  "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o"
   "Tram_Netwerk_debug.pdb"
   "Tram_Netwerk_debug"
 )

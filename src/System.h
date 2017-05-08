@@ -10,6 +10,7 @@
 #include "Passagier.h"
 #include <iostream>
 #include <map>
+#include <fstream>
 #include "DesignByContract.h"
 
 using namespace std;
@@ -22,6 +23,14 @@ private:
     bool properlyParsed;
     System* _initCheck;
 
+    string help_ronde_rijden(int aantal_klaar,int aantal_trams, string output);
+
+    Station* findNextStation(Station* station, int spoorNr, string type);
+
+    string ronde_rijden();
+
+    string verplaatsTram(Tram* tram);
+
 public:
     System();
 
@@ -33,8 +42,6 @@ public:
 
     string Output();
 
-    string verplaatsTram(Tram* tram);
-
     void addStation(string naam, Station* station);
 
     void addTram(int lijnNr, Tram* tram);
@@ -43,15 +50,11 @@ public:
 
     void properlyparsed();
 
-    void ronde_rijden(bool ronde_gedaan = false);
-
     void setProperlyParsed(bool properlyParsed);
 
     map<string, Passagier *> getPassagiers();
 
     void addPassagier(string naam, Passagier* passagier);
-
-    Station* findNextStation(Station* station, int spoorNr, string type);
 
     void autoSimulation();
 };

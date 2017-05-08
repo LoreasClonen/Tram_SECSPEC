@@ -1,14 +1,42 @@
 <SYSTEM>
 	<station>
-		<naam>A</naam>
-		<volgende>B</volgende>
-		<vorige>C</vorige>
-		<spoor>12</spoor>
+		<naam>B</naam>
+		<spoor>
+			<spoorNr>12</spoorNr>
+			<volgende>C</volgende>
+			<vorige>C</vorige>
+		</spoor>
+		<type>halte</type>
+	</station>
+	<station>
+		<naam>C</naam>
+		<spoor>
+			<spoorNr>12</spoorNr>
+			<volgende>A</volgende>
+			<vorige>B</vorige>
+		</spoor>
+		<type>metrostation</type>
 	</station>
 	<tram>
 		<lijnNr>12</lijnNr>
 		<zitplaatsen>32</zitplaatsen>
-		<snelheid>50</snelheid>
+		<snelheid>60</snelheid>
 		<beginStation>A</beginStation>
+		<type>Albatros</type>
+		<voertuigNr>165</voertuigNr>
 	</tram>
+	<tram>
+		<lijnNr>12</lijnNr>
+		<zitplaatsen>32</zitplaatsen>
+		<snelheid>60</snelheid>
+		<beginStation>B</beginStation>
+		<type>PCC</type>
+		<voertuigNr>120</voertuigNr>
+	</tram>
+	<passagier>
+		<naam>Groep1</naam>
+		<beginstation>A</beginstation>
+		<eindstation>B</eindstation>
+		<hoeveelheid>15</hoeveelheid>
+	</passagier>
 </SYSTEM>
