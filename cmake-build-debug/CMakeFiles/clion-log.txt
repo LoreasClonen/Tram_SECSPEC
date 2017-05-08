@@ -1,4 +1,4 @@
-/home/luuk/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/luuk/CLionProjects/Tram_SECSPEC
+"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/loreas/CLionProjects/tram_secspec
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -13,7 +13,7 @@
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found PythonInterp: /usr/local/bin/python (found version "2.7.5") 
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
 -- Looking for pthread.h
 -- Looking for pthread.h - found
 -- Looking for pthread_create
@@ -25,4 +25,4 @@
 -- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/luuk/CLionProjects/Tram_SECSPEC
+-- Build files have been written to: /home/loreas/CLionProjects/tram_secspec/cmake-build-debug

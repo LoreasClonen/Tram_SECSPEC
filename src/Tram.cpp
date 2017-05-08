@@ -80,7 +80,6 @@ void Tram::setBeginStation(string beginStation) {
 void Tram::setHuidigStation(string huidigStation) {
     REQUIRE(this->properlyInitialized(),
             "Tram wasn't initialized when calling setHuidigStation.");
-    ENSURE(huidigStation != "","No empty string for Current Station allowed");
     Tram::huidigStation = huidigStation;
 }
 

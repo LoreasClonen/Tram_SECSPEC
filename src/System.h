@@ -43,7 +43,7 @@ public:
 
     void properlyparsed();
 
-    void ronde_rijden(bool ronde_gedaan);
+    void ronde_rijden(bool ronde_gedaan = false);
 
     void setProperlyParsed(bool properlyParsed);
 

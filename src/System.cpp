@@ -79,7 +79,10 @@ string System::Output(){
 }
 
 Station* System::findNextStation(Station* station, int spoorNr, string type){
-    Station* volgendStation = System::getStations().find(station->getSporen().find(spoorNr)->second->getVolgende())->second;
+    //fout spoor zit niet in station!!!
+    Spoor* spoor = station->getSporen().find(spoorNr)->second;
+    string naam_volgend_station = spoor->getVolgende();
+    Station * volgendStation = stations.find(naam_volgend_station)->second;
 
     if(type == "PCC"){
         return volgendStation;
@@ -95,7 +98,12 @@ Station* System::findNextStation(Station* station, int spoorNr, string type){
 }
 
 string System::verplaatsTram(Tram* tram){
+
     string stationsNaam = tram->getHuidigStation();
+
+    if(stationsNaam == ""){
+        stationsNaam = tram ->getBeginStation();
+    }
 
     Station* volgendStation = findNextStation(System::getStations().find(stationsNaam)->second, tram->getLijnNr(),
             tram->getType());
@@ -103,7 +111,7 @@ string System::verplaatsTram(Tram* tram){
     string volgende = volgendStation->getNaam();
 
     tram->setHuidigStation(volgende);
-    string output = "Tram " + to_string(tram->getLijnNr()) + " reed van station " + stationsNaam
+    string output = "Tram " + to_string(tram->getVoertuigNr()) + " reed van station " + stationsNaam
                     + " naar station " + volgende + "\n";
     return output;
 }
@@ -129,51 +137,25 @@ void System::properlyparsed() {
 }
 
 
-void System::ronde_rijden(bool ronde_gedaan = false) {
+void System::ronde_rijden(bool ronde_gedaan) {
+    ofstream file;
+    file.open("LogFiles/ronde_rijden.txt");
+    file << "Rondje rijden...";
+    file << "\n";
 
-    ofstream outputFile;
-    outputFile.open("LogFiles/ronde_rijden.txt");
-    outputFile << "Rondje rijden...";
-    outputFile << "\n";
-    for (auto const &j : trams) {
 
-        if(j.second->getBeginStation() != j.second->getHuidigStation() or ronde_gedaan){
-            Station* station = new Station();
-            if(j.second->getHuidigStation() != "") {
-                station = System::stations.find(j.second->getHuidigStation())->second;
-            }
-            else{
-                station = System::stations.find(j.second->getBeginStation())->second;
-            }
-            set<string> copy_tram = j.second->getPassagiers() ;
-            //afstappen
-            for(auto const &it : copy_tram){
-                if(System::passagiers.find(it)->second->getEindStation()==j.second->getHuidigStation()){
-                    j.second->removePassagiers(it);
-                    outputFile << "    Passagier " + it + " stapte af." + "\n";
-                }
-            }
 
-            set<string> copy_station = station->getPassagier();
-            //opstappen
-            for(auto &it : copy_station) {
-                if (!j.second->plaatsenTeKort(System::passagiers.find(it)->second->getHoeveelheid())) {
-                    j.second->addPassagiers(it);
-                    station->removePassagier(it);
-                    outputFile << "    Passagier ";
-                    outputFile << it;
-                    outputFile << " stapte op.";
-                    outputFile << "\n";
-                }
-            }
+    for(auto it_tram: trams){
+        if(it_tram.second->getHuidigStation() != it_tram.second->getBeginStation()){
+            file << verplaatsTram(it_tram.second);
         }
-
-
-        outputFile << System::verplaatsTram(j.second);
+        else{
+            it_tram.second->setHuidigStation("");
+        }
     }
-    outputFile << "\n";
 
-    outputFile.close();
+    file.close();
+
 }
 
 void System::setProperlyParsed(bool properlyParsed) {

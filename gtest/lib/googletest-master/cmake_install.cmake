@@ -1,4 +1,4 @@
-# Install script for directory: /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master
+# Install script for directory: /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

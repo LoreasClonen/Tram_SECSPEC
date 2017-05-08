@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luuk/CLionProjects/Tram_SECSPEC
+CMAKE_SOURCE_DIR = /home/loreas/CLionProjects/tram_secspec
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luuk/CLionProjects/Tram_SECSPEC
+CMAKE_BINARY_DIR = /home/loreas/CLionProjects/tram_secspec
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/CLionProjects/Tram_SECSPEC/CMakeFiles /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/CMakeFiles/progress.marks
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/CLionProjects/Tram_SECSPEC/CMakeFiles 0
+	cd /home/loreas/CLionProjects/tram_secspec && $(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/CLionProjects/tram_secspec/CMakeFiles /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/CMakeFiles/progress.marks
+	cd /home/loreas/CLionProjects/tram_secspec && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/CLionProjects/tram_secspec/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
+	cd /home/loreas/CLionProjects/tram_secspec && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,17 +141,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+	cd /home/loreas/CLionProjects/tram_secspec && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+	cd /home/loreas/CLionProjects/tram_secspec && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/loreas/CLionProjects/tram_secspec && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/loreas/CLionProjects/tram_secspec && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

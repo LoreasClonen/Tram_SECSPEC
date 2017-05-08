@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/TestUtils.cpp.o"
   "CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o"
+  "CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o"
   "Tram_Netwerk_debug.pdb"
   "Tram_Netwerk_debug"
 )

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2016.3.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = "/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
+RM = "/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_SecSpec_4_5
+CMAKE_SOURCE_DIR = /home/loreas/CLionProjects/tram_secspec
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_SecSpec_4_5/cmake-build-debug
+CMAKE_BINARY_DIR = /home/loreas/CLionProjects/tram_secspec/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_SecSpec_4_5/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2016.3.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2016.3.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -91,19 +91,19 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2016.3.2/bin/cmake/bin/cmake -P cmake_install.cmake
+	"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2016.3.2/bin/cmake/bin/cmake -P cmake_install.cmake
+	"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -114,7 +114,7 @@ install/local/fast: install/local
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"/home/loreas/program files/clion-2016.3.4/bin/cmake/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -124,9 +124,9 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_SecSpec_4_5/cmake-build-debug/CMakeFiles /home/uauser/CLionProjects/Tram_SecSpec_4_5/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/CLionProjects/tram_secspec/cmake-build-debug/CMakeFiles /home/loreas/CLionProjects/tram_secspec/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_SecSpec_4_5/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/CLionProjects/tram_secspec/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -291,6 +291,36 @@ src/Passagier.cpp.s:
 	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.s
 	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier.cpp.s
 .PHONY : src/Passagier.cpp.s
+
+src/Spoor.o: src/Spoor.cpp.o
+
+.PHONY : src/Spoor.o
+
+# target to build an object file
+src/Spoor.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.o
+.PHONY : src/Spoor.cpp.o
+
+src/Spoor.i: src/Spoor.cpp.i
+
+.PHONY : src/Spoor.i
+
+# target to preprocess a source file
+src/Spoor.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.i
+.PHONY : src/Spoor.cpp.i
+
+src/Spoor.s: src/Spoor.cpp.s
+
+.PHONY : src/Spoor.s
+
+# target to generate assembly for a file
+src/Spoor.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.s
+.PHONY : src/Spoor.cpp.s
 
 src/Station.o: src/Station.cpp.o
 
@@ -607,6 +637,9 @@ help:
 	@echo "... src/Passagier.o"
 	@echo "... src/Passagier.i"
 	@echo "... src/Passagier.s"
+	@echo "... src/Spoor.o"
+	@echo "... src/Spoor.i"
+	@echo "... src/Spoor.s"
 	@echo "... src/Station.o"
 	@echo "... src/Station.i"
 	@echo "... src/Station.s"

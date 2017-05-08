@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luuk/CLionProjects/Tram_SECSPEC
+CMAKE_SOURCE_DIR = /home/loreas/CLionProjects/tram_secspec
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luuk/CLionProjects/Tram_SECSPEC
+CMAKE_BINARY_DIR = /home/loreas/CLionProjects/tram_secspec
 
 # Include any dependencies generated for this target.
 include gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -59,16 +59,16 @@ include gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.m
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o: gtest/lib/googletest-master/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/CLionProjects/Tram_SECSPEC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loreas/CLionProjects/tram_secspec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o"
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googletest/src/gtest-all.cc
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc > CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googletest/src/gtest-all.cc > CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googletest/src/gtest-all.cc -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o.requires:
 
@@ -83,16 +83,16 @@ gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/s
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o: gtest/lib/googletest-master/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/CLionProjects/Tram_SECSPEC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loreas/CLionProjects/tram_secspec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o"
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/src/gmock-all.cc
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock-all.cc.i"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock-all.cc > CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/src/gmock-all.cc > CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock-all.cc.s"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock-all.cc -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/src/gmock-all.cc -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o.requires:
 
@@ -107,16 +107,16 @@ gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.c
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: gtest/lib/googletest-master/googlemock/src/gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luuk/CLionProjects/Tram_SECSPEC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loreas/CLionProjects/tram_secspec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/src/gmock_main.cc
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.requires:
 
@@ -143,9 +143,9 @@ gtest/lib/googletest-master/googlemock/libgmock_main.a: gtest/lib/googletest-mas
 gtest/lib/googletest-master/googlemock/libgmock_main.a: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 gtest/lib/googletest-master/googlemock/libgmock_main.a: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make
 gtest/lib/googletest-master/googlemock/libgmock_main.a: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luuk/CLionProjects/Tram_SECSPEC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgmock_main.a"
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loreas/CLionProjects/tram_secspec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgmock_main.a"
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build: gtest/lib/googletest-master/googlemock/libgmock_main.a
@@ -159,10 +159,10 @@ gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/requires: gtest
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/requires
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean
 
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luuk/CLionProjects/Tram_SECSPEC /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock /home/luuk/CLionProjects/Tram_SECSPEC /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock /home/luuk/CLionProjects/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/loreas/CLionProjects/tram_secspec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loreas/CLionProjects/tram_secspec /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock /home/loreas/CLionProjects/tram_secspec /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock /home/loreas/CLionProjects/tram_secspec/gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 

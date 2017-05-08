@@ -35,7 +35,7 @@
         <voertuigNr>165</voertuigNr>
 	</tram>
 	<tram>
-		<lijnNr>10</lijnNr>
+		<lijnNr>12</lijnNr>
 		<zitplaatsen>32</zitplaatsen>
 		<snelheid>60</snelheid>
 		<beginStation>B</beginStation>

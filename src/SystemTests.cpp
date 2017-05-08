@@ -22,9 +22,11 @@ protected:
 TEST_F(SystemDomainTest, DefaultConstructor) {
     Station* testStation = new Station();
     Tram* testTram = new Tram();
+    Spoor* testSpoor = new Spoor();
     EXPECT_TRUE(system.properlyInitialized());
     EXPECT_TRUE(testStation->properlyInitialized());
     EXPECT_TRUE(testTram->properlyInitialized());
+    EXPECT_TRUE(testSpoor->properlyInitialized());
 
 }
 
@@ -62,7 +64,7 @@ TEST_F(SystemDomainTest, HappyDay) {
     tram.setZitplaatsen(30);
     tram.setSnelheid(75);
     tram.setBeginStation("A");
-    tram.setHuidigStation("A");
+    tram.setHuidigStation("");
     tram.setType("PCC");
     tram.setVoertuigNr(100);
 
@@ -72,17 +74,19 @@ TEST_F(SystemDomainTest, HappyDay) {
     EXPECT_EQ("B", station2.getNaam());
     EXPECT_EQ(10, tram.getLijnNr());
 
-//    string output = system.ronde_rijden();
-//
-//    string expected = "Rondje rijden...";
-//    expected += "\n";
-//    expected += "Tram 10 reed van station A naar station B";
-//    expected += "\n";
-//    expected += "Tram 10 reed van station B naar station A";
-//    expected += "\n";
-//    expected += "\n";
-//
-//    EXPECT_EQ(output, expected);
+
+ //   system.ronde_rijden();
+//    ofstream expected;
+//    expected.open("testOutput/ronde_expected.txt");
+//    expected << "Rondje rijden...";
+    //   expected << "\n";
+    //   expected << "Tram 10 reed van station A naar station B";
+    //   expected << "\n";
+    //   expected << "Tram 10 reed van station B naar station A";
+    //   expected << "\n";
+    //  expected << "\n";
+
+    // EXPECT_TRUE(FileCompare("LogFiles/ronde_rijden.txt", "testOutput/ronde_expected.txt"));
 }
 
 // Station Class Tests
@@ -133,10 +137,7 @@ TEST_F(SystemDomainTest, SetTramBeginstationViolation) {
     EXPECT_DEATH(testTram.setBeginStation(""), "No empty string for Starting Station allowed");
 }
 
-TEST_F(SystemDomainTest, SetTramHuidigstationViolation) {
-    Tram testTram;
-    EXPECT_DEATH(testTram.setHuidigStation(""), "No empty string for Current Station allowed");
-}
+
 
 TEST_F(SystemDomainTest, SetTramTypeViolation) {
     Tram testTram;

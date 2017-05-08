@@ -23,11 +23,7 @@ Spoor 12
 Wachtende passagiers:
 
 --== TRAMS ==--
-Tram 10 nr 120
+Tram 12 nr 120
 Zitplaatsen: 32
 Snelheid: 60km/h
-Huidig Station: B
-Tram 12 nr 165
-Zitplaatsen: 32
-Snelheid: 60km/h
-Huidig Station: A
+Huidig Station: C
