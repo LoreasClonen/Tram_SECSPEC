@@ -1,4 +1,4 @@
-# Install script for directory: /home/uauser/Desktop/Tram_SECSPEC/Tram_SECSPEC/gtest/lib/googletest-master/googlemock
+# Install script for directory: /home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -33,20 +33,20 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/Desktop/Tram_SECSPEC/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master/googlemock/libgmock.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/Desktop/Tram_SECSPEC/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master/googlemock/libgmock_main.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/uauser/Desktop/Tram_SECSPEC/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include/gmock")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master/googlemock/include/gmock")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/uauser/Desktop/Tram_SECSPEC/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/cmake_install.cmake")
+  include("/home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master/googlemock/gtest/cmake_install.cmake")
 
 endif()
 
