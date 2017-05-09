@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master
-# Build directory: /home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master
+# Source directory: /home/uauser/CLionProjects/untitled/gtest/lib/googletest-master
+# Build directory: /home/uauser/CLionProjects/untitled/gtest/lib/googletest-master
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
