@@ -2,6 +2,11 @@
 \label{classStation}\index{Station@{Station}}
 
 
+This Class contains all the functionalities for the \hyperlink{classStation}{Station} objects.  
+
+
+
+
 {\ttfamily \#include $<$Station.\+h$>$}
 
 \subsection*{Public Member Functions}
@@ -20,20 +25,20 @@ string \hyperlink{classStation_aac519858a1ac53608d24d78e4b9231ab}{get\+Type} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
 void \hyperlink{classStation_a1a38a1c6db22cfda3c5885281252a3b9}{set\+Type} (string type)
 \begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classStation}{Station} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
-void \hyperlink{classStation_a9584a65058bdf75254e3a2d79ddcdba1}{add\+Passagier} (string Passagier)
+void \hyperlink{classStation_a9584a65058bdf75254e3a2d79ddcdba1}{add\+Passagier} (string \hyperlink{classPassagier}{Passagier})
 \begin{DoxyCompactList}\small\item\em Adds a Passenger to the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\item 
-void \hyperlink{classStation_aa250b3ba3e62c3d433b4c29f6cca38d4}{remove\+Passagier} (string Passagier)
+void \hyperlink{classStation_aa250b3ba3e62c3d433b4c29f6cca38d4}{remove\+Passagier} (string \hyperlink{classPassagier}{Passagier})
 \begin{DoxyCompactList}\small\item\em Removes a Passenger from the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\item 
 set$<$ string $>$ \hyperlink{classStation_a3c25e627a9036778a4d6d08ca1454aa6}{get\+Passagier} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\item 
-map$<$ int, Spoor $\ast$ $>$ \hyperlink{classStation_a8ee617b13d4d67d0d3d1384d6d33226f}{get\+Sporen} ()
+map$<$ int, \hyperlink{classSpoor}{Spoor} $\ast$ $>$ \hyperlink{classStation_a8ee617b13d4d67d0d3d1384d6d33226f}{get\+Sporen} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Tracks map. \end{DoxyCompactList}\item 
-void \hyperlink{classStation_a55911b5e0a355f085afd75391827729f}{add\+Spoor} (Spoor $\ast$spoor, int spoor\+Nr)
+void \hyperlink{classStation_a55911b5e0a355f085afd75391827729f}{add\+Spoor} (\hyperlink{classSpoor}{Spoor} $\ast$spoor, int spoor\+Nr)
 \begin{DoxyCompactList}\small\item\em Adds a new \hyperlink{classStation}{Station} Track to the Tracks map. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-This Class contains all the functionalities for the \hyperlink{classStation}{Station} objects.
+This Class contains all the functionalities for the \hyperlink{classStation}{Station} objects. 
 
 \begin{DoxyAuthor}{Authors}
 Loreas Clonen \& Luuk van Sloun 
@@ -54,14 +59,14 @@ Adds a Passenger to the \hyperlink{classStation}{Station} object\textquotesingle
 
 
 \begin{DoxyParams}{Parameters}
-{\em Passagier} & -\/ string \\
+{\em \hyperlink{classPassagier}{Passagier}} & -\/ string \\
 \hline
 \end{DoxyParams}
 \index{Station@{Station}!add\+Spoor@{add\+Spoor}}
 \index{add\+Spoor@{add\+Spoor}!Station@{Station}}
 \subsubsection[{\texorpdfstring{add\+Spoor(\+Spoor $\ast$spoor, int spoor\+Nr)}{addSpoor(Spoor *spoor, int spoorNr)}}]{\setlength{\rightskip}{0pt plus 5cm}void Station\+::add\+Spoor (
 \begin{DoxyParamCaption}
-\item[{Spoor $\ast$}]{spoor, }
+\item[{{\bf Spoor} $\ast$}]{spoor, }
 \item[{int}]{spoor\+Nr}
 \end{DoxyParamCaption}
 )}\hypertarget{classStation_a55911b5e0a355f085afd75391827729f}{}\label{classStation_a55911b5e0a355f085afd75391827729f}
@@ -71,7 +76,7 @@ Adds a new \hyperlink{classStation}{Station} Track to the Tracks map.
 
 
 \begin{DoxyParams}{Parameters}
-{\em spoor} & -\/ Track Pointer \\
+{\em spoor} & -\/ \hyperlink{classSpoor}{Spoor} Pointer \\
 \hline
 {\em spoor\+Nr} & -\/ integer \\
 \hline
@@ -106,7 +111,7 @@ passagier -\/ set
 \end{DoxyReturn}
 \index{Station@{Station}!get\+Sporen@{get\+Sporen}}
 \index{get\+Sporen@{get\+Sporen}!Station@{Station}}
-\subsubsection[{\texorpdfstring{get\+Sporen()}{getSporen()}}]{\setlength{\rightskip}{0pt plus 5cm}map$<$ int, Spoor $\ast$ $>$ Station\+::get\+Sporen (
+\subsubsection[{\texorpdfstring{get\+Sporen()}{getSporen()}}]{\setlength{\rightskip}{0pt plus 5cm}map$<$ int, {\bf Spoor} $\ast$ $>$ Station\+::get\+Sporen (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
@@ -144,7 +149,7 @@ string
 Returns true if properly initialized, false if not. 
 
 \begin{DoxyReturn}{Returns}
-bool 
+boolean 
 \end{DoxyReturn}
 \index{Station@{Station}!remove\+Passagier@{remove\+Passagier}}
 \index{remove\+Passagier@{remove\+Passagier}!Station@{Station}}
@@ -159,7 +164,7 @@ Removes a Passenger from the \hyperlink{classStation}{Station} object\textquotes
 
 
 \begin{DoxyParams}{Parameters}
-{\em Passagier} & -\/ string \\
+{\em \hyperlink{classPassagier}{Passagier}} & -\/ string \\
 \hline
 \end{DoxyParams}
 \index{Station@{Station}!set\+Naam@{set\+Naam}}
@@ -198,4 +203,4 @@ Sets a new \hyperlink{classStation}{Station} object\textquotesingle{}s type.
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/Station.\+h\end{DoxyCompactItemize}
+src/\hyperlink{Station_8h}{Station.\+h}\end{DoxyCompactItemize}

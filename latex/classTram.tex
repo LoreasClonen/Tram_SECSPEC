@@ -1,0 +1,297 @@
+\hypertarget{classTram}{}\section{Tram Class Reference}
+\label{classTram}\index{Tram@{Tram}}
+
+
+This Class contains all the functionalities for the \hyperlink{classTram}{Tram} objects.  
+
+
+
+
+{\ttfamily \#include $<$Tram.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTram_aad83b2e7e79d57528691bf317ab0e1ef}{Tram} ()\hypertarget{classTram_aad83b2e7e79d57528691bf317ab0e1ef}{}\label{classTram_aad83b2e7e79d57528691bf317ab0e1ef}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classTram}{Tram} Default Constructor. \end{DoxyCompactList}\item 
+int \hyperlink{classTram_ab5a70cf696779f9dff401244e203f6c8}{get\+Lijn\+Nr} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. \end{DoxyCompactList}\item 
+int \hyperlink{classTram_a018207b3cd1f01821b5f64e4f4f394a5}{get\+Zitplaatsen} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats. \end{DoxyCompactList}\item 
+int \hyperlink{classTram_afcd79d44b9bc18fb1e7302daa40f56f5}{get\+Snelheid} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. \end{DoxyCompactList}\item 
+string \hyperlink{classTram_a0d61611abd4dc61f3fbad6b4b7bc6403}{get\+Begin\+Station} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_ac877b48ea6699c11ae580d8c71e140ac}{set\+Lijn\+Nr} (int lijn\+Nr)
+\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_a9071e3ddf218c290ae5d7ef3365097eb}{set\+Zitplaatsen} (int zitplaatsen)
+\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_a2853d9b5d5d519e6757e6e3480d3b1c6}{set\+Snelheid} (int snelheid)
+\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_a1f940f1fa5c8be660561f24750f25dd7}{set\+Begin\+Station} (string begin\+Station)
+\begin{DoxyCompactList}\small\item\em Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+string \hyperlink{classTram_a1e28b662a6ef3833faa2920247a139ee}{get\+Huidig\+Station} ()
+\begin{DoxyCompactList}\small\item\em Returns the Passenger object\textquotesingle{}s Current \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_acb4190c4fb33d7d97de38ea3a25a3522}{set\+Huidig\+Station} (string huidig\+Staton)
+\begin{DoxyCompactList}\small\item\em Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+bool \hyperlink{classTram_ac69cbbacaed7e1b9e60e608d766d02ee}{properly\+Initialized} ()
+\begin{DoxyCompactList}\small\item\em Returns true if properly initialized, false if not. \end{DoxyCompactList}\item 
+string \hyperlink{classTram_a8ce9cb84e51d57bb975faa5aa0d06ad2}{get\+Type} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_ae68c0ba51b98ed6fddee64cfe4410f7e}{set\+Type} (string type)
+\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
+int \hyperlink{classTram_abce34b0915945a2d7ede17297a727301}{get\+Voertuig\+Nr} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Vehicle Number. \end{DoxyCompactList}\item 
+void {\bfseries set\+Voertuig\+Nr} (int voertuig\+Nr)\hypertarget{classTram_a4912c2cd70ee32329220618068c28692}{}\label{classTram_a4912c2cd70ee32329220618068c28692}
+
+\item 
+bool {\bfseries plaatsen\+Te\+Kort} (int aantal)\hypertarget{classTram_acbd3c261e6b3830741de4e37643cc9cf}{}\label{classTram_acbd3c261e6b3830741de4e37643cc9cf}
+
+\item 
+string {\bfseries add\+Passagiers} (string \hyperlink{classPassagier}{Passagier}, int Aantal, string \hyperlink{classStation}{Station})\hypertarget{classTram_a27f0c6832da5869a5173cc440fec9719}{}\label{classTram_a27f0c6832da5869a5173cc440fec9719}
+
+\item 
+string {\bfseries remove\+Passagiers} (string, int, string)\hypertarget{classTram_aefa8209a2667b653b56b0c48c801ed20}{}\label{classTram_aefa8209a2667b653b56b0c48c801ed20}
+
+\item 
+set$<$ string $>$ \hyperlink{classTram_a8efd626a399a6d5906043abdd915fd59}{get\+Passagiers} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This Class contains all the functionalities for the \hyperlink{classTram}{Tram} objects. 
+
+\begin{DoxyAuthor}{Authors}
+Loreas Clonen \& Luuk van Sloun 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\index{Tram@{Tram}!get\+Begin\+Station@{get\+Begin\+Station}}
+\index{get\+Begin\+Station@{get\+Begin\+Station}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Begin\+Station()}{getBeginStation()}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::get\+Begin\+Station (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a0d61611abd4dc61f3fbad6b4b7bc6403}{}\label{classTram_a0d61611abd4dc61f3fbad6b4b7bc6403}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. 
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Huidig\+Station@{get\+Huidig\+Station}}
+\index{get\+Huidig\+Station@{get\+Huidig\+Station}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Huidig\+Station()}{getHuidigStation()}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::get\+Huidig\+Station (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a1e28b662a6ef3833faa2920247a139ee}{}\label{classTram_a1e28b662a6ef3833faa2920247a139ee}
+
+
+Returns the Passenger object\textquotesingle{}s Current \hyperlink{classStation}{Station}. 
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Lijn\+Nr@{get\+Lijn\+Nr}}
+\index{get\+Lijn\+Nr@{get\+Lijn\+Nr}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Lijn\+Nr()}{getLijnNr()}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::get\+Lijn\+Nr (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_ab5a70cf696779f9dff401244e203f6c8}{}\label{classTram_ab5a70cf696779f9dff401244e203f6c8}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. 
+
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Passagiers@{get\+Passagiers}}
+\index{get\+Passagiers@{get\+Passagiers}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Passagiers()}{getPassagiers()}}]{\setlength{\rightskip}{0pt plus 5cm}set$<$ string $>$ Tram\+::get\+Passagiers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a8efd626a399a6d5906043abdd915fd59}{}\label{classTram_a8efd626a399a6d5906043abdd915fd59}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Passenger set. 
+
+\begin{DoxyReturn}{Returns}
+passagiers -\/ set 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Snelheid@{get\+Snelheid}}
+\index{get\+Snelheid@{get\+Snelheid}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Snelheid()}{getSnelheid()}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::get\+Snelheid (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_afcd79d44b9bc18fb1e7302daa40f56f5}{}\label{classTram_afcd79d44b9bc18fb1e7302daa40f56f5}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. 
+
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::get\+Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a8ce9cb84e51d57bb975faa5aa0d06ad2}{}\label{classTram_a8ce9cb84e51d57bb975faa5aa0d06ad2}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s type. 
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Voertuig\+Nr@{get\+Voertuig\+Nr}}
+\index{get\+Voertuig\+Nr@{get\+Voertuig\+Nr}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Voertuig\+Nr()}{getVoertuigNr()}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::get\+Voertuig\+Nr (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_abce34b0915945a2d7ede17297a727301}{}\label{classTram_abce34b0915945a2d7ede17297a727301}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Vehicle Number. 
+
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+\index{Tram@{Tram}!get\+Zitplaatsen@{get\+Zitplaatsen}}
+\index{get\+Zitplaatsen@{get\+Zitplaatsen}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{get\+Zitplaatsen()}{getZitplaatsen()}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::get\+Zitplaatsen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a018207b3cd1f01821b5f64e4f4f394a5}{}\label{classTram_a018207b3cd1f01821b5f64e4f4f394a5}
+
+
+Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats. 
+
+\begin{DoxyReturn}{Returns}
+integer 
+\end{DoxyReturn}
+\index{Tram@{Tram}!properly\+Initialized@{properly\+Initialized}}
+\index{properly\+Initialized@{properly\+Initialized}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{properly\+Initialized()}{properlyInitialized()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Tram\+::properly\+Initialized (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_ac69cbbacaed7e1b9e60e608d766d02ee}{}\label{classTram_ac69cbbacaed7e1b9e60e608d766d02ee}
+
+
+Returns true if properly initialized, false if not. 
+
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\index{Tram@{Tram}!set\+Begin\+Station@{set\+Begin\+Station}}
+\index{set\+Begin\+Station@{set\+Begin\+Station}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Begin\+Station(string begin\+Station)}{setBeginStation(string beginStation)}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::set\+Begin\+Station (
+\begin{DoxyParamCaption}
+\item[{string}]{begin\+Station}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a1f940f1fa5c8be660561f24750f25dd7}{}\label{classTram_a1f940f1fa5c8be660561f24750f25dd7}
+
+
+Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em begin\+Station} & \\
+\hline
+\end{DoxyParams}
+\index{Tram@{Tram}!set\+Huidig\+Station@{set\+Huidig\+Station}}
+\index{set\+Huidig\+Station@{set\+Huidig\+Station}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Huidig\+Station(string huidig\+Staton)}{setHuidigStation(string huidigStaton)}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::set\+Huidig\+Station (
+\begin{DoxyParamCaption}
+\item[{string}]{huidig\+Station}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_acb4190c4fb33d7d97de38ea3a25a3522}{}\label{classTram_acb4190c4fb33d7d97de38ea3a25a3522}
+
+
+Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em huidig\+Station} & \\
+\hline
+\end{DoxyParams}
+\index{Tram@{Tram}!set\+Lijn\+Nr@{set\+Lijn\+Nr}}
+\index{set\+Lijn\+Nr@{set\+Lijn\+Nr}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Lijn\+Nr(int lijn\+Nr)}{setLijnNr(int lijnNr)}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::set\+Lijn\+Nr (
+\begin{DoxyParamCaption}
+\item[{int}]{lijn\+Nr}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_ac877b48ea6699c11ae580d8c71e140ac}{}\label{classTram_ac877b48ea6699c11ae580d8c71e140ac}
+
+
+Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lijn\+Nr} & \\
+\hline
+\end{DoxyParams}
+\index{Tram@{Tram}!set\+Snelheid@{set\+Snelheid}}
+\index{set\+Snelheid@{set\+Snelheid}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Snelheid(int snelheid)}{setSnelheid(int snelheid)}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::set\+Snelheid (
+\begin{DoxyParamCaption}
+\item[{int}]{snelheid}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a2853d9b5d5d519e6757e6e3480d3b1c6}{}\label{classTram_a2853d9b5d5d519e6757e6e3480d3b1c6}
+
+
+Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em snelheid} & \\
+\hline
+\end{DoxyParams}
+\index{Tram@{Tram}!set\+Type@{set\+Type}}
+\index{set\+Type@{set\+Type}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Type(string type)}{setType(string type)}}]{\setlength{\rightskip}{0pt plus 5cm}void Tram\+::set\+Type (
+\begin{DoxyParamCaption}
+\item[{string}]{type}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_ae68c0ba51b98ed6fddee64cfe4410f7e}{}\label{classTram_ae68c0ba51b98ed6fddee64cfe4410f7e}
+
+
+Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & -\/ string \\
+\hline
+\end{DoxyParams}
+\index{Tram@{Tram}!set\+Zitplaatsen@{set\+Zitplaatsen}}
+\index{set\+Zitplaatsen@{set\+Zitplaatsen}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Zitplaatsen(int zitplaatsen)}{setZitplaatsen(int zitplaatsen)}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::set\+Zitplaatsen (
+\begin{DoxyParamCaption}
+\item[{int}]{zitplaatsen}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_a9071e3ddf218c290ae5d7ef3365097eb}{}\label{classTram_a9071e3ddf218c290ae5d7ef3365097eb}
+
+
+Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em zitplaatsen} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{Tram_8h}{Tram.\+h}\end{DoxyCompactItemize}

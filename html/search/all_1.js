@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['getbeginstation',['getBeginStation',['../classPassagier.html#a41e0870bb942364181aa17e2c9c7ca6c',1,'Passagier::getBeginStation()'],['../classTram.html#a0d61611abd4dc61f3fbad6b4b7bc6403',1,'Tram::getBeginStation()']]],
+  ['geteindstation',['getEindStation',['../classPassagier.html#a721949463e02e122567c9967786a8a38',1,'Passagier']]],
+  ['getelement',['getElement',['../classParser.html#a36b746dbf631544851e0af2d0e7c6982',1,'Parser']]],
+  ['gethoeveelheid',['getHoeveelheid',['../classPassagier.html#a1fd825eaa3db5b68cc24ca297e45d198',1,'Passagier']]],
+  ['gethuidigstation',['getHuidigStation',['../classTram.html#a1e28b662a6ef3833faa2920247a139ee',1,'Tram']]],
+  ['getlijnnr',['getLijnNr',['../classTram.html#ab5a70cf696779f9dff401244e203f6c8',1,'Tram']]],
+  ['getnaam',['getNaam',['../classStation.html#a7db91849f0d5bab0a4ac0aa4967721cf',1,'Station::getNaam()'],['../classPassagier.html#aa9a9b53d417979551b0cb30fb0fdd232',1,'Passagier::getNaam()']]],
+  ['getpassagier',['getPassagier',['../classStation.html#a3c25e627a9036778a4d6d08ca1454aa6',1,'Station']]],
+  ['getpassagiers',['getPassagiers',['../classTram.html#a8efd626a399a6d5906043abdd915fd59',1,'Tram']]],
+  ['getsnelheid',['getSnelheid',['../classTram.html#afcd79d44b9bc18fb1e7302daa40f56f5',1,'Tram']]],
+  ['getspoornr',['getSpoorNr',['../classSpoor.html#a17c71f600581bc91b85c92d6628d14c5',1,'Spoor']]],
+  ['getsporen',['getSporen',['../classStation.html#a8ee617b13d4d67d0d3d1384d6d33226f',1,'Station']]],
+  ['getsystem',['getSystem',['../classParser.html#addad80574e43b744a82807d0f821d414',1,'Parser']]],
+  ['gettype',['getType',['../classStation.html#aac519858a1ac53608d24d78e4b9231ab',1,'Station::getType()'],['../classTram.html#a8ce9cb84e51d57bb975faa5aa0d06ad2',1,'Tram::getType()']]],
+  ['getvoertuignr',['getVoertuigNr',['../classTram.html#abce34b0915945a2d7ede17297a727301',1,'Tram']]],
+  ['getvolgende',['getVolgende',['../classSpoor.html#af72fa63d73e10bb5d0bb0e15958260d5',1,'Spoor']]],
+  ['getvorige',['getVorige',['../classSpoor.html#a4c9a290c147e08e5734c662c73b9793c',1,'Spoor']]],
+  ['getzitplaatsen',['getZitplaatsen',['../classTram.html#a018207b3cd1f01821b5f64e4f4f394a5',1,'Tram']]]
+];

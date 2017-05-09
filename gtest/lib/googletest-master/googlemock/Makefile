@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/luuk/CLion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion-2016.3.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/luuk/CLion/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luuk/CLionProjects/Tram_SECSPEC_2
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luuk/CLionProjects/Tram_SECSPEC_2
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/luuk/CLionProjects/Tram_SECSPEC_2
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/luuk/CLion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,19 +80,19 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/luuk/CLion/bin/cmake/bin/cmake -P cmake_install.cmake
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/luuk/CLion/bin/cmake/bin/cmake -P cmake_install.cmake
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/luuk/CLion/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -103,7 +103,7 @@ install/local/fast: install/local
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/luuk/CLion/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -114,7 +114,7 @@ install/strip/fast: install/strip
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/luuk/CLion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion-2016.3.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/CLionProjects/Tram_SECSPEC_2/CMakeFiles /home/luuk/CLionProjects/Tram_SECSPEC_2/gtest/lib/googletest-master/googlemock/CMakeFiles/progress.marks
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luuk/CLionProjects/Tram_SECSPEC_2/CMakeFiles 0
+	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles /home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/CMakeFiles/progress.marks
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/clean
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -166,12 +166,12 @@ gmock_main: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rul
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ gmock: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 __/googletest/src/gtest-all.o: __/googletest/src/gtest-all.cc.o
@@ -190,8 +190,8 @@ __/googletest/src/gtest-all.o: __/googletest/src/gtest-all.cc.o
 
 # target to build an object file
 __/googletest/src/gtest-all.cc.o:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
 .PHONY : __/googletest/src/gtest-all.cc.o
 
 __/googletest/src/gtest-all.i: __/googletest/src/gtest-all.cc.i
@@ -200,8 +200,8 @@ __/googletest/src/gtest-all.i: __/googletest/src/gtest-all.cc.i
 
 # target to preprocess a source file
 __/googletest/src/gtest-all.cc.i:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
 .PHONY : __/googletest/src/gtest-all.cc.i
 
 __/googletest/src/gtest-all.s: __/googletest/src/gtest-all.cc.s
@@ -210,8 +210,8 @@ __/googletest/src/gtest-all.s: __/googletest/src/gtest-all.cc.s
 
 # target to generate assembly for a file
 __/googletest/src/gtest-all.cc.s:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
 .PHONY : __/googletest/src/gtest-all.cc.s
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -220,8 +220,8 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -230,8 +230,8 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -240,8 +240,8 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -250,7 +250,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -259,7 +259,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -268,7 +268,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -305,6 +305,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luuk/CLionProjects/Tram_SECSPEC_2 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
