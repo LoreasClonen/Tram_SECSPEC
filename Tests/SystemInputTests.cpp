@@ -34,16 +34,10 @@ TEST_F(SystemInputTests, InputFileTests) {
     EXPECT_FALSE(importResult);
 }
 
-TEST_F(SystemInputTests, CircularTest) {
+TEST_F(SystemInputTests, ProperlyParsed) {
     parser.XmlParser("testInput/testInput2.xml");
 
-    EXPECT_FALSE(parser.getSystem()->Valid_circuit());
-}
-
-TEST_F(SystemInputTests, NoPassengerArrivalTest){
-    parser.XmlParser("testInput/NoPassengerArrival.xml");
-    parser.getSystem()->autoSimulation();
-    EXPECT_TRUE(FileCompare("LogFiles/autoSimulation.txt", "testOutput/NoPassengerArrival.txt"));
+    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "Circuit is not valid.");
 }
 
 // Station Class Tests

@@ -135,8 +135,20 @@ bool System::Valid_circuit() {
 }
 
 void System::properlyparsed() {
-    REQUIRE(System::properlyParsed, "XML File wasn't properly parsed.");
+    ENSURE(System::properlyParsed, "XML File wasn't properly parsed.");
     ENSURE(System::Valid_circuit(), "Circuit is not valid.");
+    ENSURE(System::isConsistent(), "System is not consistent.");
+}
+
+bool System::checkTram(Tram* tram, Station* station, Passagier* passagier){
+    if(tram->getType() == "Albatros" and station->getType() == "halte"){
+        return false;
+    }
+    set<int> sporen = overeenkomstigeSporen(station, stations.find(passagier->getEindStation())->second);
+    if(sporen.find(tram->getLijnNr()) == sporen.end()){
+        return false;
+    }
+    return true;
 }
 
 string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string output){
@@ -166,10 +178,16 @@ string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string outp
             if(stations.find(huidigStation)->second->getPassagier().size() != 0){
                 set<string> copy_passagiers = stations.find(huidigStation)->second->getPassagier();
                 for(auto &passagier : copy_passagiers) {
-                    if(huidigStation != passagiers.find(passagier)->second->getEindStation()) {
-                        output += it_tram.second->addPassagiers(passagier,
-                                            passagiers.find(passagier)->second->getHoeveelheid(), huidigStation);
-                        stations.find(huidigStation)->second->removePassagier(passagier);
+                    if(checkTram(it_tram.second, stations.find(huidigStation)->second,
+                                 passagiers.find(passagier)->second)){
+                        if(huidigStation != passagiers.find(passagier)->second->getEindStation()) {
+                            output += it_tram.second->addPassagiers(passagier,
+                                                                    passagiers.find(passagier)->second->getHoeveelheid(), huidigStation);
+                            stations.find(huidigStation)->second->removePassagier(passagier);
+                        }
+                    }
+                    else{
+                        output += "Passagiers moeten wachten op de volgende tram. \n";
                     }
                 }
             }
@@ -188,7 +206,6 @@ string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string outp
     }
 
 }
-
 
 string System::ronde_rijden() {
     int aantal_klaar = 0;
@@ -230,6 +247,35 @@ void System::autoSimulation() {
     file << "===================";
 
     file.close();
+}
+
+set<int> System::overeenkomstigeSporen(Station* huidig, Station* eind){
+    set<int> overeenkomstigeSporen;
+    for(auto &spoor_huidig : huidig->getSporen()){
+        if(eind->getSporen().find(spoor_huidig.first) != eind->getSporen().end()){
+            overeenkomstigeSporen.insert(spoor_huidig.first);
+        }
+    }
+    return overeenkomstigeSporen;
+}
+
+bool System::isConsistent() {
+    if (stations.size() == 0) {
+        return false;
+    }
+    if (trams.size() == 0) {
+        return false;
+    }
+
+    for(auto &it_passagier : passagiers) {
+        Station* begin = stations.find(it_passagier.second->getBeginStation())->second;
+        Station* eind = stations.find(it_passagier.second->getEindStation())->second;
+        set<int> sporen = overeenkomstigeSporen(begin, eind);
+        if(sporen.size() == 0){
+            return false;
+        }
+    }
+    return true;
 }
 
 

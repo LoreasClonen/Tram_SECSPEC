@@ -38,6 +38,14 @@ private:
 
     string verplaatsTram(Tram* tram);
 
+    bool Valid_circuit();
+
+    bool isConsistent();
+
+    bool checkTram(Tram* tram, Station* station, Passagier* passagier);
+
+    set<int> overeenkomstigeSporen(Station* huidig, Station* eind);
+
 public:
     /**
      * @brief System Default Constructor
@@ -58,9 +66,9 @@ public:
     map<string, Station*> getStations();
 
     /**
-     * @fn map<string, Station*> getTrams()
+     * @fn map<string, Tram*> getTrams()
      * @brief Returns the System object's trams member
-     * @return map<string Tram*>
+     * @return map<string, Tram*>
      */
     map<int, Tram*> getTrams();
 
@@ -89,13 +97,6 @@ public:
     void addTram(int lijnNr, Tram* tram);
 
     /**
-     * @fn bool Valid_circuit()
-     * @brief Returns a bool whether or not the circuit is valid
-     * @return bool
-     */
-    bool Valid_circuit();
-
-    /**
      * @fn void properlyparsed()
      * @brief checks wether or not the system is properly parsed
      */
@@ -109,9 +110,9 @@ public:
     void setProperlyParsed(bool properlyParsed);
 
         /**
-     * @fn map<string, Passagier*> getPassgiers()
+     * @fn map<string, Passagier*> getPassagiers()
      * @brief Returns the member passagiers
-     * @return map<string, Passagier*
+     * @return map<string, Passagier*>
      */
     map<string, Passagier *> getPassagiers();
 
