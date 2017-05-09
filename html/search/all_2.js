@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['is_5fnumber',['is_number',['../classParser.html#a9ae65850c9b4d607a539cbe14331db5f',1,'Parser']]]
+  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]],
+  ['doublevalue',['DoubleValue',['../classTiXmlAttribute.html#a2880ddef53fc7522c99535273954d230',1,'TiXmlAttribute']]]
 ];

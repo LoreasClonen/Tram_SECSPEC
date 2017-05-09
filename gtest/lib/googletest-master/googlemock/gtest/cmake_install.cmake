@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest
+=======
+# Install script for directory: /home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +37,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/libgtest.a")
 endif()
 
@@ -42,5 +47,16 @@ endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include/gtest")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/libgtest.a")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a")
+endif()
+
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include/gtest")
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 endif()
 

@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['parser',['Parser',['../classParser.html',1,'Parser'],['../classParser.html#a12234f6cd36b61af4b50c94a179422c1',1,'Parser::Parser()']]],
-  ['parser_2eh',['Parser.h',['../Parser_8h.html',1,'']]],
-  ['passagier',['Passagier',['../classPassagier.html',1,'Passagier'],['../classPassagier.html#a1a2bc82f5780448cd2a9a47d08cc824f',1,'Passagier::Passagier()']]],
-  ['passagier_2eh',['Passagier.h',['../Passagier_8h.html',1,'']]],
-  ['properlyinitialized',['properlyInitialized',['../classStation.html#aab182a50a2992afe0df4412f7de4b73d',1,'Station::properlyInitialized()'],['../classPassagier.html#ae271ce7875b2a7d17704e204ce9d8568',1,'Passagier::properlyInitialized()'],['../classSpoor.html#a31982084b33e5946f1e15844b084f62f',1,'Spoor::properlyInitialized()'],['../classTram.html#ac69cbbacaed7e1b9e60e608d766d02ee',1,'Tram::properlyInitialized()']]]
+  ['element',['Element',['../classTiXmlHandle.html#acb5fe8388a526289ea65e817a51e05e7',1,'TiXmlHandle']]],
+  ['encodestring',['EncodeString',['../classTiXmlBase.html#a32ed202562b58de64c7d799ca3c9db98',1,'TiXmlBase']]],
+  ['encoding',['Encoding',['../classTiXmlDeclaration.html#a5d974231f9e9a2f0542f15f3a46cdb76',1,'TiXmlDeclaration']]],
+  ['error',['Error',['../classTiXmlDocument.html#a6dfc01a6e5d58e56acd537dfd3bdeb29',1,'TiXmlDocument']]],
+  ['errorcol',['ErrorCol',['../classTiXmlDocument.html#aa90bc630ee5203c6109ca5fad3323649',1,'TiXmlDocument']]],
+  ['errordesc',['ErrorDesc',['../classTiXmlDocument.html#a9d0f689f6e09ea494ea547be8d79c25e',1,'TiXmlDocument']]],
+  ['errorid',['ErrorId',['../classTiXmlDocument.html#af96fc2f3f9ec6422782bfe916c9e778f',1,'TiXmlDocument']]],
+  ['errorrow',['ErrorRow',['../classTiXmlDocument.html#af30efc75e804aa2e92fb8be3a8cb676e',1,'TiXmlDocument']]]
 ];

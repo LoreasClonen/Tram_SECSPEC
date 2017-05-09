@@ -1,4 +1,5 @@
 Determining if the pthread_create exist failed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/uauser/CLionProjects/Tram/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_24e9b/fast"
@@ -19,6 +20,28 @@ Makefile:126: recipe for target 'cmTC_24e9b/fast' failed
 make: *** [cmTC_24e9b/fast] Error 2
 
 File /home/uauser/CLionProjects/Tram/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+=======
+Change Dir: /home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e52ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e52ec.dir/build.make CMakeFiles/cmTC_e52ec.dir/build
+make[1]: Entering directory '/home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e52ec.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e52ec.dir/CheckSymbolExists.c.o   -c /home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e52ec
+/opt/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e52ec.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e52ec.dir/CheckSymbolExists.c.o  -o cmTC_e52ec -rdynamic 
+CMakeFiles/cmTC_e52ec.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e52ec.dir/build.make:97: recipe for target 'cmTC_e52ec' failed
+make[1]: *** [cmTC_e52ec] Error 1
+make[1]: Leaving directory '/home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e52ec/fast' failed
+make: *** [cmTC_e52ec/fast] Error 2
+
+File /home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 /* */
 #include <pthread.h>
 
@@ -34,6 +57,7 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/uauser/CLionProjects/Tram/CMakeFiles/CMakeTmp
 
 Run Build Command:"/usr/bin/make" "cmTC_7907b/fast"
@@ -51,5 +75,24 @@ make[1]: *** [cmTC_7907b] Error 1
 make[1]: Leaving directory '/home/uauser/CLionProjects/Tram/CMakeFiles/CMakeTmp'
 Makefile:126: recipe for target 'cmTC_7907b/fast' failed
 make: *** [cmTC_7907b/fast] Error 2
+=======
+Change Dir: /home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffd38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffd38.dir/build.make CMakeFiles/cmTC_ffd38.dir/build
+make[1]: Entering directory '/home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffd38.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ffd38.dir/CheckFunctionExists.c.o   -c /opt/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ffd38
+/opt/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffd38.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ffd38.dir/CheckFunctionExists.c.o  -o cmTC_ffd38 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ffd38.dir/build.make:97: recipe for target 'cmTC_ffd38' failed
+make[1]: *** [cmTC_ffd38] Error 1
+make[1]: Leaving directory '/home/uauser/CLionProjects/untitled/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ffd38/fast' failed
+make: *** [cmTC_ffd38/fast] Error 2
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 
 

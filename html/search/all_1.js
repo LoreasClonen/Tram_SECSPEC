@@ -1,21 +1,11 @@
 var searchData=
 [
-  ['getbeginstation',['getBeginStation',['../classPassagier.html#a41e0870bb942364181aa17e2c9c7ca6c',1,'Passagier::getBeginStation()'],['../classTram.html#a0d61611abd4dc61f3fbad6b4b7bc6403',1,'Tram::getBeginStation()']]],
-  ['geteindstation',['getEindStation',['../classPassagier.html#a721949463e02e122567c9967786a8a38',1,'Passagier']]],
-  ['getelement',['getElement',['../classParser.html#a36b746dbf631544851e0af2d0e7c6982',1,'Parser']]],
-  ['gethoeveelheid',['getHoeveelheid',['../classPassagier.html#a1fd825eaa3db5b68cc24ca297e45d198',1,'Passagier']]],
-  ['gethuidigstation',['getHuidigStation',['../classTram.html#a1e28b662a6ef3833faa2920247a139ee',1,'Tram']]],
-  ['getlijnnr',['getLijnNr',['../classTram.html#ab5a70cf696779f9dff401244e203f6c8',1,'Tram']]],
-  ['getnaam',['getNaam',['../classStation.html#a7db91849f0d5bab0a4ac0aa4967721cf',1,'Station::getNaam()'],['../classPassagier.html#aa9a9b53d417979551b0cb30fb0fdd232',1,'Passagier::getNaam()']]],
-  ['getpassagier',['getPassagier',['../classStation.html#a3c25e627a9036778a4d6d08ca1454aa6',1,'Station']]],
-  ['getpassagiers',['getPassagiers',['../classTram.html#a8efd626a399a6d5906043abdd915fd59',1,'Tram']]],
-  ['getsnelheid',['getSnelheid',['../classTram.html#afcd79d44b9bc18fb1e7302daa40f56f5',1,'Tram']]],
-  ['getspoornr',['getSpoorNr',['../classSpoor.html#a17c71f600581bc91b85c92d6628d14c5',1,'Spoor']]],
-  ['getsporen',['getSporen',['../classStation.html#a8ee617b13d4d67d0d3d1384d6d33226f',1,'Station']]],
-  ['getsystem',['getSystem',['../classParser.html#addad80574e43b744a82807d0f821d414',1,'Parser']]],
-  ['gettype',['getType',['../classStation.html#aac519858a1ac53608d24d78e4b9231ab',1,'Station::getType()'],['../classTram.html#a8ce9cb84e51d57bb975faa5aa0d06ad2',1,'Tram::getType()']]],
-  ['getvoertuignr',['getVoertuigNr',['../classTram.html#abce34b0915945a2d7ede17297a727301',1,'Tram']]],
-  ['getvolgende',['getVolgende',['../classSpoor.html#af72fa63d73e10bb5d0bb0e15958260d5',1,'Spoor']]],
-  ['getvorige',['getVorige',['../classSpoor.html#a4c9a290c147e08e5734c662c73b9793c',1,'Spoor']]],
-  ['getzitplaatsen',['getZitplaatsen',['../classTram.html#a018207b3cd1f01821b5f64e4f4f394a5',1,'Tram']]]
+  ['cdata',['CDATA',['../classTiXmlText.html#ad1a6a6b83fa2271022dd97c072a2b586',1,'TiXmlText']]],
+  ['child',['Child',['../classTiXmlHandle.html#a072492b4be1acdb0db2d03cd8f71ccc4',1,'TiXmlHandle::Child(const char *value, int index) const '],['../classTiXmlHandle.html#af9cf6a7d08a5da94a8924425ad0cd5ac',1,'TiXmlHandle::Child(int index) const ']]],
+  ['childelement',['ChildElement',['../classTiXmlHandle.html#a979a3f850984a176ee884e394c7eed2d',1,'TiXmlHandle::ChildElement(const char *value, int index) const '],['../classTiXmlHandle.html#a8786475b9d1f1518492e3a46704c7ef0',1,'TiXmlHandle::ChildElement(int index) const ']]],
+  ['clear',['Clear',['../classTiXmlNode.html#a708e7f953df61d4d2d12f73171550a4b',1,'TiXmlNode']]],
+  ['clearerror',['ClearError',['../classTiXmlDocument.html#ac66b8c28db86363315712a3574e87c35',1,'TiXmlDocument']]],
+  ['clone',['Clone',['../classTiXmlNode.html#a4508cc3a2d7a98e96a54cc09c37a78a4',1,'TiXmlNode::Clone()'],['../classTiXmlElement.html#a13f6df105ebb1e8dc636e75cc883be32',1,'TiXmlElement::Clone()'],['../classTiXmlComment.html#a4f6590c9c9a2b63a48972655b78eb853',1,'TiXmlComment::Clone()'],['../classTiXmlText.html#adde1869dfb029be50713fbfd8ce4d21f',1,'TiXmlText::Clone()'],['../classTiXmlDeclaration.html#aff8231266d735943d8a7514a9c9822b9',1,'TiXmlDeclaration::Clone()'],['../classTiXmlUnknown.html#a675c4b2684af35e4c7649b7fd5ae598d',1,'TiXmlUnknown::Clone()'],['../classTiXmlDocument.html#ac9e8f09b23454d953b32d1b65cd1409e',1,'TiXmlDocument::Clone()']]],
+  ['column',['Column',['../classTiXmlBase.html#ab54bfb9b70fe6dd276e7b279cab7f003',1,'TiXmlBase']]],
+  ['cstr',['CStr',['../classTiXmlPrinter.html#a859eede9597d3e0355b77757be48735e',1,'TiXmlPrinter']]]
 ];

@@ -48,10 +48,17 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram
+=======
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/untitled
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/untitled
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +131,15 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles /home/uauser/CLionProjects/Tram/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/untitled/CMakeFiles /home/uauser/CLionProjects/untitled/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/untitled/CMakeFiles 0
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : all
 
 # The main clean target

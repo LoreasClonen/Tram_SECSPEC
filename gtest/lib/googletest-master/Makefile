@@ -48,10 +48,17 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram
+=======
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/untitled
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/untitled
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +131,24 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles /home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/CMakeFiles/progress.marks
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles 0
+=======
+	cd /home/uauser/CLionProjects/untitled && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/untitled/CMakeFiles /home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/CMakeFiles/progress.marks
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/untitled/CMakeFiles 0
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : clean
 
 # The main clean target
@@ -141,17 +158,29 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/uauser/CLionProjects/untitled && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : depend
 
 # Help Target
@@ -177,6 +206,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/uauser/CLionProjects/untitled && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : cmake_check_build_system
 

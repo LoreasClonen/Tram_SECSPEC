@@ -48,10 +48,17 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram
+=======
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/untitled
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/untitled
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +131,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles /home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/CMakeFiles/progress.marks
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram/CMakeFiles 0
+=======
+	cd /home/uauser/CLionProjects/untitled && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/untitled/CMakeFiles /home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/CMakeFiles/progress.marks
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/untitled/CMakeFiles 0
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/clean
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/clean
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +158,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/preinstall
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/uauser/CLionProjects/untitled && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : depend
 
 # Convenience name for target.
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -166,12 +199,20 @@ gmock_main: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rul
 
 # fast build rule for target.
 gmock_main/fast:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -181,7 +222,11 @@ gmock: gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : gmock/fast
 
 __/googletest/src/gtest-all.o: __/googletest/src/gtest-all.cc.o
@@ -190,8 +235,13 @@ __/googletest/src/gtest-all.o: __/googletest/src/gtest-all.cc.o
 
 # target to build an object file
 __/googletest/src/gtest-all.cc.o:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : __/googletest/src/gtest-all.cc.o
 
 __/googletest/src/gtest-all.i: __/googletest/src/gtest-all.cc.i
@@ -200,8 +250,13 @@ __/googletest/src/gtest-all.i: __/googletest/src/gtest-all.cc.i
 
 # target to preprocess a source file
 __/googletest/src/gtest-all.cc.i:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.i
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : __/googletest/src/gtest-all.cc.i
 
 __/googletest/src/gtest-all.s: __/googletest/src/gtest-all.cc.s
@@ -210,8 +265,13 @@ __/googletest/src/gtest-all.s: __/googletest/src/gtest-all.cc.s
 
 # target to generate assembly for a file
 __/googletest/src/gtest-all.cc.s:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.s
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : __/googletest/src/gtest-all.cc.s
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -220,8 +280,13 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -230,8 +295,13 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.i
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -240,8 +310,13 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.s
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -250,7 +325,11 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -259,7 +338,11 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -268,7 +351,11 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+=======
+	cd /home/uauser/CLionProjects/untitled && $(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -305,6 +392,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/uauser/CLionProjects/Tram && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/uauser/CLionProjects/untitled && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
 .PHONY : cmake_check_build_system
 

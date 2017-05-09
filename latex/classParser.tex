@@ -15,13 +15,13 @@ This Class contains all the functionalities for the \hyperlink{classParser}{Pars
 \hyperlink{classParser_a12234f6cd36b61af4b50c94a179422c1}{Parser} ()\hypertarget{classParser_a12234f6cd36b61af4b50c94a179422c1}{}\label{classParser_a12234f6cd36b61af4b50c94a179422c1}
 
 \begin{DoxyCompactList}\small\item\em \hyperlink{classParser}{Parser} Default Constructor. \end{DoxyCompactList}\item 
-System $\ast$ \hyperlink{classParser_addad80574e43b744a82807d0f821d414}{get\+System} () const 
-\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classParser}{Parser} object\textquotesingle{}s System Object. \end{DoxyCompactList}\item 
-void {\bfseries set\+System} (System $\ast$system)\hypertarget{classParser_aaf58c6aafde4e7b889fbaa5d1f3aa6fe}{}\label{classParser_aaf58c6aafde4e7b889fbaa5d1f3aa6fe}
+\hyperlink{classSystem}{System} $\ast$ \hyperlink{classParser_addad80574e43b744a82807d0f821d414}{get\+System} () const 
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object. \end{DoxyCompactList}\item 
+void {\bfseries set\+System} (\hyperlink{classSystem}{System} $\ast$system)\hypertarget{classParser_aaf58c6aafde4e7b889fbaa5d1f3aa6fe}{}\label{classParser_aaf58c6aafde4e7b889fbaa5d1f3aa6fe}
 
 \item 
-string \hyperlink{classParser_a36b746dbf631544851e0af2d0e7c6982}{get\+Element} (Ti\+Xml\+Element $\ast$elem)
-\begin{DoxyCompactList}\small\item\em Returns the text contained in a Ti\+Xml\+Element Object. \end{DoxyCompactList}\item 
+string \hyperlink{classParser_a36b746dbf631544851e0af2d0e7c6982}{get\+Element} (\hyperlink{classTiXmlElement}{Ti\+Xml\+Element} $\ast$elem)
+\begin{DoxyCompactList}\small\item\em Returns the text contained in a \hyperlink{classTiXmlElement}{Ti\+Xml\+Element} Object. \end{DoxyCompactList}\item 
 bool \hyperlink{classParser_aa8cdba8032e5d5d87b249be597b196c7}{Xml\+Parser} (string input\+File)
 \begin{DoxyCompactList}\small\item\em Returns true if the inputfile is correctly parsed, false if not. \end{DoxyCompactList}\item 
 bool \hyperlink{classParser_a9ae65850c9b4d607a539cbe14331db5f}{is\+\_\+number} (const string \&s)
@@ -41,35 +41,35 @@ Loreas Clonen \& Luuk van Sloun
 \index{get\+Element@{get\+Element}!Parser@{Parser}}
 \subsubsection[{\texorpdfstring{get\+Element(\+Ti\+Xml\+Element $\ast$elem)}{getElement(TiXmlElement *elem)}}]{\setlength{\rightskip}{0pt plus 5cm}string Parser\+::get\+Element (
 \begin{DoxyParamCaption}
-\item[{Ti\+Xml\+Element $\ast$}]{elem}
+\item[{{\bf Ti\+Xml\+Element} $\ast$}]{elem}
 \end{DoxyParamCaption}
 )}\hypertarget{classParser_a36b746dbf631544851e0af2d0e7c6982}{}\label{classParser_a36b746dbf631544851e0af2d0e7c6982}
 
 
-Returns the text contained in a Ti\+Xml\+Element Object. 
+Returns the text contained in a \hyperlink{classTiXmlElement}{Ti\+Xml\+Element} Object. 
 
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
 \index{Parser@{Parser}!get\+System@{get\+System}}
 \index{get\+System@{get\+System}!Parser@{Parser}}
-\subsubsection[{\texorpdfstring{get\+System() const }{getSystem() const }}]{\setlength{\rightskip}{0pt plus 5cm}System $\ast$ Parser\+::get\+System (
+\subsubsection[{\texorpdfstring{get\+System() const }{getSystem() const }}]{\setlength{\rightskip}{0pt plus 5cm}{\bf System} $\ast$ Parser\+::get\+System (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 ) const}\hypertarget{classParser_addad80574e43b744a82807d0f821d414}{}\label{classParser_addad80574e43b744a82807d0f821d414}
 
 
-Returns the \hyperlink{classParser}{Parser} object\textquotesingle{}s System Object. 
+Returns the \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object. 
 
-Sets a new \hyperlink{classParser}{Parser} object\textquotesingle{}s System Object.
+Sets a new \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object.
 
 \begin{DoxyReturn}{Returns}
-System Pointer
+\hyperlink{classSystem}{System} Pointer
 \end{DoxyReturn}
 
 \begin{DoxyParams}{Parameters}
-{\em system} & -\/ System Pointer \\
+{\em system} & -\/ \hyperlink{classSystem}{System} Pointer \\
 \hline
 \end{DoxyParams}
 \index{Parser@{Parser}!is\+\_\+number@{is\+\_\+number}}
@@ -102,6 +102,7 @@ boolean
 \end{DoxyReturn}
 
 
-The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-src/\hyperlink{Parser_8h}{Parser.\+h}\end{DoxyCompactItemize}
+src/\hyperlink{Parser_8h}{Parser.\+h}\item 
+src/Parser.\+cpp\end{DoxyCompactItemize}
