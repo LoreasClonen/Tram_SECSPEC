@@ -8,490 +8,215 @@
 		<Option virtualFolders="CMake Files\;CMake Files\gtest\;CMake Files\gtest\lib\;CMake Files\gtest\lib\googletest-master\;CMake Files\gtest\lib\googletest-master\googlemock\;CMake Files\gtest\lib\googletest-master\googletest\;CMake Files\gtest\lib\googletest-master\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-<<<<<<< HEAD
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-=======
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gmock_main">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gmock_main/fast">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gmock">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gmock/fast">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest_main">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest_main/fast">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest"/>
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest/fast">
-				<Option output="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+				<Option output="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-<<<<<<< HEAD
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest"/>
-=======
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/include"/>
-					<Add directory="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest"/>
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
 				</Compiler>
 				<MakeCommands>
-<<<<<<< HEAD
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/src/gmock-all.cc">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/src/gmock_main.cc">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/src/gtest-all.cc">
-=======
-					<Build command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-		</Build>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/src/gmock-all.cc">
-			<Option target="gmock_main"/>
-			<Option target="gmock"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/src/gmock_main.cc">
-			<Option target="gmock_main"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/src/gtest-all.cc">
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
 			<Option target="gtest"/>
 		</Unit>
-<<<<<<< HEAD
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/src/gtest_main.cc">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-=======
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/src/gtest_main.cc">
-			<Option target="gtest_main"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/untitled/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
->>>>>>> 2ad297e0d0b6785587fecdd642a64c0a0bfaf1c3
+		<Unit filename="/home/uauser/pse/tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
 	</Project>

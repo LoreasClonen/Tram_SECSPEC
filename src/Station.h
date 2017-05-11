@@ -105,6 +105,8 @@ public:
      * @param spoorNr - integer
      */
     void addSpoor(Spoor* spoor, int spoorNr);
+
+
 };
 
 

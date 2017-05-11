@@ -116,19 +116,6 @@ public:
      */
     bool properlyInitialized();
 
-    /**
-     * @fn string getType()
-     * @brief Returns the Tram object's type
-     * @return string
-     */
-    string getType();
-
-    /**
-     * @fn void setType(string type)
-     * @brief Sets a new Tram object's type
-     * @param type - string
-     */
-    void setType(string type);
 
     /**
     * @fn int getVoertuigNr()

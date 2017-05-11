@@ -83,18 +83,6 @@ void Tram::setHuidigStation(string huidigStation) {
     Tram::huidigStation = huidigStation;
 }
 
-string Tram::getType() {
-    REQUIRE(this->properlyInitialized(),
-            "Tram wasn't initialized when calling getType.");
-    return type;
-}
-
-void Tram::setType(string type) {
-    REQUIRE(this->properlyInitialized(),
-            "Tram wasn't initialized when calling setType.");
-    ENSURE(type != "","No empty string for Tram type allowed");
-    Tram::type = type;
-}
 
 int Tram::getVoertuigNr() {
     REQUIRE(this->properlyInitialized(),

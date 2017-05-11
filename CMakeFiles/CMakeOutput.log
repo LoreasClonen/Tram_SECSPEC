@@ -1431,3 +1431,31 @@ Linking C executable cmTC_83956
 make[1]: Leaving directory '/home/uauser/CLionProjects/Tram/CMakeFiles/CMakeTmp'
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6441a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6441a.dir/build.make CMakeFiles/cmTC_6441a.dir/build
+make[1]: Entering directory '/home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6441a.dir/CheckIncludeFile.c.o
+/usr/bin/gcc     -o CMakeFiles/cmTC_6441a.dir/CheckIncludeFile.c.o   -c /home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6441a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6441a.dir/link.txt --verbose=1
+/usr/bin/gcc       CMakeFiles/cmTC_6441a.dir/CheckIncludeFile.c.o  -o cmTC_6441a -rdynamic 
+make[1]: Leaving directory '/home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e12a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e12a.dir/build.make CMakeFiles/cmTC_1e12a.dir/build
+make[1]: Entering directory '/home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e12a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1e12a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1e12a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e12a.dir/link.txt --verbose=1
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1e12a.dir/CheckFunctionExists.c.o  -o cmTC_1e12a -rdynamic -lpthread 
+make[1]: Leaving directory '/home/uauser/pse/tram_SECSPEC/CMakeFiles/CMakeTmp'
+
+

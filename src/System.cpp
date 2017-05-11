@@ -79,7 +79,6 @@ string System::Output(){
 }
 
 Station* System::findNextStation(Station* station, int spoorNr, string type){
-    //fout spoor zit niet in station!!!
     Spoor* spoor = station->getSporen().find(spoorNr)->second;
     string naam_volgend_station = spoor->getVolgende();
     Station * volgendStation = stations.find(naam_volgend_station)->second;
@@ -97,24 +96,24 @@ Station* System::findNextStation(Station* station, int spoorNr, string type){
     }
 }
 
-string System::verplaatsTram(Tram* tram){
-
-    string stationsNaam = tram->getHuidigStation();
-
-    if(stationsNaam == ""){
-        stationsNaam = tram ->getBeginStation();
-    }
-
-    Station* volgendStation = findNextStation(System::getStations().find(stationsNaam)->second, tram->getLijnNr(),
-            tram->getType());
-
-    string volgende = volgendStation->getNaam();
-
-    tram->setHuidigStation(volgende);
-    string output = "Tram " + to_string(tram->getVoertuigNr()) + " reed van station " + stationsNaam
-                    + " naar station " + volgende + "\n";
-    return output;
-}
+//string System::verplaatsTram(Tram* tram){
+//
+//    string stationsNaam = tram->getHuidigStation();
+//
+//    if(stationsNaam == ""){
+//        stationsNaam = tram ->getBeginStation();
+//    }
+//
+//    Station* volgendStation = findNextStation(System::getStations().find(stationsNaam)->second, tram->getLijnNr(),
+//            tram->getType());
+//
+//    string volgende = volgendStation->getNaam();
+//
+//    tram->setHuidigStation(volgende);
+//    string output = "Tram " + to_string(tram->getVoertuigNr()) + " reed van station " + stationsNaam
+//                    + " naar station " + volgende + "\n";
+//    return output;
+//}
 
 bool System::Valid_circuit() {
     for (auto it_stations : stations) {
@@ -140,16 +139,16 @@ void System::properlyparsed() {
     ENSURE(System::isConsistent(), "System is not consistent.");
 }
 
-bool System::checkTram(Tram* tram, Station* station, Passagier* passagier){
-    if(tram->getType() == "Albatros" and station->getType() == "halte"){
-        return false;
-    }
-    set<int> sporen = overeenkomstigeSporen(station, stations.find(passagier->getEindStation())->second);
-    if(sporen.find(tram->getLijnNr()) == sporen.end()){
-        return false;
-    }
-    return true;
-}
+//bool System::checkTram(Tram* tram, Station* station, Passagier* passagier){
+//    if(tram->getType() == "Albatros" and station->getType() == "halte"){
+//        return false;
+//    }
+//    set<int> sporen = overeenkomstigeSporen(station, stations.find(passagier->getEindStation())->second);
+//    if(sporen.find(tram->getLijnNr()) == sporen.end()){
+//        return false;
+//    }
+//    return true;
+//}
 
 string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string output){
 
