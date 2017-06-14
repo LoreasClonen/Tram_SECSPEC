@@ -137,4 +137,13 @@ set<string> Tram::getPassagiers() {
     return passagiers;
 }
 
+string Tram::getPlaats() {
+    string stationsNaam = Tram::getHuidigStation();
+
+    if(stationsNaam == ""){
+        stationsNaam = Tram::getBeginStation();
+    }
+    return stationsNaam;
+}
+
 

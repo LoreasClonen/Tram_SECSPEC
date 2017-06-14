@@ -156,6 +156,8 @@ public:
      */
     set<string> getPassagiers();
 
+
+    string getPlaats();
 };
 
 

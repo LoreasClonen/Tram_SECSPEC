@@ -18,7 +18,10 @@
 class PCC: Tram{
 public:
 
-    void verplaatsTram();
+    void verplaatsTram(std::string);
+
+    bool validStation(string type);
+
 
 
 };

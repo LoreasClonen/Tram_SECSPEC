@@ -36,8 +36,6 @@ private:
 
     string ronde_rijden();
 
-    string verplaatsTram(Tram* tram);
-
     bool Valid_circuit();
 
     bool isConsistent();

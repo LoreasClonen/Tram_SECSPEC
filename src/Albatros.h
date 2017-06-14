@@ -10,7 +10,7 @@
 
 class Albatros: Tram {
 public:
-    void verplaatsTram();
+    void verplaatsTram(string station);
     bool validStation(string type);
 };
 
