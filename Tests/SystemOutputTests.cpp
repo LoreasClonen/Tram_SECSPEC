@@ -6,7 +6,7 @@
 using namespace std;
 
 #include "TestUtils.h"
-#include "../src/Parser.h"
+#include "../src/Parser/Parser.h"
 
 class SystemOutputTests: public ::testing::Test {
 protected:
@@ -43,7 +43,6 @@ TEST_F(SystemOutputTests, OutputFileTests){
 
     Station station;
     station.setNaam("A");
-    station.setType("halte");
     Spoor spoor;
     spoor.setSpoorNr(10);
     spoor.setVorige("C");

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp
+Change Dir: /home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b66b4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b66b4.dir/build.make CMakeFiles/cmTC_b66b4.dir/build
-make[1]: Entering directory '/home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b66b4.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b66b4.dir/CheckSymbolExists.c.o   -c /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b66b4
-"/home/loreas/program files/clion-2017.1.2/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b66b4.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b66b4.dir/CheckSymbolExists.c.o  -o cmTC_b66b4 -rdynamic 
-CMakeFiles/cmTC_b66b4.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_fcad4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcad4.dir/build.make CMakeFiles/cmTC_fcad4.dir/build
+make[1]: Entering directory '/home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcad4.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fcad4.dir/CheckSymbolExists.c.o   -c /home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fcad4
+/opt/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcad4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fcad4.dir/CheckSymbolExists.c.o  -o cmTC_fcad4 -rdynamic 
+CMakeFiles/cmTC_fcad4.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b66b4.dir/build.make:97: recipe for target 'cmTC_b66b4' failed
-make[1]: *** [cmTC_b66b4] Error 1
-make[1]: Leaving directory '/home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b66b4/fast' failed
-make: *** [cmTC_b66b4/fast] Error 2
+CMakeFiles/cmTC_fcad4.dir/build.make:97: recipe for target 'cmTC_fcad4' failed
+make[1]: *** [cmTC_fcad4] Error 1
+make[1]: Leaving directory '/home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fcad4/fast' failed
+make: *** [cmTC_fcad4/fast] Error 2
 
-File /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp
+Change Dir: /home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3f4d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3f4d.dir/build.make CMakeFiles/cmTC_e3f4d.dir/build
-make[1]: Entering directory '/home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3f4d.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e3f4d.dir/CheckFunctionExists.c.o   -c "/home/loreas/program files/clion-2017.1.2/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c"
-Linking C executable cmTC_e3f4d
-"/home/loreas/program files/clion-2017.1.2/bin/cmake/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e3f4d.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e3f4d.dir/CheckFunctionExists.c.o  -o cmTC_e3f4d -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_61894/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61894.dir/build.make CMakeFiles/cmTC_61894.dir/build
+make[1]: Entering directory '/home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61894.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_61894.dir/CheckFunctionExists.c.o   -c /opt/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61894
+/opt/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61894.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_61894.dir/CheckFunctionExists.c.o  -o cmTC_61894 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e3f4d.dir/build.make:97: recipe for target 'cmTC_e3f4d' failed
-make[1]: *** [cmTC_e3f4d] Error 1
-make[1]: Leaving directory '/home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e3f4d/fast' failed
-make: *** [cmTC_e3f4d/fast] Error 2
+CMakeFiles/cmTC_61894.dir/build.make:97: recipe for target 'cmTC_61894' failed
+make[1]: *** [cmTC_61894] Error 1
+make[1]: Leaving directory '/home/uauser/CLionProjects/TRAm/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61894/fast' failed
+make: *** [cmTC_61894/fast] Error 2
 
 

@@ -6,7 +6,7 @@
 using namespace std;
 
 #include "TestUtils.h"
-#include "../src/Parser.h"
+#include "../src/Parser/Parser.h"
 
 class SystemDomainTest: public ::testing::Test {
 protected:
@@ -39,11 +39,6 @@ TEST_F(SystemDomainTest, HappyDay) {
 TEST_F(SystemDomainTest, SetStationNameViolation) {
     Station testStation;
     EXPECT_DEATH(testStation.setNaam(""), "No empty string for Station Name allowed");
-}
-
-TEST_F(SystemDomainTest, SetStationTypeViolation) {
-    Station testStation;
-    EXPECT_DEATH(testStation.setType(""), "No empty string for Station type allowed");
 }
 
 // Track Class Tests
@@ -81,11 +76,6 @@ TEST_F(SystemDomainTest, SetSpeedViolation) {
 TEST_F(SystemDomainTest, SetTramBeginstationViolation) {
     Tram testTram;
     EXPECT_DEATH(testTram.setBeginStation(""), "No empty string for Starting Station allowed");
-}
-
-TEST_F(SystemDomainTest, SetTramTypeViolation) {
-    Tram testTram;
-    EXPECT_DEATH(testTram.setType(""), "No empty string for Tram type allowed");
 }
 
 TEST_F(SystemDomainTest, SetVehicleNrViolation) {
