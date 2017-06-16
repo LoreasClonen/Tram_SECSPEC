@@ -12,7 +12,7 @@
 	</station>
 	<tram>
 		<lijnNr>12</lijnNr>
-		<zitplaatsen>32</zitplaatsen>
+		<zitplaatsen>50</zitplaatsen>
 		<snelheid>50</snelheid>
 		<beginStation></beginStation>
 		<type>PCC</type>

@@ -210,6 +210,8 @@ void System::setProperlyParsed(bool properlyParsed) {
 }
 
 map<string, Passagier *> System::getPassagiers() {
+    REQUIRE(this->properlyInitialized(),
+            "System wasn't initialized when calling getPassagiers.");
     return passagiers;
 }
 

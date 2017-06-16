@@ -10,10 +10,10 @@ using namespace std;
 
 int main(){
     Parser parser;
-    parser.XmlParser("InputFiles/XML_Test.xml");
-    System* system = parser.getSystem();
-    system->properlyparsed();
-    system->Output();
-    system->autoSimulation();
-}
+    parser.XmlParser("testInput/L_StationSpoor.xml");}
+//    System* system = parser.getSystem();
+//    system->properlyparsed();
+//    system->Output();
+//    system->autoSimulation();
+//}
 

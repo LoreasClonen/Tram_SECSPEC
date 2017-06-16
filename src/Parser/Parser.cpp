@@ -35,7 +35,10 @@ bool Parser::is_number(const string& s)
 bool Parser::XmlParser(string inputFile) {
     ofstream outputFile;
     outputFile.open("LogFiles/parserLog.txt");
-    bool output = true;
+    bool outputStation = true;
+    bool outputTram = true;
+    bool outputPassenger = true;
+    bool outputTrack = true;
     outputFile << "======================" << endl;
     outputFile << "Starting XML Parser..." << endl;
     outputFile << "======================" << endl << endl;
@@ -95,7 +98,7 @@ bool Parser::XmlParser(string inputFile) {
 
                             } else {
                                 outputFile << " FAULT IN STATION TRACK." << endl;
-                                output = false;
+                                outputTrack = false;
                             }
                         }
                         if (elemName == "volgende") {
@@ -113,21 +116,21 @@ bool Parser::XmlParser(string inputFile) {
                     }
                     if (spoorNr < 0) {
                         outputFile << "Track Number is negative" << endl;
-                        output = false;
+                        outputTrack = false;
                     }
                     if (volgende == "") {
                         outputFile << "Next Station is empty" << endl;
-                        output = false;
+                        outputTrack = false;
                     }
                     if (vorige == "") {
                         outputFile << "Previous Station is empty" << endl;
-                        output = false;
+                        outputTrack = false;
                     }
-                    if (!output) {
+                    if (!outputTrack) {
                         outputFile << "DELETING INCOMPLETE TRACK" << endl;
                         delete spoor;
                     }
-                    if(output) {
+                    if(outputTrack) {
                         tracks[spoorNr] = spoor;
                         spoor->setSpoorNr(spoorNr);
                         spoor->setVolgende(volgende);
@@ -149,7 +152,7 @@ bool Parser::XmlParser(string inputFile) {
                 else{
                     outputFile << "Station Type is incorrect" << endl;
                 }
-                output = false;
+                outputStation = false;
             }
             Station* station;
             if(type == "halte" or type == "metrostation") {
@@ -168,10 +171,10 @@ bool Parser::XmlParser(string inputFile) {
 
                 if (naam == "") {
                     outputFile << "Station Name is empty" << endl;
-                    output = false;
+                    outputStation = false;
                 }
 
-                if (!output) {
+                if (!outputStation) {
                     outputFile << "DELETING INCOMPLETE STATION" << endl;
                     for (auto c : station->getSporen()) {
                         c.second = NULL;
@@ -207,7 +210,7 @@ bool Parser::XmlParser(string inputFile) {
                     }
                     else {
                         outputFile << " FAULT IN TRAMNUMBER." << endl;
-                        output = false;
+                        outputTram = false;
                     }
                 }
                 if (elemName == "zitplaatsen") {
@@ -217,7 +220,7 @@ bool Parser::XmlParser(string inputFile) {
                     }
                     else {
                         outputFile << " FAULT IN SEATS." << endl;
-                        output = false;
+                        outputTram = false;
                     }
                 }
 
@@ -228,7 +231,7 @@ bool Parser::XmlParser(string inputFile) {
                     }
                     else {
                         outputFile << " FAULT IN SPEED." << endl;
-                        output = false;
+                        outputTram = false;
                     }
                 }
 
@@ -252,7 +255,7 @@ bool Parser::XmlParser(string inputFile) {
                         voertuigNr = stoi(getElement(insideElem));
                     }
                     else {
-                        output = false;
+                        outputTram = false;
                     }
                 }
             }
@@ -263,7 +266,7 @@ bool Parser::XmlParser(string inputFile) {
                 else{
                     outputFile << "Station Type is incorrect" << endl;
                 }
-                output = false;
+                outputTram = false;
             }
             Tram* tram;
             if(type == "Albatros" or type == "PCC") {
@@ -278,27 +281,27 @@ bool Parser::XmlParser(string inputFile) {
 
                 if (lijnNr < 0) {
                     outputFile << "Tram Line Nr. is negative" << endl;
-                    output = false;
+                    outputTram = false;
                 }
                 if (zitplaatsen < 0) {
                     outputFile << "Amount of Seats is negative" << endl;
-                    output = false;
+                    outputTram = false;
                 }
                 if (snelheid < 0) {
                     outputFile << "Tram Speed is negative" << endl;
-                    output = false;
+                    outputTram = false;
                 }
                 if (beginStation == "") {
                     outputFile << "Tram Starting Station is empty" << endl;
-                    output = false;
+                    outputTram = false;
                 }
                 if (voertuigNr < 0) {
                     outputFile << "Tram Vehicle Nr. is negative" << endl;
-                    output = false;
+                    outputTram = false;
                 }
 
 
-                if (!output) {
+                if (!outputTram) {
                     outputFile << "DELETING INCOMPLETE TRAM" << endl;
                     delete tram;
                 } else {
@@ -350,28 +353,28 @@ bool Parser::XmlParser(string inputFile) {
                         hoeveelheid = stoi(getElement(insideElem));
                     }
                     else {
-                        output = false;
+                        outputPassenger = false;
                     }
                 }
             }
             if(naam == "") {
                 outputFile << "Passenger Name is empty" << endl;
-                output = false;
+                outputPassenger = false;
             }
             if(beginStation == "") {
                 outputFile << "Passenger Starting Station is empty" << endl;
-                output = false;
+                outputPassenger = false;
             }
             if(eindStation == "") {
                 outputFile << "Passenger End Station is empty" << endl;
-                output = false;
+                outputPassenger = false;
             }
             if(hoeveelheid < 0) {
                 outputFile << "Amount of Passengers is negative" << endl;
-                output = false;
+                outputPassenger = false;
             }
-            if(!output){
-                outputFile << "BEGINSTATION PASSAGIER NIET IN SYSTEEM" << endl;
+            if(!outputPassenger){
+                outputFile << "DELETING PASSENGERS" << endl;
                 delete passagier;
             }
             else{
@@ -384,10 +387,13 @@ bool Parser::XmlParser(string inputFile) {
                 if(system->getStations().find(beginStation) != system->getStations().end()){
                     system->getStations().find(beginStation)->second->addPassagier(naam);
                 }
+                else{
+                    outputFile << "Beginning station of passenger not in system" << endl;
+                }
             }
         }
     }
-    system->setProperlyParsed(output);
+
     Parser::setSystem(system);
 
     outputFile << "===================" << endl;
@@ -395,7 +401,11 @@ bool Parser::XmlParser(string inputFile) {
     outputFile << "===================" << endl << endl;
     doc.Clear();
     outputFile.close();
-
+    bool output = false;
+    if(outputPassenger and outputTrack and outputTram and outputStation){
+        output = true;
+    }
+    system->setProperlyParsed(output);
     return output;
 }
 

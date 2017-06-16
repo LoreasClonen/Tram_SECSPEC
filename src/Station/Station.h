@@ -107,7 +107,7 @@ public:
 
     virtual string typeString();
 
-    void setSporen(const map<int, Spoor *> &sporen);
+    void setSporen(map<int, Spoor *> sporen);
 
     virtual bool isMetrostation();
 };

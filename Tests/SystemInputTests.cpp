@@ -43,7 +43,7 @@ TEST_F(SystemInputTests, ProperlyParsed) {
 // Station Class Tests
 TEST_F(SystemInputTests, EmptyStationName){
     parser.XmlParser("testInput/StationsNaam.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
 }
 
 TEST_F(SystemInputTests, EmptyStationType){
