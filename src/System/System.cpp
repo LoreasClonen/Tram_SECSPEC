@@ -79,43 +79,6 @@ string System::Output(){
     return output;
 }
 
-Station* System::findNextStation(Station* station, int spoorNr, string type){
-    Spoor* spoor = station->getSporen().find(spoorNr)->second;
-    string naam_volgend_station = spoor->getVolgende();
-    Station * volgendStation = stations.find(naam_volgend_station)->second;
-
-    if(type == "PCC"){
-        return volgendStation;
-    }
-    else {
-        if(volgendStation->typeString() == "metrostation"){
-            return volgendStation;
-        }
-        else{
-            return findNextStation(volgendStation, spoorNr, type);
-        }
-    }
-}
-
-//string System::verplaatsTram(Tram* tram){
-//
-//    string stationsNaam = tram->getHuidigStation();
-//
-//    if(stationsNaam == ""){
-//        stationsNaam = tram ->getBeginStation();
-//    }
-//
-//    Station* volgendStation = findNextStation(System::getStations().find(stationsNaam)->second, tram->getLijnNr(),
-//            tram->getType());
-//
-//    string volgende = volgendStation->getNaam();
-//
-//    tram->setHuidigStation(volgende);
-//    string output = "Tram " + to_string(tram->getVoertuigNr()) + " reed van station " + stationsNaam
-//                    + " naar station " + volgende + "\n";
-//    return output;
-//}
-
 bool System::Valid_circuit() {
     for (auto it_stations : stations) {
         for(auto it_spoor : it_stations.second->getSporen()){
@@ -141,7 +104,7 @@ void System::properlyparsed() {
 }
 
 bool System::checkTram(Tram* tram, Station* station, Passagier* passagier){
-    if(tram->typeString() == "Albatros" and station->typeString() == "halte"){
+    if(tram->isAlbatros() and !station->isMetrostation()){
         return false;
     }
     set<int> sporen = overeenkomstigeSporen(station, stations.find(passagier->getEindStation())->second);
@@ -149,6 +112,19 @@ bool System::checkTram(Tram* tram, Station* station, Passagier* passagier){
         return false;
     }
     return true;
+}
+
+string System::findNextStation(Station* station, int spoorNr, Tram* tram){
+    Spoor* spoor = station->getSporen().find(tram->getLijnNr())->second;
+    string volgende = spoor->getVolgende();
+    Station* volgendStation = stations.find(volgende)->second;
+
+    if(tram->isAlbatros() and !volgendStation->isMetrostation()){
+        return findNextStation(volgendStation, spoorNr, tram);
+    }
+    else{
+        return volgende;
+    }
 }
 
 string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string output){
@@ -190,22 +166,22 @@ string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string outp
                     }
                 }
             }
-            string stationsNaam = it_tram.second->getHuidigStation();
+            string stationsNaam;
 
-            if(stationsNaam == ""){
+            if(it_tram.second->getHuidigStation() == ""){
                 stationsNaam = it_tram.second ->getBeginStation();
             }
+            else{
+                stationsNaam = it_tram.second->getHuidigStation();
+            }
 
-            Station* volgendStation = findNextStation(System::getStations().find(stationsNaam)->second,
-                                                      it_tram.second->getLijnNr(), it_tram.second->typeString());
+            string volgendStation = findNextStation(System::getStations().find(stationsNaam)->second,
+                                                      it_tram.second->getLijnNr(), it_tram.second);
 
-            string volgende = volgendStation->getNaam();
+            output += it_tram.second->verplaatsTram(volgendStation);
 
-            output += it_tram.second->verplaatsTram(volgende);
-            cout << "TEST" << endl;
         }
         else{
-            cout << "TEST!" << endl;
             aantal_klaar += 1;
         }
     }

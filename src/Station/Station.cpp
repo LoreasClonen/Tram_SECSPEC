@@ -56,4 +56,8 @@ void Station::setSporen(const map<int, Spoor *> &sporen) {
     Station::sporen = sporen;
 }
 
+bool Station::isMetrostation() {
+    return false;
+}
+
 

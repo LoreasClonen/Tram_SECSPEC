@@ -17,8 +17,6 @@
 
 class PCC: public::Tram{
 public:
-
-    string verplaatsTram(std::string);
     string typeString();
-    bool validStation(string type);
+    bool isAlbatros();
 };

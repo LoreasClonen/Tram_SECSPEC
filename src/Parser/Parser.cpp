@@ -79,6 +79,7 @@ bool Parser::XmlParser(string inputFile) {
 
                 }
                 if (elemName == "spoor") {
+                    outputFile << "   Getting Station track..." << endl;
                     Spoor* spoor = new Spoor();
 
                     string volgende = "";
@@ -89,7 +90,6 @@ bool Parser::XmlParser(string inputFile) {
                          inInsideElem = inInsideElem->NextSiblingElement()) {
                         string elemName = inInsideElem->Value();
 
-                        outputFile << "   Getting Station track..." << endl;
                         if(elemName == "spoorNr") {
                             if (is_number(getElement(inInsideElem))) {
                                 outputFile << getElement(inInsideElem) << endl;

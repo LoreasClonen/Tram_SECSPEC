@@ -32,7 +32,7 @@ private:
 
     string help_ronde_rijden(int aantal_klaar,int aantal_trams, string output);
 
-    Station* findNextStation(Station* station, int spoorNr, string type);
+    string findNextStation(Station* station, int spoorNr, Tram* tram);
 
     string ronde_rijden();
 

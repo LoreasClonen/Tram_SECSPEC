@@ -151,7 +151,26 @@ string Tram::typeString() {
 }
 
 string Tram::verplaatsTram(string station) {
-    return std::__cxx11::string();
+    Tram::setHuidigStation(station);
+
+    string stationsNaam = this->getHuidigStation();
+
+    if(stationsNaam == ""){
+        stationsNaam = this->getBeginStation();
+    }
+
+    this->setHuidigStation(station);
+    string output = "Tram " + to_string(this->getVoertuigNr()) + " reed van station " + stationsNaam
+                    + " naar station " + station + "\n";
+    return output;
+}
+
+bool Tram::validStation(string type) {
+    return true;
+}
+
+bool Tram::isAlbatros() {
+    return false;
 }
 
 

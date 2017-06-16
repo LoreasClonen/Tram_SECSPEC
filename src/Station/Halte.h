@@ -11,7 +11,7 @@
 class Halte : public::Station {
 public:
     string typeString();
-    bool acceptingAlbatros();
+    bool isMetrostation();
 };
 
 
