@@ -1,4 +1,4 @@
-# Install script for directory: /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock
+# Install script for directory: /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,20 +33,20 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock_main.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/include/gmock")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include/gmock")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest/cmake_install.cmake")
+  include("/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/cmake_install.cmake")
 
 endif()
 
