@@ -156,12 +156,7 @@ public:
      */
     set<string> getPassagiers();
 
-
-    string getPlaats();
-
     virtual string typeString();
-
-    virtual bool validStation(string type);
 
     virtual string verplaatsTram(string station);
 

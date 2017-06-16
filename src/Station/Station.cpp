@@ -24,6 +24,7 @@ void Station::setNaam(string naam) {
             "Station wasn't initialized when calling setNaam.");
     ENSURE(naam != "","No empty string for Station Name allowed");
     Station::naam = naam;
+    REQUIRE(this->getNaam() == naam, "Station Name wasn't set correctly");
 }
 
 void Station::addPassagier(string passagier) {

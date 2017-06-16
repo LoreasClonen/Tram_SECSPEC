@@ -5,7 +5,6 @@
 #include "System.h"
 #include <memory>
 
-
 using namespace std;
 
 System::System() {
@@ -17,25 +16,45 @@ bool System::properlyInitialized() {
 }
 
 map<string, Station *> System::getStations() {
+    REQUIRE(this->properlyInitialized(),
+            "System wasn't initialized when calling getStations.");
     return stations;
 }
 
 map<int, Tram *> System::getTrams() {
+    REQUIRE(this->properlyInitialized(),
+            "System wasn't initialized when calling getTrams.");
     return trams;
 }
 
 void System::addStation(string naam, Station* station) {
-
-        System::stations[naam] = station;
+    REQUIRE(this->properlyInitialized(),
+            "System wasn't initialized when calling addStation.");
+    ENSURE(naam != "", "Empty Station Name is not allowed.");
+    ENSURE(station != NULL, "Station Object Pointer is NULL");
+    int setSize = stations.size();
+    System::stations[naam] = station;
+    REQUIRE(setSize + 1 == this->stations.size(), "Station wasn't correctly added to System");
 }
 
 void System::addTram(int lijnNr, Tram* tram){
+    REQUIRE(this->properlyInitialized(),
+            "System wasn't initialized when calling addTram.");
+    ENSURE(lijnNr > 0, "Empty Line Nr is not allowed.");
+    ENSURE(tram != NULL, "Tram Object Pointer is NULL");
+    int setSize = trams.size();
     System::trams[lijnNr] = tram;
+    REQUIRE(setSize + 1 == this->trams.size(), "Tram wasn't correctly added to System");
 }
 
 void System::addPassagier(string naam, Passagier* passagier) {
-
+    REQUIRE(this->properlyInitialized(),
+            "Station wasn't initialized when calling addPassagier.");
+    ENSURE(naam != "","No empty string for Passenger Name allowed");
+    ENSURE(passagier != NULL, "Passenger Object Pointer is NULL");
+    int setSize = this->getPassagiers().size();
     System::passagiers[naam] = passagier;
+    REQUIRE(setSize + 1 == this->getPassagiers().size(), "Passenger wasn't correctly added to Station.");
 }
 
 string System::Output(){

@@ -5,6 +5,8 @@
 #include "Albatros.h"
 
 bool Albatros::isAlbatros(){
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling isAlbatros.");
     return true;
 }
 
