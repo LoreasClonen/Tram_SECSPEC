@@ -161,7 +161,11 @@ public:
 
     virtual string typeString();
 
+    virtual bool validStation(string type);
+
     virtual string verplaatsTram(string station);
+
+    virtual bool isAlbatros();
 };
 
 

@@ -10,8 +10,7 @@
 
 class Albatros: public::Tram {
 public:
-    string verplaatsTram(string station);
-    bool validStation(string type);
+    bool isAlbatros();
     string typeString();
 };
 

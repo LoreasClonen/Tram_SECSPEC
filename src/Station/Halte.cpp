@@ -4,7 +4,7 @@
 
 #include "Halte.h"
 
-bool Halte::acceptingAlbatros() {
+bool Halte::isMetrostation(){
     REQUIRE(this->properlyInitialized(),
             "Station wasn't initialized when calling acceptingAlbatros.");
     return false;
