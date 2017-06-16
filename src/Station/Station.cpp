@@ -28,7 +28,6 @@ void Station::setNaam(string naam) {
 
 void Station::addPassagier(string passagier) {
     Station::passagier.insert(passagier);
-
 }
 
 set<string> Station::getPassagier() {

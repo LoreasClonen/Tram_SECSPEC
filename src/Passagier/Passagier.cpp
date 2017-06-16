@@ -27,6 +27,7 @@ void Passagier::setNaam(string naam) {
             "Passagier wasn't initialized when calling setNaam.");
     ENSURE(naam != "", "No empty string for Passenger Name allowed");
     Passagier::naam = naam;
+    REQUIRE(this->getNaam() == naam, "Passenger Name wasn't set correctly.");
 }
 
 string Passagier::getBeginStation() {
@@ -40,6 +41,7 @@ void Passagier::setBeginStation(string beginStation) {
             "Passagier wasn't initialized when calling setBeginStation.");
     ENSURE(beginStation != "", "No empty string for Starting Station allowed");
     Passagier::beginStation = beginStation;
+    REQUIRE(this->getBeginStation() == beginStation, "Passenger Starting Station wasn't set correctly.");
 }
 
 string Passagier::getEindStation() {
@@ -53,6 +55,7 @@ void Passagier::setEindStation(string eindStation) {
             "Passagier wasn't initialized when calling setEindStation.");
     ENSURE(eindStation != "", "No empty string for End Station allowed");
     Passagier::eindStation = eindStation;
+    REQUIRE(this->getEindStation() == eindStation, "Passenger End Station wasn't set correctly.");
 }
 
 int Passagier::getHoeveelheid() {
@@ -66,4 +69,5 @@ void Passagier::setHoeveelheid(int hoeveelheid) {
             "Passagier wasn't initialized when calling setHoeveelheid.");
     ENSURE(hoeveelheid > 0, "No negative amount of passengers allowed");
     Passagier::hoeveelheid = hoeveelheid;
+    REQUIRE(this->getHoeveelheid() == hoeveelheid, "Passenger Amount wasn't set correctly.");
 }

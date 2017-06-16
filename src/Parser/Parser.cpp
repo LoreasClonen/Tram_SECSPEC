@@ -32,8 +32,6 @@ bool Parser::is_number(const string& s)
                                       s.end(), [](char c) { return !isdigit(c); }) == s.end();
 }
 
-
-
 bool Parser::XmlParser(string inputFile) {
     ofstream outputFile;
     outputFile.open("LogFiles/parserLog.txt");
