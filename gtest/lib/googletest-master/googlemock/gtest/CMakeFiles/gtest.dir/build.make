@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/loreas/Documents/pse/Tram_SECSPEC
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/loreas/Documents/pse/Tram_SECSPEC
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # Include any dependencies generated for this target.
 include gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: gtest/lib/googletest-master/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest-all.cc
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_EXTERNAL_OBJECTS =
 gtest/lib/googletest-master/googlemock/gtest/libgtest.a: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 gtest/lib/googletest-master/googlemock/gtest/libgtest.a: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make
 gtest/lib/googletest-master/googlemock/gtest/libgtest.a: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
-	cd /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build: gtest/lib/googletest-master/googlemock/gtest/libgtest.a
@@ -105,10 +105,10 @@ gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/requires: gtes
 .PHONY : gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/requires
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/loreas/Documents/pse/Tram_SECSPEC /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest /home/loreas/Documents/pse/Tram_SECSPEC /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/loreas/Documents/pse/Tram_SECSPEC
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/loreas/Documents/pse/Tram_SECSPEC
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,6 +89,28 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -100,22 +122,11 @@ install/local/fast: install/local
 
 .PHONY : install/local/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -170,19 +181,6 @@ Tram_Netwerk_debug/fast:
 .PHONY : Tram_Netwerk_debug/fast
 
 #=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -194,6 +192,19 @@ gmock: cmake_check_build_system
 gmock/fast:
 	$(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
 
 #=============================================================================
 # Target rules for targets named gtest
@@ -812,12 +823,13 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... Tram_Netwerk"
 	@echo "... Tram_Netwerk_debug"
+	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... edit_cache"
-	@echo "... gmock_main"
 	@echo "... gmock"
+	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... Tests/SystemDomainTests.o"
