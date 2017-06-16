@@ -48,10 +48,10 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/uauser/CLionProjects/TRAm && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/TRAm/CMakeFiles /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/CMakeFiles/progress.marks
-	cd /home/uauser/CLionProjects/TRAm && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/TRAm/CMakeFiles 0
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/CMakeFiles/progress.marks
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/uauser/CLionProjects/TRAm && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,17 +141,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/uauser/CLionProjects/TRAm && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/uauser/CLionProjects/TRAm && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/uauser/CLionProjects/TRAm && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/uauser/CLionProjects/TRAm && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

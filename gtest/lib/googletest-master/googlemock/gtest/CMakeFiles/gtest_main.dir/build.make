@@ -43,10 +43,10 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # Include any dependencies generated for this target.
 include gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/f
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: gtest/lib/googletest-master/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest_main.cc
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_main_EXTERNAL_OBJECTS =
 gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a: gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
-	cd /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build: gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a
@@ -105,10 +105,10 @@ gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/requires:
 .PHONY : gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/requires
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
-	cd /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+	cd /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
 .PHONY : gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 
 gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/uauser/CLionProjects/TRAm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uauser/CLionProjects/TRAm /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googletest /home/uauser/CLionProjects/TRAm /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest /home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 

@@ -6,7 +6,7 @@
 using namespace std;
 
 #include "TestUtils.h"
-#include "../src/Parser/Parser.h"
+#include "../src/Parser.h"
 
 class SystemInputTests: public ::testing::Test {
 protected:

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googlemock/include -I/home/uauser/CLionProjects/TRAm/gtest/lib/googletest-master/googletest/include 
+CXX_INCLUDES = -I/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googlemock/include -I/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/include 
 

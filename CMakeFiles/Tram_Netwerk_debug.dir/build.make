@@ -43,10 +43,10 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Tram_Netwerk_debug.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Tram_Netwerk_debug.dir/flags.make
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o: Tests/SystemTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o -c /home/uauser/CLionProjects/TRAm/Tests/SystemTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemTests.cpp
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/Tests/SystemTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.i
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/Tests/SystemTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.s
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o.requires:
 
@@ -81,18 +81,282 @@ CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o.provides: CMakeFiles/T
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o
 
 
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o: src/System.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/System.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/System.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/System.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o: src/Station.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/Station.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/Station.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/Station.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o: src/Tram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/Tram.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/Tram.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/Tram.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o: src/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/Parser.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/Parser.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/Parser.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o: src/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/tinystr.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/tinystr.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/tinystr.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o: src/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o: src/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlerror.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlerror.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlerror.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o: src/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlparser.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlparser.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlparser.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o: Tests/TestUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/Tests/TestUtils.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/Tests/TestUtils.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/Tests/TestUtils.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o: src/Passagier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/Passagier.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/Passagier.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/Passagier.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o
+
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o: src/Spoor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/src/Spoor.cpp
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/src/Spoor.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.i
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/src/Spoor.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.s
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.requires:
+
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.requires
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.provides.build
+.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.provides
+
+CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o
+
+
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o: Tests/SystemDomainTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o -c /home/uauser/CLionProjects/TRAm/Tests/SystemDomainTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemDomainTests.cpp
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/Tests/SystemDomainTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemDomainTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.i
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/Tests/SystemDomainTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemDomainTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.s
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o.requires:
 
@@ -107,16 +371,16 @@ CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o.provides.build: 
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o: Tests/SystemInputTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o -c /home/uauser/CLionProjects/TRAm/Tests/SystemInputTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemInputTests.cpp
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/Tests/SystemInputTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemInputTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.i
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/Tests/SystemInputTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemInputTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.s
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o.requires:
 
@@ -131,16 +395,16 @@ CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o.provides.build: C
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o: Tests/SystemOutputTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o -c /home/uauser/CLionProjects/TRAm/Tests/SystemOutputTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o -c /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemOutputTests.cpp
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/Tests/SystemOutputTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemOutputTests.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.i
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/Tests/SystemOutputTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/Tram_Netwerk/Tests/SystemOutputTests.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.s
 
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o.requires:
 
@@ -153,414 +417,46 @@ CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o.provides: CMakeF
 CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o
 
 
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o: Tests/TestUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o -c /home/uauser/CLionProjects/TRAm/Tests/TestUtils.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/Tests/TestUtils.cpp > CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/Tests/TestUtils.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o: src/Parser/Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Parser/Parser.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Parser/Parser.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Parser/Parser.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o: src/System/System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o -c /home/uauser/CLionProjects/TRAm/src/System/System.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/System/System.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/System/System.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o: src/Spoor/Spoor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Spoor/Spoor.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Spoor/Spoor.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Spoor/Spoor.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o: src/Passagier/Passagier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Passagier/Passagier.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Passagier/Passagier.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Passagier/Passagier.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o: src/Station/Station.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Station/Station.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Station/Station.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Station/Station.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o: src/Station/Halte.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Station/Halte.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Station/Halte.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Station/Halte.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o: src/Station/Metrostation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Station/Metrostation.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Station/Metrostation.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Station/Metrostation.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o: src/Tram/Tram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Tram/Tram.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Tram/Tram.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Tram/Tram.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o: src/Tram/Albatros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Tram/Albatros.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Tram/Albatros.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Tram/Albatros.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o: src/Tram/PCC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o -c /home/uauser/CLionProjects/TRAm/src/Tram/PCC.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/Tram/PCC.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/Tram/PCC.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o: src/tinyxml/tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o -c /home/uauser/CLionProjects/TRAm/src/tinyxml/tinystr.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/tinyxml/tinystr.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/tinyxml/tinystr.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o: src/tinyxml/tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o -c /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxml.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxml.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxml.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o: src/tinyxml/tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o -c /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxmlerror.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxmlerror.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxmlerror.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o
-
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o: CMakeFiles/Tram_Netwerk_debug.dir/flags.make
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o: src/tinyxml/tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o -c /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxmlparser.cpp
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxmlparser.cpp > CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.i
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/uauser/CLionProjects/TRAm/src/tinyxml/tinyxmlparser.cpp -o CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.s
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.requires:
-
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.requires
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.provides: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.provides.build
-.PHONY : CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.provides
-
-CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.provides.build: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o
-
-
 # Object files for target Tram_Netwerk_debug
 Tram_Netwerk_debug_OBJECTS = \
 "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o" \
+"CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o" \
 "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o" \
 "CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o" \
-"CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o"
+"CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o"
 
 # External object files for target Tram_Netwerk_debug
 Tram_Netwerk_debug_EXTERNAL_OBJECTS =
 
 Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o
+Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o
 Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o
 Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o
 Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o
-Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o
 Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/build.make
 Tram_Netwerk_debug: gtest/lib/googletest-master/googlemock/gtest/libgtest.a
 Tram_Netwerk_debug: CMakeFiles/Tram_Netwerk_debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uauser/CLionProjects/TRAm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Tram_Netwerk_debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Tram_Netwerk_debug"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tram_Netwerk_debug.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -569,24 +465,20 @@ CMakeFiles/Tram_Netwerk_debug.dir/build: Tram_Netwerk_debug
 .PHONY : CMakeFiles/Tram_Netwerk_debug.dir/build
 
 CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemTests.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o.requires
+CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o.requires
 CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemDomainTests.cpp.o.requires
 CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemInputTests.cpp.o.requires
 CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/Tests/SystemOutputTests.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o.requires
-CMakeFiles/Tram_Netwerk_debug.dir/requires: CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o.requires
 
 .PHONY : CMakeFiles/Tram_Netwerk_debug.dir/requires
 
@@ -595,6 +487,6 @@ CMakeFiles/Tram_Netwerk_debug.dir/clean:
 .PHONY : CMakeFiles/Tram_Netwerk_debug.dir/clean
 
 CMakeFiles/Tram_Netwerk_debug.dir/depend:
-	cd /home/uauser/CLionProjects/TRAm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uauser/CLionProjects/TRAm /home/uauser/CLionProjects/TRAm /home/uauser/CLionProjects/TRAm /home/uauser/CLionProjects/TRAm /home/uauser/CLionProjects/TRAm/CMakeFiles/Tram_Netwerk_debug.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk_debug.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tram_Netwerk_debug.dir/depend
 

@@ -48,10 +48,10 @@ RM = /opt/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uauser/CLionProjects/TRAm
+CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/TRAm/CMakeFiles /home/uauser/CLionProjects/TRAm/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/TRAm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -367,305 +367,293 @@ Tests/TestUtils.cpp.s:
 	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/Tests/TestUtils.cpp.s
 .PHONY : Tests/TestUtils.cpp.s
 
-src/Parser/Parser.o: src/Parser/Parser.cpp.o
+src/Albatros.o: src/Albatros.cpp.o
 
-.PHONY : src/Parser/Parser.o
-
-# target to build an object file
-src/Parser/Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Parser/Parser.cpp.o
-.PHONY : src/Parser/Parser.cpp.o
-
-src/Parser/Parser.i: src/Parser/Parser.cpp.i
-
-.PHONY : src/Parser/Parser.i
-
-# target to preprocess a source file
-src/Parser/Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Parser/Parser.cpp.i
-.PHONY : src/Parser/Parser.cpp.i
-
-src/Parser/Parser.s: src/Parser/Parser.cpp.s
-
-.PHONY : src/Parser/Parser.s
-
-# target to generate assembly for a file
-src/Parser/Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser/Parser.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Parser/Parser.cpp.s
-.PHONY : src/Parser/Parser.cpp.s
-
-src/Passagier/Passagier.o: src/Passagier/Passagier.cpp.o
-
-.PHONY : src/Passagier/Passagier.o
+.PHONY : src/Albatros.o
 
 # target to build an object file
-src/Passagier/Passagier.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier/Passagier.cpp.o
-.PHONY : src/Passagier/Passagier.cpp.o
+src/Albatros.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Albatros.cpp.o
+.PHONY : src/Albatros.cpp.o
 
-src/Passagier/Passagier.i: src/Passagier/Passagier.cpp.i
+src/Albatros.i: src/Albatros.cpp.i
 
-.PHONY : src/Passagier/Passagier.i
+.PHONY : src/Albatros.i
 
 # target to preprocess a source file
-src/Passagier/Passagier.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier/Passagier.cpp.i
-.PHONY : src/Passagier/Passagier.cpp.i
+src/Albatros.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Albatros.cpp.i
+.PHONY : src/Albatros.cpp.i
 
-src/Passagier/Passagier.s: src/Passagier/Passagier.cpp.s
+src/Albatros.s: src/Albatros.cpp.s
 
-.PHONY : src/Passagier/Passagier.s
+.PHONY : src/Albatros.s
 
 # target to generate assembly for a file
-src/Passagier/Passagier.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier/Passagier.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier/Passagier.cpp.s
-.PHONY : src/Passagier/Passagier.cpp.s
+src/Albatros.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Albatros.cpp.s
+.PHONY : src/Albatros.cpp.s
 
-src/Spoor/Spoor.o: src/Spoor/Spoor.cpp.o
+src/Halte.o: src/Halte.cpp.o
 
-.PHONY : src/Spoor/Spoor.o
+.PHONY : src/Halte.o
 
 # target to build an object file
-src/Spoor/Spoor.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor/Spoor.cpp.o
-.PHONY : src/Spoor/Spoor.cpp.o
+src/Halte.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Halte.cpp.o
+.PHONY : src/Halte.cpp.o
 
-src/Spoor/Spoor.i: src/Spoor/Spoor.cpp.i
+src/Halte.i: src/Halte.cpp.i
 
-.PHONY : src/Spoor/Spoor.i
+.PHONY : src/Halte.i
 
 # target to preprocess a source file
-src/Spoor/Spoor.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor/Spoor.cpp.i
-.PHONY : src/Spoor/Spoor.cpp.i
+src/Halte.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Halte.cpp.i
+.PHONY : src/Halte.cpp.i
 
-src/Spoor/Spoor.s: src/Spoor/Spoor.cpp.s
+src/Halte.s: src/Halte.cpp.s
 
-.PHONY : src/Spoor/Spoor.s
+.PHONY : src/Halte.s
 
 # target to generate assembly for a file
-src/Spoor/Spoor.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor/Spoor.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor/Spoor.cpp.s
-.PHONY : src/Spoor/Spoor.cpp.s
+src/Halte.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Halte.cpp.s
+.PHONY : src/Halte.cpp.s
 
-src/Station/Halte.o: src/Station/Halte.cpp.o
+src/Metrostation.o: src/Metrostation.cpp.o
 
-.PHONY : src/Station/Halte.o
+.PHONY : src/Metrostation.o
 
 # target to build an object file
-src/Station/Halte.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Halte.cpp.o
-.PHONY : src/Station/Halte.cpp.o
+src/Metrostation.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Metrostation.cpp.o
+.PHONY : src/Metrostation.cpp.o
 
-src/Station/Halte.i: src/Station/Halte.cpp.i
+src/Metrostation.i: src/Metrostation.cpp.i
 
-.PHONY : src/Station/Halte.i
+.PHONY : src/Metrostation.i
 
 # target to preprocess a source file
-src/Station/Halte.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Halte.cpp.i
-.PHONY : src/Station/Halte.cpp.i
+src/Metrostation.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Metrostation.cpp.i
+.PHONY : src/Metrostation.cpp.i
 
-src/Station/Halte.s: src/Station/Halte.cpp.s
+src/Metrostation.s: src/Metrostation.cpp.s
 
-.PHONY : src/Station/Halte.s
+.PHONY : src/Metrostation.s
 
 # target to generate assembly for a file
-src/Station/Halte.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Halte.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Halte.cpp.s
-.PHONY : src/Station/Halte.cpp.s
+src/Metrostation.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Metrostation.cpp.s
+.PHONY : src/Metrostation.cpp.s
 
-src/Station/Metrostation.o: src/Station/Metrostation.cpp.o
+src/PCC.o: src/PCC.cpp.o
 
-.PHONY : src/Station/Metrostation.o
+.PHONY : src/PCC.o
 
 # target to build an object file
-src/Station/Metrostation.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Metrostation.cpp.o
-.PHONY : src/Station/Metrostation.cpp.o
+src/PCC.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/PCC.cpp.o
+.PHONY : src/PCC.cpp.o
 
-src/Station/Metrostation.i: src/Station/Metrostation.cpp.i
+src/PCC.i: src/PCC.cpp.i
 
-.PHONY : src/Station/Metrostation.i
+.PHONY : src/PCC.i
 
 # target to preprocess a source file
-src/Station/Metrostation.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Metrostation.cpp.i
-.PHONY : src/Station/Metrostation.cpp.i
+src/PCC.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/PCC.cpp.i
+.PHONY : src/PCC.cpp.i
 
-src/Station/Metrostation.s: src/Station/Metrostation.cpp.s
+src/PCC.s: src/PCC.cpp.s
 
-.PHONY : src/Station/Metrostation.s
+.PHONY : src/PCC.s
 
 # target to generate assembly for a file
-src/Station/Metrostation.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Metrostation.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Metrostation.cpp.s
-.PHONY : src/Station/Metrostation.cpp.s
+src/PCC.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/PCC.cpp.s
+.PHONY : src/PCC.cpp.s
 
-src/Station/Station.o: src/Station/Station.cpp.o
+src/Parser.o: src/Parser.cpp.o
 
-.PHONY : src/Station/Station.o
+.PHONY : src/Parser.o
 
 # target to build an object file
-src/Station/Station.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Station.cpp.o
-.PHONY : src/Station/Station.cpp.o
+src/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Parser.cpp.o
+.PHONY : src/Parser.cpp.o
 
-src/Station/Station.i: src/Station/Station.cpp.i
+src/Parser.i: src/Parser.cpp.i
 
-.PHONY : src/Station/Station.i
+.PHONY : src/Parser.i
 
 # target to preprocess a source file
-src/Station/Station.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Station.cpp.i
-.PHONY : src/Station/Station.cpp.i
+src/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Parser.cpp.i
+.PHONY : src/Parser.cpp.i
 
-src/Station/Station.s: src/Station/Station.cpp.s
+src/Parser.s: src/Parser.cpp.s
 
-.PHONY : src/Station/Station.s
+.PHONY : src/Parser.s
 
 # target to generate assembly for a file
-src/Station/Station.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station/Station.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station/Station.cpp.s
-.PHONY : src/Station/Station.cpp.s
+src/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Parser.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Parser.cpp.s
+.PHONY : src/Parser.cpp.s
 
-src/System/System.o: src/System/System.cpp.o
+src/Passagier.o: src/Passagier.cpp.o
 
-.PHONY : src/System/System.o
+.PHONY : src/Passagier.o
 
 # target to build an object file
-src/System/System.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/System/System.cpp.o
-.PHONY : src/System/System.cpp.o
+src/Passagier.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier.cpp.o
+.PHONY : src/Passagier.cpp.o
 
-src/System/System.i: src/System/System.cpp.i
+src/Passagier.i: src/Passagier.cpp.i
 
-.PHONY : src/System/System.i
+.PHONY : src/Passagier.i
 
 # target to preprocess a source file
-src/System/System.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/System/System.cpp.i
-.PHONY : src/System/System.cpp.i
+src/Passagier.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier.cpp.i
+.PHONY : src/Passagier.cpp.i
 
-src/System/System.s: src/System/System.cpp.s
+src/Passagier.s: src/Passagier.cpp.s
 
-.PHONY : src/System/System.s
+.PHONY : src/Passagier.s
 
 # target to generate assembly for a file
-src/System/System.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System/System.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/System/System.cpp.s
-.PHONY : src/System/System.cpp.s
+src/Passagier.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Passagier.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Passagier.cpp.s
+.PHONY : src/Passagier.cpp.s
 
-src/Tram/Albatros.o: src/Tram/Albatros.cpp.o
+src/Spoor.o: src/Spoor.cpp.o
 
-.PHONY : src/Tram/Albatros.o
+.PHONY : src/Spoor.o
 
 # target to build an object file
-src/Tram/Albatros.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/Albatros.cpp.o
-.PHONY : src/Tram/Albatros.cpp.o
+src/Spoor.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.o
+.PHONY : src/Spoor.cpp.o
 
-src/Tram/Albatros.i: src/Tram/Albatros.cpp.i
+src/Spoor.i: src/Spoor.cpp.i
 
-.PHONY : src/Tram/Albatros.i
+.PHONY : src/Spoor.i
 
 # target to preprocess a source file
-src/Tram/Albatros.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/Albatros.cpp.i
-.PHONY : src/Tram/Albatros.cpp.i
+src/Spoor.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.i
+.PHONY : src/Spoor.cpp.i
 
-src/Tram/Albatros.s: src/Tram/Albatros.cpp.s
+src/Spoor.s: src/Spoor.cpp.s
 
-.PHONY : src/Tram/Albatros.s
+.PHONY : src/Spoor.s
 
 # target to generate assembly for a file
-src/Tram/Albatros.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Albatros.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/Albatros.cpp.s
-.PHONY : src/Tram/Albatros.cpp.s
+src/Spoor.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Spoor.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.s
+.PHONY : src/Spoor.cpp.s
 
-src/Tram/PCC.o: src/Tram/PCC.cpp.o
+src/Station.o: src/Station.cpp.o
 
-.PHONY : src/Tram/PCC.o
+.PHONY : src/Station.o
 
 # target to build an object file
-src/Tram/PCC.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/PCC.cpp.o
-.PHONY : src/Tram/PCC.cpp.o
+src/Station.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station.cpp.o
+.PHONY : src/Station.cpp.o
 
-src/Tram/PCC.i: src/Tram/PCC.cpp.i
+src/Station.i: src/Station.cpp.i
 
-.PHONY : src/Tram/PCC.i
+.PHONY : src/Station.i
 
 # target to preprocess a source file
-src/Tram/PCC.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/PCC.cpp.i
-.PHONY : src/Tram/PCC.cpp.i
+src/Station.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station.cpp.i
+.PHONY : src/Station.cpp.i
 
-src/Tram/PCC.s: src/Tram/PCC.cpp.s
+src/Station.s: src/Station.cpp.s
 
-.PHONY : src/Tram/PCC.s
+.PHONY : src/Station.s
 
 # target to generate assembly for a file
-src/Tram/PCC.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/PCC.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/PCC.cpp.s
-.PHONY : src/Tram/PCC.cpp.s
+src/Station.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Station.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Station.cpp.s
+.PHONY : src/Station.cpp.s
 
-src/Tram/Tram.o: src/Tram/Tram.cpp.o
+src/System.o: src/System.cpp.o
 
-.PHONY : src/Tram/Tram.o
+.PHONY : src/System.o
 
 # target to build an object file
-src/Tram/Tram.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/Tram.cpp.o
-.PHONY : src/Tram/Tram.cpp.o
+src/System.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/System.cpp.o
+.PHONY : src/System.cpp.o
 
-src/Tram/Tram.i: src/Tram/Tram.cpp.i
+src/System.i: src/System.cpp.i
 
-.PHONY : src/Tram/Tram.i
+.PHONY : src/System.i
 
 # target to preprocess a source file
-src/Tram/Tram.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/Tram.cpp.i
-.PHONY : src/Tram/Tram.cpp.i
+src/System.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/System.cpp.i
+.PHONY : src/System.cpp.i
 
-src/Tram/Tram.s: src/Tram/Tram.cpp.s
+src/System.s: src/System.cpp.s
 
-.PHONY : src/Tram/Tram.s
+.PHONY : src/System.s
 
 # target to generate assembly for a file
-src/Tram/Tram.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram/Tram.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram/Tram.cpp.s
-.PHONY : src/Tram/Tram.cpp.s
+src/System.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/System.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/System.cpp.s
+.PHONY : src/System.cpp.s
+
+src/Tram.o: src/Tram.cpp.o
+
+.PHONY : src/Tram.o
+
+# target to build an object file
+src/Tram.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram.cpp.o
+.PHONY : src/Tram.cpp.o
+
+src/Tram.i: src/Tram.cpp.i
+
+.PHONY : src/Tram.i
+
+# target to preprocess a source file
+src/Tram.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram.cpp.i
+.PHONY : src/Tram.cpp.i
+
+src/Tram.s: src/Tram.cpp.s
+
+.PHONY : src/Tram.s
+
+# target to generate assembly for a file
+src/Tram.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/Tram.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/Tram.cpp.s
+.PHONY : src/Tram.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -694,125 +682,125 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/tinyxml/tinystr.o: src/tinyxml/tinystr.cpp.o
+src/tinystr.o: src/tinystr.cpp.o
 
-.PHONY : src/tinyxml/tinystr.o
-
-# target to build an object file
-src/tinyxml/tinystr.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinystr.cpp.o
-.PHONY : src/tinyxml/tinystr.cpp.o
-
-src/tinyxml/tinystr.i: src/tinyxml/tinystr.cpp.i
-
-.PHONY : src/tinyxml/tinystr.i
-
-# target to preprocess a source file
-src/tinyxml/tinystr.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinystr.cpp.i
-.PHONY : src/tinyxml/tinystr.cpp.i
-
-src/tinyxml/tinystr.s: src/tinyxml/tinystr.cpp.s
-
-.PHONY : src/tinyxml/tinystr.s
-
-# target to generate assembly for a file
-src/tinyxml/tinystr.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinystr.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinystr.cpp.s
-.PHONY : src/tinyxml/tinystr.cpp.s
-
-src/tinyxml/tinyxml.o: src/tinyxml/tinyxml.cpp.o
-
-.PHONY : src/tinyxml/tinyxml.o
+.PHONY : src/tinystr.o
 
 # target to build an object file
-src/tinyxml/tinyxml.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxml.cpp.o
-.PHONY : src/tinyxml/tinyxml.cpp.o
+src/tinystr.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinystr.cpp.o
+.PHONY : src/tinystr.cpp.o
 
-src/tinyxml/tinyxml.i: src/tinyxml/tinyxml.cpp.i
+src/tinystr.i: src/tinystr.cpp.i
 
-.PHONY : src/tinyxml/tinyxml.i
+.PHONY : src/tinystr.i
 
 # target to preprocess a source file
-src/tinyxml/tinyxml.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxml.cpp.i
-.PHONY : src/tinyxml/tinyxml.cpp.i
+src/tinystr.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinystr.cpp.i
+.PHONY : src/tinystr.cpp.i
 
-src/tinyxml/tinyxml.s: src/tinyxml/tinyxml.cpp.s
+src/tinystr.s: src/tinystr.cpp.s
 
-.PHONY : src/tinyxml/tinyxml.s
+.PHONY : src/tinystr.s
 
 # target to generate assembly for a file
-src/tinyxml/tinyxml.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxml.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxml.cpp.s
-.PHONY : src/tinyxml/tinyxml.cpp.s
+src/tinystr.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinystr.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinystr.cpp.s
+.PHONY : src/tinystr.cpp.s
 
-src/tinyxml/tinyxmlerror.o: src/tinyxml/tinyxmlerror.cpp.o
+src/tinyxml.o: src/tinyxml.cpp.o
 
-.PHONY : src/tinyxml/tinyxmlerror.o
+.PHONY : src/tinyxml.o
 
 # target to build an object file
-src/tinyxml/tinyxmlerror.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlerror.cpp.o
-.PHONY : src/tinyxml/tinyxmlerror.cpp.o
+src/tinyxml.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml.cpp.o
+.PHONY : src/tinyxml.cpp.o
 
-src/tinyxml/tinyxmlerror.i: src/tinyxml/tinyxmlerror.cpp.i
+src/tinyxml.i: src/tinyxml.cpp.i
 
-.PHONY : src/tinyxml/tinyxmlerror.i
+.PHONY : src/tinyxml.i
 
 # target to preprocess a source file
-src/tinyxml/tinyxmlerror.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlerror.cpp.i
-.PHONY : src/tinyxml/tinyxmlerror.cpp.i
+src/tinyxml.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml.cpp.i
+.PHONY : src/tinyxml.cpp.i
 
-src/tinyxml/tinyxmlerror.s: src/tinyxml/tinyxmlerror.cpp.s
+src/tinyxml.s: src/tinyxml.cpp.s
 
-.PHONY : src/tinyxml/tinyxmlerror.s
+.PHONY : src/tinyxml.s
 
 # target to generate assembly for a file
-src/tinyxml/tinyxmlerror.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlerror.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlerror.cpp.s
-.PHONY : src/tinyxml/tinyxmlerror.cpp.s
+src/tinyxml.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml.cpp.s
+.PHONY : src/tinyxml.cpp.s
 
-src/tinyxml/tinyxmlparser.o: src/tinyxml/tinyxmlparser.cpp.o
+src/tinyxmlerror.o: src/tinyxmlerror.cpp.o
 
-.PHONY : src/tinyxml/tinyxmlparser.o
+.PHONY : src/tinyxmlerror.o
 
 # target to build an object file
-src/tinyxml/tinyxmlparser.cpp.o:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.o
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlparser.cpp.o
-.PHONY : src/tinyxml/tinyxmlparser.cpp.o
+src/tinyxmlerror.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxmlerror.cpp.o
+.PHONY : src/tinyxmlerror.cpp.o
 
-src/tinyxml/tinyxmlparser.i: src/tinyxml/tinyxmlparser.cpp.i
+src/tinyxmlerror.i: src/tinyxmlerror.cpp.i
 
-.PHONY : src/tinyxml/tinyxmlparser.i
+.PHONY : src/tinyxmlerror.i
 
 # target to preprocess a source file
-src/tinyxml/tinyxmlparser.cpp.i:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.i
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlparser.cpp.i
-.PHONY : src/tinyxml/tinyxmlparser.cpp.i
+src/tinyxmlerror.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxmlerror.cpp.i
+.PHONY : src/tinyxmlerror.cpp.i
 
-src/tinyxml/tinyxmlparser.s: src/tinyxml/tinyxmlparser.cpp.s
+src/tinyxmlerror.s: src/tinyxmlerror.cpp.s
 
-.PHONY : src/tinyxml/tinyxmlparser.s
+.PHONY : src/tinyxmlerror.s
 
 # target to generate assembly for a file
-src/tinyxml/tinyxmlparser.cpp.s:
-	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxml/tinyxmlparser.cpp.s
-	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlparser.cpp.s
-.PHONY : src/tinyxml/tinyxmlparser.cpp.s
+src/tinyxmlerror.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlerror.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxmlerror.cpp.s
+.PHONY : src/tinyxmlerror.cpp.s
+
+src/tinyxmlparser.o: src/tinyxmlparser.cpp.o
+
+.PHONY : src/tinyxmlparser.o
+
+# target to build an object file
+src/tinyxmlparser.cpp.o:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.o
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxmlparser.cpp.o
+.PHONY : src/tinyxmlparser.cpp.o
+
+src/tinyxmlparser.i: src/tinyxmlparser.cpp.i
+
+.PHONY : src/tinyxmlparser.i
+
+# target to preprocess a source file
+src/tinyxmlparser.cpp.i:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.i
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxmlparser.cpp.i
+.PHONY : src/tinyxmlparser.cpp.i
+
+src/tinyxmlparser.s: src/tinyxmlparser.cpp.s
+
+.PHONY : src/tinyxmlparser.s
+
+# target to generate assembly for a file
+src/tinyxmlparser.cpp.s:
+	$(MAKE) -f CMakeFiles/Tram_Netwerk_debug.dir/build.make CMakeFiles/Tram_Netwerk_debug.dir/src/tinyxmlparser.cpp.s
+	$(MAKE) -f CMakeFiles/Tram_Netwerk.dir/build.make CMakeFiles/Tram_Netwerk.dir/src/tinyxmlparser.cpp.s
+.PHONY : src/tinyxmlparser.cpp.s
 
 # Help Target
 help:
@@ -847,51 +835,51 @@ help:
 	@echo "... Tests/TestUtils.o"
 	@echo "... Tests/TestUtils.i"
 	@echo "... Tests/TestUtils.s"
-	@echo "... src/Parser/Parser.o"
-	@echo "... src/Parser/Parser.i"
-	@echo "... src/Parser/Parser.s"
-	@echo "... src/Passagier/Passagier.o"
-	@echo "... src/Passagier/Passagier.i"
-	@echo "... src/Passagier/Passagier.s"
-	@echo "... src/Spoor/Spoor.o"
-	@echo "... src/Spoor/Spoor.i"
-	@echo "... src/Spoor/Spoor.s"
-	@echo "... src/Station/Halte.o"
-	@echo "... src/Station/Halte.i"
-	@echo "... src/Station/Halte.s"
-	@echo "... src/Station/Metrostation.o"
-	@echo "... src/Station/Metrostation.i"
-	@echo "... src/Station/Metrostation.s"
-	@echo "... src/Station/Station.o"
-	@echo "... src/Station/Station.i"
-	@echo "... src/Station/Station.s"
-	@echo "... src/System/System.o"
-	@echo "... src/System/System.i"
-	@echo "... src/System/System.s"
-	@echo "... src/Tram/Albatros.o"
-	@echo "... src/Tram/Albatros.i"
-	@echo "... src/Tram/Albatros.s"
-	@echo "... src/Tram/PCC.o"
-	@echo "... src/Tram/PCC.i"
-	@echo "... src/Tram/PCC.s"
-	@echo "... src/Tram/Tram.o"
-	@echo "... src/Tram/Tram.i"
-	@echo "... src/Tram/Tram.s"
+	@echo "... src/Albatros.o"
+	@echo "... src/Albatros.i"
+	@echo "... src/Albatros.s"
+	@echo "... src/Halte.o"
+	@echo "... src/Halte.i"
+	@echo "... src/Halte.s"
+	@echo "... src/Metrostation.o"
+	@echo "... src/Metrostation.i"
+	@echo "... src/Metrostation.s"
+	@echo "... src/PCC.o"
+	@echo "... src/PCC.i"
+	@echo "... src/PCC.s"
+	@echo "... src/Parser.o"
+	@echo "... src/Parser.i"
+	@echo "... src/Parser.s"
+	@echo "... src/Passagier.o"
+	@echo "... src/Passagier.i"
+	@echo "... src/Passagier.s"
+	@echo "... src/Spoor.o"
+	@echo "... src/Spoor.i"
+	@echo "... src/Spoor.s"
+	@echo "... src/Station.o"
+	@echo "... src/Station.i"
+	@echo "... src/Station.s"
+	@echo "... src/System.o"
+	@echo "... src/System.i"
+	@echo "... src/System.s"
+	@echo "... src/Tram.o"
+	@echo "... src/Tram.i"
+	@echo "... src/Tram.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/tinyxml/tinystr.o"
-	@echo "... src/tinyxml/tinystr.i"
-	@echo "... src/tinyxml/tinystr.s"
-	@echo "... src/tinyxml/tinyxml.o"
-	@echo "... src/tinyxml/tinyxml.i"
-	@echo "... src/tinyxml/tinyxml.s"
-	@echo "... src/tinyxml/tinyxmlerror.o"
-	@echo "... src/tinyxml/tinyxmlerror.i"
-	@echo "... src/tinyxml/tinyxmlerror.s"
-	@echo "... src/tinyxml/tinyxmlparser.o"
-	@echo "... src/tinyxml/tinyxmlparser.i"
-	@echo "... src/tinyxml/tinyxmlparser.s"
+	@echo "... src/tinystr.o"
+	@echo "... src/tinystr.i"
+	@echo "... src/tinystr.s"
+	@echo "... src/tinyxml.o"
+	@echo "... src/tinyxml.i"
+	@echo "... src/tinyxml.s"
+	@echo "... src/tinyxmlerror.o"
+	@echo "... src/tinyxmlerror.i"
+	@echo "... src/tinyxmlerror.s"
+	@echo "... src/tinyxmlparser.o"
+	@echo "... src/tinyxmlparser.i"
+	@echo "... src/tinyxmlparser.s"
 .PHONY : help
 
 
