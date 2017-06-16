@@ -14,7 +14,6 @@ int main(){
     System* system = parser.getSystem();
     system->properlyparsed();
     system->Output();
-//    system->autoSimulation();
-
+    system->autoSimulation();
 }
 

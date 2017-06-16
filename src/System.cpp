@@ -152,9 +152,7 @@ bool System::checkTram(Tram* tram, Station* station, Passagier* passagier){
 }
 
 string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string output){
-
     for(auto it_tram: trams){
-
         if(it_tram.second->getHuidigStation() != it_tram.second->getBeginStation()){
             string huidigStation;
             if(it_tram.second->getHuidigStation() == ""){
@@ -163,6 +161,7 @@ string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string outp
             else{
                 huidigStation = it_tram.second->getHuidigStation();
             }
+
             // Afstappen
             if(it_tram.second->getPassagiers().size() != 0){
                 set<string> copy_passagiers = it_tram.second->getPassagiers();
@@ -182,7 +181,7 @@ string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string outp
                                  passagiers.find(passagier)->second)){
                         if(huidigStation != passagiers.find(passagier)->second->getEindStation()) {
                             output += it_tram.second->addPassagiers(passagier,
-                                                                    passagiers.find(passagier)->second->getHoeveelheid(), huidigStation);
+                                             passagiers.find(passagier)->second->getHoeveelheid(), huidigStation);
                             stations.find(huidigStation)->second->removePassagier(passagier);
                         }
                     }
@@ -203,30 +202,26 @@ string System::help_ronde_rijden(int aantal_klaar, int aantal_trams, string outp
             string volgende = volgendStation->getNaam();
 
             output += it_tram.second->verplaatsTram(volgende);
+            cout << "TEST" << endl;
         }
         else{
+            cout << "TEST!" << endl;
             aantal_klaar += 1;
         }
     }
     if(aantal_klaar < aantal_trams){
-
         return help_ronde_rijden(aantal_klaar,aantal_trams, output);
     }
     else{
         return output;
     }
-
 }
 
 string System::ronde_rijden() {
-    for(auto c : System::stations){
-        cout << c.second->typeString() << endl;
-    }
-
     int aantal_klaar = 0;
     int aantal_trams = trams.size();
     string output = "";
-    output = help_ronde_rijden(aantal_klaar,aantal_trams,output); // CONTROLEREN!!
+    output = help_ronde_rijden(aantal_klaar,aantal_trams,output);
     // alle huidige stations leeg zetten voor sys reset
     for(auto it_trams : trams){
         it_trams.second->setHuidigStation("");
