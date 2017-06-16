@@ -1,4 +1,7 @@
 
-CMakeCache.txt
-
-
+.git/
+.idea/
+cmake-build-debug/
+*.o
+*.a
+CMakeFiles/
