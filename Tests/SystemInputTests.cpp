@@ -43,69 +43,69 @@ TEST_F(SystemInputTests, ProperlyParsed) {
 // Station Class Tests
 TEST_F(SystemInputTests, EmptyStationName){
     parser.XmlParser("testInput/StationsNaam.xml");
-    EXPECT_TRUE(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/StationsNaam.txt" ));
 }
 
 TEST_F(SystemInputTests, EmptyStationType){
     parser.XmlParser("testInput/StationsType.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/StationsType.txt" ));
 }
 
 // Track Class Tests
 TEST_F(SystemInputTests, EmptyPrevStation){
     parser.XmlParser("testInput/VorigStation.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/VorigStation.txt" ));
 }
 
 TEST_F(SystemInputTests, EmptyNextStation){
     parser.XmlParser("testInput/VolgendStation.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/VolgendStation.txt" ));
 }
 
 TEST_F(SystemInputTests, EmptyStationTrack){
     parser.XmlParser("testInput/StationSpoor.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/StationSpoor.txt" ));
 }
 
 TEST_F(SystemInputTests, NegativeStationTrack){
     parser.XmlParser("testInput/N_StationSpoor.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/N_StationSpoor.txt" ));
 }
 
 TEST_F(SystemInputTests, L_StationTrack){
     parser.XmlParser("testInput/L_StationSpoor.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/L_StationSpoor.txt" ));
 }
 
 // Tram Class Tests
 TEST_F(SystemInputTests, EmptyLineNr){
     parser.XmlParser("testInput/TramLijnNr.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/TramLijnNr.txt" ));
 }
 
 TEST_F(SystemInputTests, NegativeLineNr){
     parser.XmlParser("testInput/N_TramLijnNr.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/N_TramLijnNr.txt" ));
 }
 
 TEST_F(SystemInputTests, L_LineNr){
     parser.XmlParser("testInput/L_TramLijnNr.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/L_TramLijnNr.txt" ));
 }
 
 TEST_F(SystemInputTests, EmptySeats){
     parser.XmlParser("testInput/TramZitplaatsen.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/TramZitPlaatsen.txt" ));
 }
 
 TEST_F(SystemInputTests, NegativeSeats){
     parser.XmlParser("testInput/N_TramZitplaatsen.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/N_TramZitplaatsen.txt" ));
 }
 
 TEST_F(SystemInputTests, L_Seats){
     parser.XmlParser("testInput/L_TramZitplaatsen.xml");
-    EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/L_TramZitplaatsen.txt" ));
 }
 
 TEST_F(SystemInputTests, EmptySpeed){

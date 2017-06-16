@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/uauser/CLionProjects/Tram_Netwerk
+CMAKE_SOURCE_DIR = /home/loreas/Documents/pse/Tram_SECSPEC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/uauser/CLionProjects/Tram_Netwerk
+CMAKE_BINARY_DIR = /home/loreas/Documents/pse/Tram_SECSPEC
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,8 +113,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles /home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/CMakeFiles/progress.marks
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles 0
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles /home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/CMakeFiles/progress.marks
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/loreas/Documents/pse/Tram_SECSPEC/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,17 +141,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(MAKE) -f CMakeFiles/Makefile2 gtest/lib/googletest-master/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/uauser/CLionProjects/Tram_Netwerk && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/loreas/Documents/pse/Tram_SECSPEC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
