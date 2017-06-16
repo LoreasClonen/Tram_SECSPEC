@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Albatros.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Albatros.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Halte.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Halte.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Metrostation.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Metrostation.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/PCC.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/PCC.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Parser.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Parser.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Passagier.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Passagier.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Spoor.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Spoor.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Station.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Station.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/System.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/System.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/Tram.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Tram.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Parser/Parser.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Parser/Parser.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Passagier/Passagier.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Passagier/Passagier.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Spoor/Spoor.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Spoor/Spoor.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Halte.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Station/Halte.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Metrostation.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Station/Metrostation.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Station.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Station/Station.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/System/System.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/System/System.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/Albatros.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Tram/Albatros.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/PCC.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Tram/PCC.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/Tram.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/Tram/Tram.cpp.o"
   "/home/uauser/CLionProjects/Tram_Netwerk/src/main.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/main.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinystr.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinystr.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxml.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlerror.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxmlerror.cpp.o"
-  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlparser.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxmlparser.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinystr.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinystr.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxml.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxml.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxmlerror.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlerror.cpp.o"
+  "/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxmlparser.cpp" "/home/uauser/CLionProjects/Tram_Netwerk/CMakeFiles/Tram_Netwerk.dir/src/tinyxml/tinyxmlparser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

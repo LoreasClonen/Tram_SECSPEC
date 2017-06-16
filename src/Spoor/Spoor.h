@@ -13,7 +13,7 @@
 #define TRAM_NETWERK_SPOOR_H
 
 #include <iostream>
-#include "DesignByContract.h"
+#include "../DesignByContract.h"
 
 using namespace std;
 

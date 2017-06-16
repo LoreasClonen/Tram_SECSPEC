@@ -12,13 +12,13 @@
 #ifndef TRAM_NETWERK_SYSTEM_H
 #define TRAM_NETWERK_SYSTEM_H
 
-#include "Station.h"
-#include "Tram.h"
-#include "Passagier.h"
+#include "../Station/Station.h"
+#include "../Tram/Tram.h"
+#include "../Passagier/Passagier.h"
 #include <iostream>
 #include <map>
 #include <fstream>
-#include "DesignByContract.h"
+#include "../DesignByContract.h"
 
 using namespace std;
 

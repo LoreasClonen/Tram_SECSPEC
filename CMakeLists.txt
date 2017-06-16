@@ -3,14 +3,14 @@ project(Tram_Netwerk)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(RELEASE_SOURCE_FILES src/main.cpp src/Station src/System src/Tram src/Parser.cpp src/DesignByContract
-        src/tinystr src/tinyxml src/tinyxmlerror.cpp src/tinyxmlparser.cpp src/Parser.h src/Passagier.cpp src/Passagier.h
-        src/Metrostation src/Halte src/Spoor.cpp src/Spoor.h src/Albatros.cpp src/Albatros.h src/PCC.cpp)
+set(RELEASE_SOURCE_FILES src/main.cpp src/System/System src/Station/Station src/Parser/Parser src/DesignByContract
+        src/tinyxml/tinystr src/tinyxml/tinyxml src/tinyxml/tinyxmlerror src/tinyxml/tinyxmlparser src/Tram/PCC
+        src/Passagier/Passagier src/Spoor/Spoor src/Station/Metrostation src/Station/Halte src/Tram/Tram src/Tram/Albatros)
 
-set(DEBUG_SOURCE_FILES Tests/SystemTests.cpp src/System.cpp src/Station src/System src/Tram src/Parser.cpp src/DesignByContract
-        src/tinystr src/tinyxml src/tinyxmlerror.cpp src/tinyxmlparser.cpp src/Parser.h Tests/TestUtils.cpp Tests/TestUtils.h
-        src/Passagier.cpp src/Passagier.h src/Spoor.cpp src/Spoor.h
-        Tests/SystemDomainTests.cpp Tests/SystemInputTests.cpp Tests/SystemOutputTests.cpp)
+set(DEBUG_SOURCE_FILES Tests/SystemTests.cpp src/System/System src/Station/Station src/Parser/Parser src/DesignByContract
+        src/tinyxml/tinystr src/tinyxml/tinyxml src/tinyxml/tinyxmlerror src/tinyxml/tinyxmlparser Tests/TestUtils
+        src/Passagier/Passagier src/Spoor/Spoor src/Station/Metrostation src/Station/Halte src/Tram/Tram src/Tram/Albatros
+        src/Tram/PCC Tests/SystemDomainTests.cpp Tests/SystemInputTests.cpp Tests/SystemOutputTests.cpp)
 
 add_executable(Tram_Netwerk ${RELEASE_SOURCE_FILES})
 
@@ -21,5 +21,4 @@ include_directories(gtest/lib/googletest-master/googlemock/include)
 link_directories(gtest/lib)
 target_link_libraries(Tram_Netwerk gtest gtest_main)
 target_link_libraries(Tram_Netwerk_debug gtest)
-
 

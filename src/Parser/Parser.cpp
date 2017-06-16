@@ -3,10 +3,10 @@
 //
 
 #include "Parser.h"
-#include "Metrostation.h"
-#include "Halte.h"
-#include "Albatros.h"
-#include "PCC.h"
+#include "../Station/Metrostation.h"
+#include "../Station/Halte.h"
+#include "../Tram/Albatros.h"
+#include "../Tram/PCC.h"
 #include <iostream>
 #include <fstream>
 #include <algorithm>

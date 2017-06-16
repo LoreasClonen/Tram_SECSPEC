@@ -15,8 +15,8 @@
 #include <iostream>
 #include <set>
 #include <map>
-#include "DesignByContract.h"
-#include "Spoor.h"
+#include "../DesignByContract.h"
+#include "../Spoor/Spoor.h"
 
 using namespace std;
 

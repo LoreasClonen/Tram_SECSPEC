@@ -419,106 +419,114 @@
 		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/gtest/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Albatros.cpp">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Albatros.h">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
 		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/DesignByContract.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Halte.cpp">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Halte.h">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Metrostation.cpp">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Metrostation.h">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/PCC.cpp">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/PCC.h">
-			<Option target="Tram_Netwerk"/>
-		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Parser.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Parser/Parser.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Parser.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Parser/Parser.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Passagier.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Passagier/Passagier.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Passagier.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Passagier/Passagier.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Spoor.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Spoor/Spoor.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Spoor.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Spoor/Spoor.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Halte.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Halte.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/System.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Metrostation.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/System.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Metrostation.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Station.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Station/Station.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/System/System.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/System/System.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/Albatros.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/Albatros.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/PCC.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/PCC.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/Tram.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/Tram/Tram.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
 		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/main.cpp">
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinystr.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinystr.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinystr.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinystr.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxml.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml.h">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxml.h">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlerror.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxmlerror.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>
-		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxmlparser.cpp">
+		<Unit filename="/home/uauser/CLionProjects/Tram_Netwerk/src/tinyxml/tinyxmlparser.cpp">
 			<Option target="Tram_Netwerk_debug"/>
 			<Option target="Tram_Netwerk"/>
 		</Unit>

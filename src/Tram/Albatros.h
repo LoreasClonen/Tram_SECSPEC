@@ -6,7 +6,7 @@
 #define TRAM_NETWERK_ALBATROS_H
 
 #include "Tram.h"
-#include "Station.h"
+#include "../Station/Station.h"
 
 class Albatros: public::Tram {
 public:

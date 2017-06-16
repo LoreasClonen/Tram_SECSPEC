@@ -14,8 +14,8 @@
 
 #include <iostream>
 #include <set>
-#include "DesignByContract.h"
-#include "Passagier.h"
+#include "../DesignByContract.h"
+#include "../Passagier/Passagier.h"
 
 using namespace std;
 
