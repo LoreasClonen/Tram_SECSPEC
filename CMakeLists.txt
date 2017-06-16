@@ -3,13 +3,13 @@ project(Tram_Netwerk)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(RELEASE_SOURCE_FILES src/main.cpp src/Station src/System src/Tram src/Parser.cpp src/DesignByContract
-        src/tinystr src/tinyxml src/tinyxmlerror.cpp src/tinyxmlparser.cpp src/Parser.h src/Passagier.cpp src/Passagier.h
-        src/Metrostation src/Halte src/Spoor.cpp src/Spoor.h src/Albatros.cpp src/Albatros.h src/PCC.cpp)
+set(RELEASE_SOURCE_FILES src/main.cpp src/Station src/System src/Tram src/Parser/Parser.cpp src/DesignByContract
+        src/tinystr src/tinyxml src/tinyxml/tinyxmlerror.cpp src/tinyxml/tinyxmlparser.cpp src/Parser/Parser.h src/Passagier/Passagier.cpp src/Passagier/Passagier.h
+        src/Metrostation src/Halte src/Spoor/Spoor.cpp src/Spoor/Spoor.h src/Tram/Albatros.cpp src/Tram/Albatros.h src/Tram/PCC.cpp)
 
-set(DEBUG_SOURCE_FILES Tests/SystemTests.cpp src/System.cpp src/Station src/System src/Tram src/Parser.cpp src/DesignByContract
-        src/tinystr src/tinyxml src/tinyxmlerror.cpp src/tinyxmlparser.cpp src/Parser.h Tests/TestUtils.cpp Tests/TestUtils.h
-        src/Passagier.cpp src/Passagier.h src/Spoor.cpp src/Spoor.h
+set(DEBUG_SOURCE_FILES Tests/SystemTests.cpp src/System/System.cpp src/Station src/System src/Tram src/Parser/Parser.cpp src/DesignByContract
+        src/tinystr src/tinyxml src/tinyxml/tinyxmlerror.cpp src/tinyxml/tinyxmlparser.cpp src/Parser/Parser.h Tests/TestUtils.cpp Tests/TestUtils.h
+        src/Passagier/Passagier.cpp src/Passagier/Passagier.h src/Spoor/Spoor.cpp src/Spoor/Spoor.h
         Tests/SystemDomainTests.cpp Tests/SystemInputTests.cpp Tests/SystemOutputTests.cpp)
 
 add_executable(Tram_Netwerk ${RELEASE_SOURCE_FILES})

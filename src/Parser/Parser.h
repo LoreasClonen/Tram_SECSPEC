@@ -12,9 +12,9 @@
 #ifndef TRAM_NETWERK_PARSER_H
 #define TRAM_NETWERK_PARSER_H
 
-#include "tinyxml.h"
+#include "../tinyxml/tinyxml.h"
 #include <iostream>
-#include "System.h"
+#include "../System/System.h"
 
 using namespace std;
 

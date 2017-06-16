@@ -13,8 +13,8 @@
 #define TRAM_NETWERK_PASSAGIER_H
 
 #include <iostream>
-#include "DesignByContract.h"
-#include "Tram.h"
+#include "../DesignByContract.h"
+#include "../Tram/Tram.h"
 
 using namespace std;
 
