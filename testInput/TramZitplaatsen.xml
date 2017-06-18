@@ -12,8 +12,8 @@
 	</station>
 	<tram>
 		<lijnNr>12</lijnNr>
-		<zitplaatsen>32</zitplaatsen>
-		<snelheid></snelheid>
+		<zitplaatsen></zitplaatsen>
+		<snelheid>50</snelheid>
 		<beginStation>A</beginStation>
 		<type>PCC</type>
 		<voertuigNr>150</voertuigNr>

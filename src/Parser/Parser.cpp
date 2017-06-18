@@ -99,41 +99,41 @@ bool Parser::XmlParser(string inputFile) {
 
                         if(elemName == "spoorNr") {
                             if (is_number(getElement(inInsideElem))) {
-                                outputFile << "\t\tTrack Number: " + getElement(inInsideElem) << endl;
                                 spoorNr = stoi(getElement(inInsideElem));
-
+                                if(spoorNr > 0){
+                                    outputFile << "\t\tTrack Number: " + getElement(inInsideElem) << endl;
+                                }
+                                else{
+                                    outputFile << "\t\tFAULT IN STATION TRACK NUMBER" << endl;
+                                    outputTrack = false;
+                                }
                             } else {
-                                outputFile << " FAULT IN STATION TRACK." << endl;
+                                outputFile << "\t\tFAULT IN STATION TRACK NUMBER" << endl;
                                 outputTrack = false;
                             }
                         }
                         if (elemName == "volgende") {
-                            outputFile << "\tGetting next Station..." << endl;
-
                             volgende = getElement(inInsideElem);
-                            outputFile << "\t\tNext Station: " +  volgende << endl;
+                            outputFile << "\tGetting Next Station..." << endl;
+                            if(volgende == ""){
+                                outputFile << "\t\tFAULT IN NEXT STATION" << endl;
+                                outputTrack = false;
+                            }
+                            else{
+                                outputFile << "\t\tNext Station: " + naam << endl;
+                            }
                         }
                         if (elemName == "vorige") {
-                            outputFile << "\tGetting previous Station..." << endl;
-
                             vorige = getElement(inInsideElem);
-                            outputFile << "\t\tPrevious Station: " +  volgende << endl;
+                            outputFile << "\tGetting Previous Station..." << endl;
+                            if(vorige == ""){
+                                outputFile << "\t\tFAULT IN PREVIOUS STATION" << endl;
+                                outputTrack = false;
+                            }
+                            else{
+                                outputFile << "\t\tPrevious Station: " + naam << endl;
+                            }
                         }
-                    }
-                    if(spoorNr < 0) {
-                        outputFile << "\t\tTrack Number is negative" << endl;
-                        outputTrack = false;
-                    }
-                    if(!is_number(to_string(spoorNr))){
-                        outputFile << "\t\tTrack Number is not a number" << endl;
-                    }
-                    if (volgende == "") {
-                        outputFile << "\t\tNext Station is empty" << endl;
-                        outputTrack = false;
-                    }
-                    if (vorige == "") {
-                        outputFile << "\t\tPrevious Station is empty" << endl;
-                        outputTrack = false;
                     }
                     if(!outputTrack) {
                         outputFile << "\tDELETING INCOMPLETE TRACK" << endl;

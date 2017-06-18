@@ -5,14 +5,14 @@
 		<vorige>C</vorige>
 		<spoor>
 			<spoorNr>12</spoorNr>
-			<volgende>C</volgende>
+			<volgende></volgende>
 			<vorige>C</vorige>
 		</spoor>
 		<type>halte</type>
 	</station>
 	<tram>
 		<lijnNr>12</lijnNr>
-		<zitplaatsen></zitplaatsen>
+		<zitplaatsen>32</zitplaatsen>
 		<snelheid>50</snelheid>
 		<beginStation>A</beginStation>
 		<type>PCC</type>
