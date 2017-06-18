@@ -60,7 +60,7 @@ map<int, Spoor*> Station::getSporen() {
 void Station::setSporen(map<int, Spoor *> sporen){
     REQUIRE(this->properlyInitialized(),
             "Station wasn't initialized when calling setSporen.");
-    ENSURE(sporen.size() != 0, "Tracks weren't set due to empty map");
+//    ENSURE(sporen.size() != 0, "Tracks weren't set due to empty map");
     Station::sporen = sporen;
     REQUIRE(this->getSporen() == sporen, "Tracks weren't correctly set.");
 }
@@ -68,10 +68,10 @@ void Station::setSporen(map<int, Spoor *> sporen){
 void Station::addSpoor(Spoor* spoor, int spoorNr){
     REQUIRE(this->properlyInitialized(),
             "Station wasn't initialized when calling addSpoor.");
-    ENSURE(spoorNr < 0, "No negative number for Track Number allowed");
-    int setSize = this->getPassagier().size();
+    ENSURE(spoorNr > 0, "No negative number for Track Number allowed");
+    int setSize = this->getSporen().size();
     Station::sporen[spoorNr] = spoor;
-    REQUIRE(setSize + 1 == this->getPassagier().size(), "Passenger wasn't correctly removed from Station.");
+    REQUIRE(setSize + 1 == this->getSporen().size(), "Track wasn't correctly added to Station.");
 }
 
 string Station::typeString() {

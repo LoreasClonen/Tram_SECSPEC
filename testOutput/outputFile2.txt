@@ -1,6 +1,6 @@
 --== STATIONS ==--
 Station A
-Type: halte
+Type: Halte
 --== SPOREN ==--
 Spoor 10
 -> Station B
@@ -10,6 +10,7 @@ Wachtende passagiers:
 
 --== TRAMS ==--
 Tram 10 nr 22
+Type: PCC
 Zitplaatsen: 55
 Snelheid: 60km/h
 Huidig Station: A

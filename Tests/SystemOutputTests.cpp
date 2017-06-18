@@ -7,6 +7,9 @@ using namespace std;
 
 #include "TestUtils.h"
 #include "../src/Parser/Parser.h"
+#include "../src/Tram/Albatros.h"
+#include "../src/Station/Halte.h"
+#include "../src/Tram/PCC.h"
 
 class SystemOutputTests: public ::testing::Test {
 protected:
@@ -41,28 +44,27 @@ TEST_F(SystemOutputTests, OutputFileTests){
     passagier.setEindStation("B");
     passagier.setHoeveelheid(25);
 
-    Station station;
-    station.setNaam("A");
-    station.setType("halte");
+    Station* station = new Halte;
+    station->setNaam("A");
     Spoor spoor;
     spoor.setSpoorNr(10);
     spoor.setVorige("C");
     spoor.setVolgende("B");
 
-    station.addSpoor(&spoor, spoor.getSpoorNr());
-    station.addPassagier("Groep1");
+    station->addSpoor(&spoor, spoor.getSpoorNr());
+    station->addPassagier("Groep1");
     //Adding station to system
-    system.addStation(station.getNaam(), &station);
+    system.addStation(station->getNaam(), station);
 
     //Setting tram variables
-    Tram tram;
-    tram.setLijnNr(10);
-    tram.setZitplaatsen(55);
-    tram.setSnelheid(60);
-    tram.setBeginStation("A");
-    tram.setVoertuigNr(22);
+    Tram* tram = new PCC;
+    tram->setLijnNr(10);
+    tram->setZitplaatsen(55);
+    tram->setSnelheid(60);
+    tram->setBeginStation("A");
+    tram->setVoertuigNr(22);
     //Adding tram to system
-    system.addTram(tram.getLijnNr(), &tram);
+    system.addTram(tram->getLijnNr(), tram);
     system.addPassagier("Groep1", &passagier);
 
     //Creating outputLog
@@ -72,7 +74,7 @@ TEST_F(SystemOutputTests, OutputFileTests){
     testOutput2.open("testOutput/outputFile2.txt");
     testOutput2 << "--== STATIONS ==--" << endl
     << "Station A" << endl
-    << "Type: halte" << endl
+    << "Type: Halte" << endl
     << "--== SPOREN ==--" << endl
     << "Spoor 10" << endl
     << "-> Station B" << endl
@@ -81,6 +83,7 @@ TEST_F(SystemOutputTests, OutputFileTests){
     << " - Groep1, 25 mensen, reist naar Station: B" << endl << endl
     << "--== TRAMS ==--" << endl
     << "Tram 10 nr 22" << endl
+    << "Type: PCC" << endl
     << "Zitplaatsen: 55" << endl
     << "Snelheid: 60km/h" << endl
     << "Huidig Station: A" << endl;

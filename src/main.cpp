@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     Parser parser;
-    parser.XmlParser("InputFiles/XML_Test.xml");
+    parser.XmlParser("testInput/HappyDay.xml");
     System* system = parser.getSystem();
     system->properlyparsed();
     system->Output();

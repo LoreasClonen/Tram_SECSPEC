@@ -83,6 +83,7 @@ string System::Output(){
     output += "\n--== TRAMS ==--\n";
     for(auto c : System::trams){
         output += "Tram " + to_string(c.first) + " nr " + to_string(c.second->getVoertuigNr()) + "\n";
+        output += "Type: " + c.second->typeString() + "\n";
         output += "Zitplaatsen: " + to_string(c.second->getZitplaatsen()) + "\n";
         output += "Snelheid: " + to_string(c.second->getSnelheid()) + "km/h" + "\n";
         if(c.second->getHuidigStation() == "") {

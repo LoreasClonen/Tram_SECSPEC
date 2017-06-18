@@ -41,11 +41,6 @@ TEST_F(SystemDomainTest, SetStationNameViolation) {
     EXPECT_DEATH(testStation.setNaam(""), "No empty string for Station Name allowed");
 }
 
-TEST_F(SystemDomainTest, SetStationTypeViolation) {
-    Station testStation;
-    EXPECT_DEATH(testStation.setType(""), "No empty string for Station type allowed");
-}
-
 // Track Class Tests
 TEST_F(SystemDomainTest, SetTrackNrViolation) {
     Spoor testSpoor;
@@ -83,14 +78,9 @@ TEST_F(SystemDomainTest, SetTramBeginstationViolation) {
     EXPECT_DEATH(testTram.setBeginStation(""), "No empty string for Starting Station allowed");
 }
 
-TEST_F(SystemDomainTest, SetTramTypeViolation) {
-    Tram testTram;
-    EXPECT_DEATH(testTram.setType(""), "No empty string for Tram type allowed");
-}
-
 TEST_F(SystemDomainTest, SetVehicleNrViolation) {
     Tram testTram;
-    EXPECT_DEATH(testTram.setVoertuigNr(-10), "No empty string for vehicle number allowed");
+    EXPECT_DEATH(testTram.setVoertuigNr(-10), "No negative number for vehicle number allowed");
 }
 
 // Passenger Class Tests

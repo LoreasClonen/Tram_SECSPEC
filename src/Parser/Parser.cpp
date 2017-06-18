@@ -126,7 +126,7 @@ bool Parser::XmlParser(string inputFile) {
                         outputFile << "Previous Station is empty" << endl;
                         outputTrack = false;
                     }
-                    if (!outputTrack) {
+                    if(!outputTrack) {
                         outputFile << "DELETING INCOMPLETE TRACK" << endl;
                         delete spoor;
                     }
@@ -402,6 +402,7 @@ bool Parser::XmlParser(string inputFile) {
     doc.Clear();
     outputFile.close();
     bool output = false;
+
     if(outputPassenger and outputTrack and outputTram and outputStation){
         output = true;
     }
