@@ -24,14 +24,14 @@ TEST_F(SystemInputTests, InputFileTests) {
     inputFile << "<SYSTEM>" << endl
               << "\t<station>" << endl
               << "\t\t<naam>" << "A" << endl
-              << "\t\t</naam>" << endl
+              << "</naam>" << endl
               << "\t</station>" << endl
               << "</SYSTEM>";
     inputFile.close();
 
     bool importResult = parser.XmlParser("testInput/testInput1.xml");
 
-    EXPECT_FALSE(importResult);
+    EXPECT_TRUE(importResult);
 }
 
 TEST_F(SystemInputTests, ProperlyParsed) {
