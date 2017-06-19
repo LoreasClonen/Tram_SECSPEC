@@ -43,7 +43,7 @@ TEST_F(SystemInputTests, ProperlyParsed) {
 // Station Class Tests
 TEST_F(SystemInputTests, EmptyStationName) {
     parser.XmlParser("testInput/StationsNaam.xml");
-    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/Expected/StationsNaam.txt"));
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt", "testInput/Expected/StationsNaam.txt"));
     EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
 }
 
@@ -118,7 +118,7 @@ TEST_F(SystemInputTests, L_Seats){
 
 TEST_F(SystemInputTests, EmptySpeed){
     parser.XmlParser("testInput/TramSnelheid.xml");
-    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/TramSnelheid.txt"));
+    EXPECT_TRUE(FileCompare("LogFiles/parserLog.txt","testInput/Expected/TramSnelheid.txt"));
     EXPECT_DEATH(parser.getSystem()->properlyparsed(), "XML File wasn't properly parsed.");
 }
 

@@ -75,13 +75,13 @@ bool Parser::XmlParser(string inputFile) {
 
 
                 if (elemName == "naam") {
+                    outputFile << "\tGetting Station name..." << endl;
                     naam = getElement(insideElem);
                     if(naam == ""){
                         outputFile << "\t\tFAULT IN STATION NAME" << endl;
                         outputStation = false;
                     }
                     else{
-                        outputFile << "\tGetting Station name..." << endl;
                         outputFile << "\t\tStation Name: " + naam << endl;
                     }
                 }
@@ -120,7 +120,7 @@ bool Parser::XmlParser(string inputFile) {
                                 outputTrack = false;
                             }
                             else{
-                                outputFile << "\t\tNext Station: " + naam << endl;
+                                outputFile << "\t\tNext Station: " + volgende << endl;
                             }
                         }
                         if (elemName == "vorige") {
@@ -131,7 +131,7 @@ bool Parser::XmlParser(string inputFile) {
                                 outputTrack = false;
                             }
                             else{
-                                outputFile << "\t\tPrevious Station: " + naam << endl;
+                                outputFile << "\t\tPrevious Station: " + vorige << endl;
                             }
                         }
                     }
