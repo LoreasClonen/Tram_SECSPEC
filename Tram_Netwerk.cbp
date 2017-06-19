@@ -1,576 +1,576 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CodeBlocks_project_file>
-   <FileVersion major="1" minor="6" />
-   <Project>
-      <Option title="Tram_Netwerk" />
-      <Option makefile_is_custom="1" />
-      <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\gtest\;CMake Files\gtest\lib\;CMake Files\gtest\lib\googletest-master\;CMake Files\gtest\lib\googletest-master\googlemock\;CMake Files\gtest\lib\googletest-master\googletest\;CMake Files\gtest\lib\googletest-master\googletest\cmake\;" />
-      <Build>
-      <Target title="all">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 install" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="list_install_components">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 list_install_components" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rebuild_cache">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="edit_cache">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="Tram_Netwerk">
-         <Option output="/home/luuk/CLionProjects/TRAM/Tram_Netwerk" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 Tram_Netwerk" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="Tram_Netwerk/fast">
-         <Option output="/home/luuk/CLionProjects/TRAM/Tram_Netwerk" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 Tram_Netwerk/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="Tram_Netwerk_debug">
-         <Option output="/home/luuk/CLionProjects/TRAM/Tram_Netwerk_debug" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 Tram_Netwerk_debug" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="Tram_Netwerk_debug/fast">
-         <Option output="/home/luuk/CLionProjects/TRAM/Tram_Netwerk_debug" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 Tram_Netwerk_debug/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install/strip">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 install/strip" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install/local">
-         <Option working_dir="/home/luuk/CLionProjects/TRAM" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 install/local" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gmock">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gmock/fast">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gmock_main">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gmock_main/fast">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/include" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gtest">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gtest/fast">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gtest_main">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="gtest_main/fast">
-         <Option output="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest" />
-            <Add directory="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/include" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      </Build>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/Tests/SystemDomainTests.cpp">
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/Tests/SystemInputTests.cpp">
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/Tests/SystemOutputTests.cpp">
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/Tests/SystemTests.cpp">
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/Tests/TestUtils.cpp">
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/Tests/TestUtils.h">
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/gmock-all.cc">
-         <Option target="gmock"/>
-         <Option target="gmock_main"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/gmock_main.cc">
-         <Option target="gmock_main"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/gtest-all.cc">
-         <Option target="gmock"/>
-         <Option target="gmock_main"/>
-         <Option target="gtest"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/gtest_main.cc">
-         <Option target="gtest_main"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/DesignByContract.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Parser/Parser.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Parser/Parser.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Passagier/Passagier.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Passagier/Passagier.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Spoor/Spoor.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Spoor/Spoor.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Station/Halte.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Station/Halte.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Station/Metrostation.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Station/Metrostation.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Station/Station.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Station/Station.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/System/System.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/System/System.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Tram/Albatros.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Tram/Albatros.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Tram/PCC.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Tram/PCC.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Tram/Tram.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/Tram/Tram.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/main.cpp">
-         <Option target="Tram_Netwerk"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/tinyxml/tinystr.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/tinyxml/tinystr.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/tinyxml/tinyxml.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/tinyxml/tinyxml.h">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/tinyxml/tinyxmlerror.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/src/tinyxml/tinyxmlparser.cpp">
-         <Option target="Tram_Netwerk"/>
-         <Option target="Tram_Netwerk_debug"/>
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\" />
-      </Unit>
-      <Unit filename="/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
-          <Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\" />
-      </Unit>
-   </Project>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tram_Netwerk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\gtest\;CMake Files\gtest\lib\;CMake Files\gtest\lib\googletest-master\;CMake Files\gtest\lib\googletest-master\googlemock\;CMake Files\gtest\lib\googletest-master\googletest\;CMake Files\gtest\lib\googletest-master\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tram_Netwerk_debug">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/Tram_Netwerk_debug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 Tram_Netwerk_debug"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tram_Netwerk_debug/fast">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/Tram_Netwerk_debug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 Tram_Netwerk_debug/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tram_Netwerk">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/Tram_Netwerk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 Tram_Netwerk"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tram_Netwerk/fast">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/Tram_Netwerk" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 Tram_Netwerk/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/Tests/SystemDomainTests.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/Tests/SystemInputTests.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/Tests/SystemOutputTests.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/Tests/SystemTests.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/Tests/TestUtils.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/Tests/TestUtils.h">
+			<Option target="Tram_Netwerk_debug"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/DesignByContract.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Parser/Parser.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Parser/Parser.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Passagier/Passagier.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Passagier/Passagier.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Spoor/Spoor.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Spoor/Spoor.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Station/Halte.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Station/Halte.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Station/Metrostation.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Station/Metrostation.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Station/Station.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Station/Station.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/System/System.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/System/System.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Tram/Albatros.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Tram/Albatros.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Tram/PCC.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Tram/PCC.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Tram/Tram.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/Tram/Tram.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/main.cpp">
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/tinyxml/tinystr.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/tinyxml/tinystr.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/tinyxml/tinyxml.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/tinyxml/tinyxml.h">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/tinyxml/tinyxmlerror.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/src/tinyxml/tinyxmlparser.cpp">
+			<Option target="Tram_Netwerk_debug"/>
+			<Option target="Tram_Netwerk"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/loreas/Documents/pse/Tram_SECSPEC/gtest/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\gtest\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+	</Project>
 </CodeBlocks_project_file>
