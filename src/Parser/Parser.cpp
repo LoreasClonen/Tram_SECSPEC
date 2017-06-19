@@ -26,8 +26,11 @@ string Parser::getElement(TiXmlElement* elem){
     return t;
 }
 
-bool Parser::is_number(const string& s)
+bool Parser::is_number(string s)
 {
+    if(s[0] == '-'){
+        s = s.substr(1, s.size());
+    }
     return !s.empty() && find_if(s.begin(),
                                       s.end(), [](char c) { return !isdigit(c); }) == s.end();
 }
@@ -81,8 +84,8 @@ bool Parser::XmlParser(string inputFile) {
                     outputFile << "\tGetting Station name..." << endl;
                     naam = getElement(insideElem);
                     if(naam == ""){
-                        outputFile << "\t\tFAULT IN STATION NAME" << endl;
-                        errorFile << "FAULT IN STATION NAME" << endl;
+                        outputFile << "\t\tFAULT IN STATION NAME: EMPTY" << endl;
+                        errorFile << "FAULT IN STATION NAME: EMPTY" << endl;
                         outputStation = false;
                     }
                     else{
@@ -102,19 +105,24 @@ bool Parser::XmlParser(string inputFile) {
                         string elemName = inInsideElem->Value();
 
                         if(elemName == "spoorNr") {
-                            if (is_number(getElement(inInsideElem))) {
+                            if(getElement(inInsideElem) == ""){
+                                outputFile << "\t\tFAULT IN STATION TRACK NUMBER: EMPTY" << endl;
+                                errorFile << "FAULT IN STATION TRACK NUMBER: EMPTY" << endl;
+                                outputTrack = false;
+                            }
+                            else if (is_number(getElement(inInsideElem))) {
                                 spoorNr = stoi(getElement(inInsideElem));
                                 if(spoorNr > 0){
                                     outputFile << "\t\tTrack Number: " + getElement(inInsideElem) << endl;
                                 }
                                 else{
-                                    outputFile << "\t\tFAULT IN STATION TRACK NUMBER" << endl;
-                                    errorFile << "FAULT IN STATION TRACK NUMBER" << endl;
+                                    outputFile << "\t\tFAULT IN STATION TRACK NUMBER: NEGATIVE" << endl;
+                                    errorFile << "FAULT IN STATION TRACK NUMBER: NEGATIVE" << endl;
                                     outputTrack = false;
                                 }
                             } else {
-                                outputFile << "\t\tFAULT IN STATION TRACK NUMBER" << endl;
-                                errorFile << "FAULT IN STATION TRACK NUMBER" << endl;
+                                outputFile << "\t\tFAULT IN STATION TRACK NUMBER: NOT AN INTEGER" << endl;
+                                errorFile << "FAULT IN STATION TRACK NUMBER: NOT AN INTEGER" << endl;
                                 outputTrack = false;
                             }
                         }
@@ -122,8 +130,8 @@ bool Parser::XmlParser(string inputFile) {
                             volgende = getElement(inInsideElem);
                             outputFile << "\tGetting Next Station..." << endl;
                             if(volgende == ""){
-                                outputFile << "\t\tFAULT IN NEXT STATION" << endl;
-                                errorFile << "FAULT IN NEXT STATION" << endl;
+                                outputFile << "\t\tFAULT IN NEXT STATION: EMPTY" << endl;
+                                errorFile << "FAULT IN NEXT STATION: EMPTY" << endl;
                                 outputTrack = false;
                             }
                             else{
@@ -134,8 +142,8 @@ bool Parser::XmlParser(string inputFile) {
                             vorige = getElement(inInsideElem);
                             outputFile << "\tGetting Previous Station..." << endl;
                             if(vorige == ""){
-                                outputFile << "\t\tFAULT IN PREVIOUS STATION" << endl;
-                                errorFile << "FAULT IN PREVIOUS STATION" << endl;
+                                outputFile << "\t\tFAULT IN PREVIOUS STATION: EMPTY" << endl;
+                                errorFile << "FAULT IN PREVIOUS STATION: EMPTY" << endl;
                                 outputTrack = false;
                             }
                             else{
@@ -159,9 +167,16 @@ bool Parser::XmlParser(string inputFile) {
                     outputFile << "\tGetting Station Type..." << endl;
                     type = getElement(insideElem);
                     if(type != "halte" and type != "metrostation") {
-                        outputFile << "\t\tFAULT IN STATION TYPE" << endl;
-                        errorFile << "FAULT IN STATION TYPE" << endl;
-                        outputStation = false;
+                        if(type == ""){
+                            outputFile << "\t\tFAULT IN STATION TYPE: EMPTY" << endl;
+                            errorFile << "FAULT IN STATION TYPE: EMPTY" << endl;
+                            outputStation = false;
+                        }
+                        else {
+                            outputFile << "\t\tFAULT IN STATION TYPE: INCORRECT TYPE" << endl;
+                            errorFile << "FAULT IN STATION TYPE: INCORRECT TYPE" << endl;
+                            outputStation = false;
+                        }
                     }
                     else if(type == "halte" or type == "metrostation"){
                         outputFile << "\t\tStation Type: " +  type << endl;
@@ -213,56 +228,74 @@ bool Parser::XmlParser(string inputFile) {
 
                 if (elemName == "lijnNr") {
                     outputFile << "\tGetting Tram Number..." << endl;
-                    if(is_number(getElement(insideElem))){
+                    if(getElement(insideElem) == ""){
+                        outputFile << "\t\tFAULT IN TRAM LINE NUMBER: EMPTY" << endl;
+                        errorFile << "FAULT IN TRAM LINE NUMBER: EMPTY" << endl;
+                        outputTram = false;
+                    }
+                    else if(is_number(getElement(insideElem))){
                         lijnNr = stoi(getElement(insideElem));
                         if(lijnNr > 0){
                             outputFile << "\t\tTram Line Number: " + to_string(lijnNr) << endl;
                         }
                         else{
-                            outputFile << "\t\tFAULT IN TRAM LINE NUMBER" << endl;
-                            errorFile << "FAULT IN TRAM LINE NUMBER" << endl;
+                            outputFile << "\t\tFAULT IN TRAM LINE NUMBER: NEGATIVE" << endl;
+                            errorFile << "FAULT IN TRAM LINE NUMBER: NEGATIVE" << endl;
+                            outputTram = false;
                         }
                     }
                     else {
-                        outputFile << "\t\tFAULT IN TRAM LINE NUMBER." << endl;
-                        errorFile << "FAULT IN TRAM LINE NUMBER" << endl;
+                        outputFile << "\t\tFAULT IN TRAM LINE NUMBER: NOT AN INTEGER" << endl;
+                        errorFile << "FAULT IN TRAM LINE NUMBER: NOT AN INTEGER" << endl;
                         outputTram = false;
                     }
                 }
                 if (elemName == "zitplaatsen") {
                     outputFile << "\tGetting Tram seats..." << endl;
-                    if(is_number(getElement(insideElem))){
+                    if(getElement(insideElem) == ""){
+                        outputFile << "\t\tFAULT IN TRAM SEATS: EMPTY" << endl;
+                        errorFile << "FAULT IN TRAM SEATS: EMPTY" << endl;
+                        outputTram = false;
+                    }
+                    else if(is_number(getElement(insideElem))){
                         zitplaatsen = stoi(getElement(insideElem));
                         if(zitplaatsen > 0){
                             outputFile << "\t\tTram Seats: " + to_string(zitplaatsen) << endl;
                         }
                         else{
-                            outputFile << "\t\tFAULT IN SEATS" << endl;
-                            errorFile << "FAULT IN SEATS" << endl;
+                            outputFile << "\t\tFAULT IN TRAM SEATS: NEGATIVE" << endl;
+                            errorFile << "FAULT IN TRAM SEATS: NEGATIVE" << endl;
+                            outputTram = false;
                         }
                     }
                     else {
-                        outputFile << "\t\tFAULT IN TRAM SEATS." << endl;
-                        errorFile << "FAULT IN TRAM SEATS" << endl;
+                        outputFile << "\t\tFAULT IN TRAM SEATS: NOT AN INTEGER" << endl;
+                        errorFile << "FAULT IN TRAM SEATS: NOT AN INTEGER" << endl;
                         outputTram = false;
                     }
                 }
 
                 if (elemName == "snelheid") {
                     outputFile << "\tGetting Tram speed..." << endl;
-                    if(is_number(getElement(insideElem))){
+                    if(getElement(insideElem) == ""){
+                        outputFile << "\t\tFAULT IN TRAM SPEED: EMPTY" << endl;
+                        errorFile << "FAULT IN TRAM SPEED: EMPTY" << endl;
+                        outputTram = false;
+                    }
+                    else if(is_number(getElement(insideElem))){
                         snelheid = stoi(getElement(insideElem));
                         if(snelheid > 0){
                             outputFile << "\t\tTram Speed: " + to_string(snelheid) << endl;
                         }
                         else{
-                            outputFile << "\t\tFAULT IN TRAM SPEED" << endl;
-                            errorFile << "FAULT IN TRAM SPEED" << endl;
+                            outputFile << "\t\tFAULT IN TRAM SPEED: NEGATIVE" << endl;
+                            errorFile << "FAULT IN TRAM SPEED: NEGATIVE" << endl;
+                            outputTram = false;
                         }
                     }
                     else {
-                        outputFile << "\t\tFAULT IN TRAM SPEED." << endl;
-                        errorFile << "FAULT IN TRAM SPEED" << endl;
+                        outputFile << "\t\tFAULT IN TRAM SPEED: NOT AN INTEGER" << endl;
+                        errorFile << "FAULT IN TRAM SPEED: NOT AN INTEGER" << endl;
                         outputTram = false;
                     }
                 }
@@ -276,8 +309,8 @@ bool Parser::XmlParser(string inputFile) {
                         outputFile << "\t\tCurrent Station: " + beginStation << endl;
                     }
                     else{
-                        outputFile << "\t\tFAULT IN TRAM STARTING STATION" << endl;
-                        errorFile << "FAULT IN TRAM STARTING STATION" << endl;
+                        outputFile << "\t\tFAULT IN TRAM STARTING STATION: EMPTY" << endl;
+                        errorFile << "FAULT IN TRAM STARTING STATION: EMPTY" << endl;
                         outputTram = false;
                     }
                 }
@@ -286,9 +319,14 @@ bool Parser::XmlParser(string inputFile) {
                     outputFile << "\tGetting Tram Type..." << endl;
                     type = getElement(insideElem);
                     if(type != "PCC" and type != "Albatros") {
-                        outputFile << "\t\tFAULT IN TRAM TYPE" << endl;
-                        errorFile << "FAULT IN TRAM TYPE" << endl;
-                        outputTram = false;
+                        if(type == ""){
+                            outputFile << "\t\tFAULT IN TRAM TYPE: EMPTY" << endl;
+                            errorFile << "FAULT IN TRAM TYPE: EMPTY" << endl;
+                            outputTram = false;
+                        }
+                            outputFile << "\t\tFAULT IN TRAM TYPE: INCORRECT TYPE" << endl;
+                            errorFile << "FAULT IN TRAM TYPE: INCORRECT TYPE" << endl;
+                            outputTram = false;
                     }
                     else if(type == "PCC" or type == "Albatros"){
                         outputFile << "\t\tTram Type: " +  type << endl;
@@ -297,19 +335,25 @@ bool Parser::XmlParser(string inputFile) {
 
                 if (elemName == "voertuigNr") {
                     outputFile << "\tGetting Tram Vehicle Number..." << endl;
-                    if(is_number(getElement(insideElem))){
+                    if(getElement(insideElem) == ""){
+                        outputFile << "\t\tFAULT IN TRAM VEHICLE NUMBER: EMPTY" << endl;
+                        errorFile << "FAULT IN TRAM VEHICLE NUMBER: EMPTY" << endl;
+                        outputTram = false;
+                    }
+                    else if(is_number(getElement(insideElem))){
                         voertuigNr = stoi(getElement(insideElem));
                         if(voertuigNr > 0){
                             outputFile << "\t\tTram Vehicle Number: " + to_string(voertuigNr) << endl;
                         }
                         else{
-                            outputFile << "\t\tFAULT IN TRAM VEHICLE NUMBER" << endl;
-                            errorFile << "FAULT IN TRAM VEHICLE NUMBER" << endl;
+                            outputFile << "\t\tFAULT IN TRAM VEHICLE NUMBER: NEGATIVE" << endl;
+                            errorFile << "FAULT IN TRAM VEHICLE NUMBER: NEGATIVE" << endl;
+                            outputTram = false;
                         }
                     }
                     else {
-                        outputFile << "\t\tFAULT IN TRAM VEHICLE NUMBER" << endl;
-                        errorFile << "FAULT IN TRAM VEHICLE NUMBER" << endl;
+                        outputFile << "\t\tFAULT IN TRAM VEHICLE NUMBER: NOT AN INTEGER" << endl;
+                        errorFile << "FAULT IN TRAM VEHICLE NUMBER: NOT AN INTEGER" << endl;
                         outputTram = false;
                     }
                 }
@@ -317,7 +361,6 @@ bool Parser::XmlParser(string inputFile) {
             Tram* tram;
             if(type == "Albatros" or type == "PCC") {
                 if (type == "Albatros") {
-
                     tram = new Albatros;
                 }
 
@@ -362,8 +405,8 @@ bool Parser::XmlParser(string inputFile) {
                         outputFile << "\t\tPassenger Name: " + naam << endl;
                     }
                     else{
-                        outputFile << "\t\tFAULT IN PASSENGER NAME";
-                        errorFile << "FAULT IN PASSENGER NAME" << endl;
+                        outputFile << "\t\tFAULT IN PASSENGER NAME: EMPTY";
+                        errorFile << "FAULT IN PASSENGER NAME: EMPTY" << endl;
                         outputPassenger = false;
                     }
                 }
@@ -375,8 +418,8 @@ bool Parser::XmlParser(string inputFile) {
                         outputFile << "\t\tStarting Station: " + beginStation << endl;
                     }
                     else{
-                        outputFile << "\t\tFAULT IN PASSENGER STARTING STATION" << endl;
-                        errorFile << "FAULT IN PASSENGER STARTING STATION" << endl;
+                        outputFile << "\t\tFAULT IN PASSENGER STARTING STATION: EMPTY" << endl;
+                        errorFile << "FAULT IN PASSENGER STARTING STATION: EMPTY" << endl;
                         outputPassenger = false;
                     }
                 }
@@ -389,28 +432,33 @@ bool Parser::XmlParser(string inputFile) {
                         outputFile << "\t\tEnd Station: " + eindStation << endl;
                     }
                     else{
-                        outputFile << "\t\tFAULT IN PASSENGER END STATION" << endl;
-                        errorFile << "FAULT IN PASSENGER END STATION" << endl;
+                        outputFile << "\t\tFAULT IN PASSENGER END STATION: EMPTY" << endl;
+                        errorFile << "FAULT IN PASSENGER END STATION: EMPTY" << endl;
                         outputPassenger = false;
                     }
                 }
 
                 if (elemName == "hoeveelheid") {
                     outputFile << "\tGetting Amount of Passengers..." << endl;
-                    if(is_number(getElement(insideElem))){
+                    if(getElement(insideElem) == ""){
+                        outputFile << "\t\tFAULT IN PASSENGER AMOUNT: EMPTY" << endl;
+                        errorFile << "FAULT IN PASSENGER AMOUNT: EMPTY" << endl;
+                        outputPassenger = false;
+                    }
+                    else if(is_number(getElement(insideElem))){
                         hoeveelheid = stoi(getElement(insideElem));
                         if(hoeveelheid > 0){
                             outputFile << "\t\tPassenger Amount: " + to_string(hoeveelheid) << endl;
                         }
                         else{
-                            outputFile << "\t\tFAULT IN PASSENGER AMOUNT" << endl;
-                            errorFile << "FAULT IN PASSENGER AMOUNT" << endl;
+                            outputFile << "\t\tFAULT IN PASSENGER AMOUNT: NEGATIVE" << endl;
+                            errorFile << "FAULT IN PASSENGER AMOUNT: NEGATIVE" << endl;
                             outputPassenger = false;
                         }
                     }
                     else {
-                        outputFile << "\t\tFAULT IN PASSENGER AMOUNT" << endl;
-                        errorFile << "FAULT IN PASSENGER AMOUNT" << endl;
+                        outputFile << "\t\tFAULT IN PASSENGER AMOUNT: NOT AN INTEGER" << endl;
+                        errorFile << "FAULT IN PASSENGER AMOUNT: NOT AN INTEGER" << endl;
                         outputPassenger = false;
                     }
                 }
@@ -430,8 +478,8 @@ bool Parser::XmlParser(string inputFile) {
                     system->getStations().find(beginStation)->second->addPassagier(naam);
                 }
                 else{
-                    outputFile << "Starting Station of Passenger not in System" << endl;
-                    errorFile << "Starting Station of Passenger not in System" << endl;
+                    outputFile << "STARTING STATION OF PASSENGER: NOT IN SYSTEM" << endl;
+                    errorFile << "STARTING STATION OF PASSENGER: NOT IN SYSTEM" << endl;
                 }
             }
         }

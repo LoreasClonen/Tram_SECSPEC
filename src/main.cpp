@@ -8,13 +8,9 @@
 
 using namespace std;
 
-int main(){
+int main(int argc, char** argv){
     Parser parser;
-<<<<<<< HEAD
-    parser.XmlParser("testInput/NoPassengerArrival.xml");
-=======
-    parser.XmlParser("testInput/TramSnelheid.xml");
->>>>>>> b257824e9d33be3961dbf2abc6250bc49efea7a0
+    parser.XmlParser(argv[1]);
     System* system = parser.getSystem();
     system->properlyparsed();
     system->Output();

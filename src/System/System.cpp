@@ -120,7 +120,7 @@ bool System::Valid_circuit() {
 void System::properlyparsed() {
     ifstream errors;
     errors.open("LogFiles/errorLog.txt");
-    string error;
+    string error = "\n";
     string str;
     while(getline(errors,str)){
         error += str;
