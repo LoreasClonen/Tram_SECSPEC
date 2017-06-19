@@ -91,3 +91,12 @@ TEST_F(SystemOutputTests, OutputFileTests){
     testOutput2.close();
     EXPECT_TRUE(FileCompare("LogFiles/outputLog.txt", "testOutput/outputFile2.txt"));
 }
+
+TEST_F(SystemOutputTests, NoPassengerArrivalTest){
+    Parser parser;
+    parser.XmlParser("testInput/NoPassengerArrival.xml");
+    System* system = parser.getSystem();
+    system->properlyparsed();
+    system->autoSimulation();
+    EXPECT_TRUE(FileCompare("LogFiles/autoSimulation.txt","testOutput/NoPassengerArrival.txt"));
+}
