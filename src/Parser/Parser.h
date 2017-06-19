@@ -62,6 +62,6 @@ public:
     * @brief Returns true if the entered string is a number, false if not
     * @return boolean
     */
-    bool is_number(const string& s);
+    bool is_number(string s);
 };
 #endif //TRAM_NETWERK_PARSER_H

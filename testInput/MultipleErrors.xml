@@ -1,0 +1,25 @@
+<SYSTEM>
+    <station>
+        <naam></naam>
+        <spoor>
+            <spoorNr>12</spoorNr>
+            <volgende></volgende>
+            <vorige>C</vorige>
+        </spoor>
+        <type>test</type>
+    </station>
+    <tram>
+        <lijnNr>12</lijnNr>
+        <zitplaatsen>X</zitplaatsen>
+        <snelheid>-50</snelheid>
+        <beginStation></beginStation>
+        <type>PCC</type>
+        <voertuigNr></voertuigNr>
+    </tram>
+    <passagier>
+        <naam>Groep1</naam>
+        <beginstation></beginstation>
+        <eindstation>B</eindstation>
+        <hoeveelheid>L</hoeveelheid>
+    </passagier>
+</SYSTEM>

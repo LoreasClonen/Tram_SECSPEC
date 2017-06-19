@@ -2,7 +2,7 @@
     <station>
         <naam>A</naam>
         <spoor>
-            <spoorNr>K</spoorNr>
+            <spoorNr>12</spoorNr>
             <volgende>C</volgende>
             <vorige>C</vorige>
         </spoor>
@@ -10,17 +10,10 @@
     </station>
     <tram>
         <lijnNr>12</lijnNr>
-        <zitplaatsen>32</zitplaatsen>
+        <zitplaatsen>25</zitplaatsen>
         <snelheid>50</snelheid>
         <beginStation>A</beginStation>
-        <type>PCC</type>
+        <type>test</type>
         <voertuigNr>150</voertuigNr>
     </tram>
-    <passagier>
-        <naam>A</naam>
-        <beginstation>A</beginstation>
-        <eindstation>B</eindstation>
-        <hoeveelheid>10</hoeveelheid>
-    </passagier>
 </SYSTEM>
-
