@@ -5,15 +5,16 @@ Starting XML Parser...
 Creating new Station:
 ---------------------
 	Getting Station name...
-		Station Name: A
+		FAULT IN STATION NAME
 	Getting Station Track...
 		Track Number: 12
 	Getting Next Station...
-		Next Station: A
+		Next Station: C
 	Getting Previous Station...
-		Previous Station: A
+		Previous Station: C
 	Getting Station Type...
 		Station Type: halte
+DELETING INCOMPLETE STATION
 
 Creating new Tram:
 ------------------
