@@ -118,7 +118,15 @@ bool System::Valid_circuit() {
 }
 
 void System::properlyparsed() {
-    ENSURE(System::properlyParsed, "XML File wasn't properly parsed.");
+    ifstream errors;
+    errors.open("LogFiles/errorLog.txt");
+    string error;
+    string str;
+    while(getline(errors,str)){
+        error += str;
+        error += "\n";
+    }
+    ENSURE(System::properlyParsed, error.c_str());
     ENSURE(System::Valid_circuit(), "Circuit is not valid.");
     ENSURE(System::isConsistent(), "System is not consistent.");
 }
