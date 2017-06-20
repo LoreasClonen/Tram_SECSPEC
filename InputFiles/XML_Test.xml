@@ -4,8 +4,8 @@
 		<spoor>
 			<spoorNr>12</spoorNr>
 			<volgende>B</volgende>
-			<vorige>C</vorige>
-		</spoor>
+			<vorige>E</vorige>
+		</spoor>>
 		<type>metrostation</type>
 	</station>
 	<station>
@@ -21,11 +21,30 @@
 		<naam>C</naam>
 		<spoor>
 			<spoorNr>12</spoorNr>
-			<volgende>A</volgende>
+			<volgende>D</volgende>
 			<vorige>B</vorige>
 		</spoor>
 		<type>metrostation</type>
 	</station>
+	<station>
+		<naam>D</naam>
+		<spoor>
+			<spoorNr>12</spoorNr>
+			<volgende>E</volgende>
+			<vorige>C</vorige>
+		</spoor>
+		<type>metrostation</type>
+	</station>
+	<station>
+                <naam>E</naam>
+                <spoor>
+                        <spoorNr>12</spoorNr>
+                        <volgende>A</volgende>
+                        <vorige>D</vorige>
+                </spoor>
+                <type>halte</type>
+        </station>
+
 	<tram>
 		<lijnNr>12</lijnNr>
 		<zitplaatsen>32</zitplaatsen>
@@ -45,7 +64,14 @@
 	<passagier>
 		<naam>Groep1</naam>
 		<beginstation>A</beginstation>
-		<eindstation>C</eindstation>
+		<eindstation>D</eindstation>
 		<hoeveelheid>15</hoeveelheid>
 	</passagier>
+	        <passagier>
+                <naam>Groep2</naam>
+                <beginstation>A</beginstation>
+                <eindstation>C</eindstation>
+                <hoeveelheid>3</hoeveelheid>
+        </passagier>
+
 </SYSTEM>
