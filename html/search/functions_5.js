@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['getbeginstation',['getBeginStation',['../classPassagier.html#a41e0870bb942364181aa17e2c9c7ca6c',1,'Passagier::getBeginStation()'],['../classTram.html#a0d61611abd4dc61f3fbad6b4b7bc6403',1,'Tram::getBeginStation()']]],
+  ['getbeginstation',['getBeginStation',['../classTram.html#a0d61611abd4dc61f3fbad6b4b7bc6403',1,'Tram::getBeginStation()'],['../classPassagier.html#a41e0870bb942364181aa17e2c9c7ca6c',1,'Passagier::getBeginStation()']]],
   ['getdocument',['GetDocument',['../classTiXmlNode.html#aa66f4ebcd175204a168ed7c2d7b43071',1,'TiXmlNode']]],
   ['geteindstation',['getEindStation',['../classPassagier.html#a721949463e02e122567c9967786a8a38',1,'Passagier']]],
   ['getelement',['getElement',['../classParser.html#a36b746dbf631544851e0af2d0e7c6982',1,'Parser']]],
@@ -17,7 +17,7 @@ var searchData=
   ['getsystem',['getSystem',['../classParser.html#addad80574e43b744a82807d0f821d414',1,'Parser']]],
   ['gettext',['GetText',['../classTiXmlElement.html#aa6dedd8a146acf3b1bc0903deb2d411a',1,'TiXmlElement']]],
   ['gettrams',['getTrams',['../classSystem.html#a7ef5389572f830ddaa61052ce09f48de',1,'System']]],
-  ['gettype',['getType',['../classStation.html#aac519858a1ac53608d24d78e4b9231ab',1,'Station::getType()'],['../classTram.html#a8ce9cb84e51d57bb975faa5aa0d06ad2',1,'Tram::getType()']]],
+  ['gettype',['getType',['../classStation.html#aac519858a1ac53608d24d78e4b9231ab',1,'Station']]],
   ['getuserdata',['GetUserData',['../classTiXmlBase.html#a6559a530ca6763fc301a14d77ed28c17',1,'TiXmlBase::GetUserData()'],['../classTiXmlBase.html#ad0120210e4680ef2088601753ce0ede4',1,'TiXmlBase::GetUserData() const ']]],
   ['getvoertuignr',['getVoertuigNr',['../classTram.html#abce34b0915945a2d7ede17297a727301',1,'Tram']]],
   ['getvolgende',['getVolgende',['../classSpoor.html#af72fa63d73e10bb5d0bb0e15958260d5',1,'Spoor']]],

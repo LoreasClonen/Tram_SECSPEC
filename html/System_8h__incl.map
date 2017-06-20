@@ -1,7 +1,6 @@
-<map id="src/System.h" name="src/System.h">
-<area shape="rect" id="node2" href="$Station_8h.html" title="Header file for the Station Class. " alt="" coords="180,80,254,107"/>
-<area shape="rect" id="node6" href="$DesignByContract_8h_source.html" title="DesignByContract.h" alt="" coords="344,229,484,256"/>
-<area shape="rect" id="node9" href="$Tram_8h.html" title="Header file for the Tram Class. " alt="" coords="383,80,446,107"/>
-<area shape="rect" id="node10" href="$Passagier_8h.html" title="Header file for the Passagier Class. " alt="" coords="452,155,542,181"/>
-<area shape="rect" id="node8" href="$Spoor_8h.html" title="Header file for the Spoor Class. " alt="" coords="145,155,212,181"/>
+<map id="src/System/System.h" name="src/System/System.h">
+<area shape="rect" id="node2" href="$Station_8h.html" title="Header file for the Station Class. " alt="" coords="198,80,328,107"/>
+<area shape="rect" id="node8" href="$Tram_8h.html" title="Header file for the PCC Class. " alt="" coords="411,80,520,107"/>
+<area shape="rect" id="node9" href="$Passagier_8h.html" title="Header file for the Passagier Class. " alt="" coords="503,155,668,181"/>
+<area shape="rect" id="node7" href="$Spoor_8h.html" title="Header file for the Spoor Class. " alt="" coords="146,155,263,181"/>
 </map>

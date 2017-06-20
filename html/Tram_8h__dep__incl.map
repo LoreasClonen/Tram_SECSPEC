@@ -1,5 +1,7 @@
-<map id="src/Tram.h" name="src/Tram.h">
-<area shape="rect" id="node2" href="$System_8h.html" title="Header file for System class. " alt="" coords="5,155,105,181"/>
-<area shape="rect" id="node4" href="$Passagier_8h.html" title="Header file for the Passagier Class. " alt="" coords="47,80,160,107"/>
-<area shape="rect" id="node3" href="$Parser_8h.html" title="Header file for the Parser Class. " alt="" coords="9,229,102,256"/>
+<map id="src/Tram/Tram.h" name="src/Tram/Tram.h">
+<area shape="rect" id="node2" href="$System_8h.html" title="Header file for System class. " alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node4" href="$Passagier_8h.html" title="Header file for the Passagier Class. " alt="" coords="55,80,230,107"/>
+<area shape="rect" id="node5" href="$Albatros_8h_source.html" title="src/Tram/Albatros.h" alt="" coords="254,80,391,107"/>
+<area shape="rect" id="node6" href="$PCC_8h_source.html" title="src/Tram/PCC.h" alt="" coords="415,80,534,107"/>
+<area shape="rect" id="node3" href="$Parser_8h.html" title="Header file for the Parser Class. " alt="" coords="13,229,147,256"/>
 </map>

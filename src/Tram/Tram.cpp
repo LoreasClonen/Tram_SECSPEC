@@ -103,6 +103,8 @@ void Tram::setVoertuigNr(int voertuigNr) {
 }
 
 bool Tram::plaatsenTeKort(int n ) {
+    REQUIRE(this->properlyInitialized(),
+            "Tram wasn't initialized when calling plaatsenTeKort.");
     if(Tram::zitplaatsen < n) {
         return false;
     }

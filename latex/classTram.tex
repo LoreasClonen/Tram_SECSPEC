@@ -12,8 +12,7 @@ This Class contains all the functionalities for the \hyperlink{classTram}{Tram} 
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classTram_aad83b2e7e79d57528691bf317ab0e1ef}{Tram} ()\hypertarget{classTram_aad83b2e7e79d57528691bf317ab0e1ef}{}\label{classTram_aad83b2e7e79d57528691bf317ab0e1ef}
-
+\hyperlink{classTram_aad83b2e7e79d57528691bf317ab0e1ef}{Tram} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classTram}{Tram} Default Constructor. \end{DoxyCompactList}\item 
 int \hyperlink{classTram_ab5a70cf696779f9dff401244e203f6c8}{get\+Lijn\+Nr} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. \end{DoxyCompactList}\item 
@@ -23,6 +22,10 @@ int \hyperlink{classTram_afcd79d44b9bc18fb1e7302daa40f56f5}{get\+Snelheid} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. \end{DoxyCompactList}\item 
 string \hyperlink{classTram_a0d61611abd4dc61f3fbad6b4b7bc6403}{get\+Begin\+Station} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+string \hyperlink{classTram_a1e28b662a6ef3833faa2920247a139ee}{get\+Huidig\+Station} ()
+\begin{DoxyCompactList}\small\item\em Returns the Passenger object\textquotesingle{}s Current \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+int \hyperlink{classTram_abce34b0915945a2d7ede17297a727301}{get\+Voertuig\+Nr} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Vehicle Number. \end{DoxyCompactList}\item 
 void \hyperlink{classTram_ac877b48ea6699c11ae580d8c71e140ac}{set\+Lijn\+Nr} (int lijn\+Nr)
 \begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. \end{DoxyCompactList}\item 
 void \hyperlink{classTram_a9071e3ddf218c290ae5d7ef3365097eb}{set\+Zitplaatsen} (int zitplaatsen)
@@ -31,24 +34,14 @@ void \hyperlink{classTram_a2853d9b5d5d519e6757e6e3480d3b1c6}{set\+Snelheid} (int
 \begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. \end{DoxyCompactList}\item 
 void \hyperlink{classTram_a1f940f1fa5c8be660561f24750f25dd7}{set\+Begin\+Station} (string begin\+Station)
 \begin{DoxyCompactList}\small\item\em Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
-string \hyperlink{classTram_a1e28b662a6ef3833faa2920247a139ee}{get\+Huidig\+Station} ()
-\begin{DoxyCompactList}\small\item\em Returns the Passenger object\textquotesingle{}s Current \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
-void \hyperlink{classTram_acb4190c4fb33d7d97de38ea3a25a3522}{set\+Huidig\+Station} (string huidig\+Staton)
+void \hyperlink{classTram_a3db658161102fcd0eccf7975982b1f1d}{set\+Huidig\+Station} (string huidig\+Station)
 \begin{DoxyCompactList}\small\item\em Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. \end{DoxyCompactList}\item 
+void \hyperlink{classTram_a4912c2cd70ee32329220618068c28692}{set\+Voertuig\+Nr} (int voertuig\+Nr)
+\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} Object. \end{DoxyCompactList}\item 
 bool \hyperlink{classTram_ac69cbbacaed7e1b9e60e608d766d02ee}{properly\+Initialized} ()
 \begin{DoxyCompactList}\small\item\em Returns true if properly initialized, false if not. \end{DoxyCompactList}\item 
-string \hyperlink{classTram_a8ce9cb84e51d57bb975faa5aa0d06ad2}{get\+Type} ()
-\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
-void \hyperlink{classTram_ae68c0ba51b98ed6fddee64cfe4410f7e}{set\+Type} (string type)
-\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
-int \hyperlink{classTram_abce34b0915945a2d7ede17297a727301}{get\+Voertuig\+Nr} ()
-\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Vehicle Number. \end{DoxyCompactList}\item 
-void {\bfseries set\+Voertuig\+Nr} (int voertuig\+Nr)\hypertarget{classTram_a4912c2cd70ee32329220618068c28692}{}\label{classTram_a4912c2cd70ee32329220618068c28692}
-
-\item 
-bool {\bfseries plaatsen\+Te\+Kort} (int aantal)\hypertarget{classTram_acbd3c261e6b3830741de4e37643cc9cf}{}\label{classTram_acbd3c261e6b3830741de4e37643cc9cf}
-
-\item 
+bool \hyperlink{classTram_acbd3c261e6b3830741de4e37643cc9cf}{plaatsen\+Te\+Kort} (int aantal)
+\begin{DoxyCompactList}\small\item\em Returns true if there\textquotesingle{}s enough seats available on the \hyperlink{classTram}{Tram}. \end{DoxyCompactList}\item 
 string {\bfseries add\+Passagiers} (string \hyperlink{classPassagier}{Passagier}, int Aantal, string \hyperlink{classStation}{Station})\hypertarget{classTram_a27f0c6832da5869a5173cc440fec9719}{}\label{classTram_a27f0c6832da5869a5173cc440fec9719}
 
 \item 
@@ -56,7 +49,13 @@ string {\bfseries remove\+Passagiers} (string, int, string)\hypertarget{classTra
 
 \item 
 set$<$ string $>$ \hyperlink{classTram_a8efd626a399a6d5906043abdd915fd59}{get\+Passagiers} ()
-\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\item 
+virtual string \hyperlink{classTram_abf7bc69ead16170908a1e9364f5bc693}{type\+String} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} Object\textquotesingle{}s type. \end{DoxyCompactList}\item 
+virtual string \hyperlink{classTram_ad19edde544946050f90efad784bdff50}{verplaats\+Tram} (string station)
+\begin{DoxyCompactList}\small\item\em Sets the \hyperlink{classTram}{Tram} Object\textquotesingle{}s Current \hyperlink{classStation}{Station} to the next possible one. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classTram_a44a1aa1a511df107bf0f83ba9d7f47c9}{is\+Albatros} ()
+\begin{DoxyCompactList}\small\item\em Returns true if the \hyperlink{classTram}{Tram} Object is of the \hyperlink{classAlbatros}{Albatros} type. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -65,6 +64,23 @@ This Class contains all the functionalities for the \hyperlink{classTram}{Tram} 
 \begin{DoxyAuthor}{Authors}
 Loreas Clonen \& Luuk van Sloun 
 \end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Tram@{Tram}!Tram@{Tram}}
+\index{Tram@{Tram}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{Tram()}{Tram()}}]{\setlength{\rightskip}{0pt plus 5cm}Tram\+::\+Tram (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_aad83b2e7e79d57528691bf317ab0e1ef}{}\label{classTram_aad83b2e7e79d57528691bf317ab0e1ef}
+
+
+\hyperlink{classTram}{Tram} Default Constructor. 
+
+\begin{DoxyPostcond}{Postcondition}
+A new \hyperlink{classTram}{Tram} Object has been created 
+\end{DoxyPostcond}
 
 
 \subsection{Member Function Documentation}
@@ -79,6 +95,11 @@ Loreas Clonen \& Luuk van Sloun
 
 Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable begin\+Station 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -93,6 +114,11 @@ string
 
 Returns the Passenger object\textquotesingle{}s Current \hyperlink{classStation}{Station}. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable huidig\+Station 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -107,6 +133,11 @@ string
 
 Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable lijn\+Nr 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 integer 
 \end{DoxyReturn}
@@ -135,22 +166,13 @@ passagiers -\/ set
 
 Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable snelheid 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 integer 
-\end{DoxyReturn}
-\index{Tram@{Tram}!get\+Type@{get\+Type}}
-\index{get\+Type@{get\+Type}!Tram@{Tram}}
-\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::get\+Type (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}\hypertarget{classTram_a8ce9cb84e51d57bb975faa5aa0d06ad2}{}\label{classTram_a8ce9cb84e51d57bb975faa5aa0d06ad2}
-
-
-Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s type. 
-
-\begin{DoxyReturn}{Returns}
-string 
 \end{DoxyReturn}
 \index{Tram@{Tram}!get\+Voertuig\+Nr@{get\+Voertuig\+Nr}}
 \index{get\+Voertuig\+Nr@{get\+Voertuig\+Nr}!Tram@{Tram}}
@@ -163,6 +185,11 @@ string
 
 Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Vehicle Number. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable voertuig\+Nr 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 integer 
 \end{DoxyReturn}
@@ -177,8 +204,54 @@ integer
 
 Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable zitplaatsen 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 integer 
+\end{DoxyReturn}
+\index{Tram@{Tram}!is\+Albatros@{is\+Albatros}}
+\index{is\+Albatros@{is\+Albatros}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{is\+Albatros()}{isAlbatros()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Tram\+::is\+Albatros (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classTram_a44a1aa1a511df107bf0f83ba9d7f47c9}{}\label{classTram_a44a1aa1a511df107bf0f83ba9d7f47c9}
+
+
+Returns true if the \hyperlink{classTram}{Tram} Object is of the \hyperlink{classAlbatros}{Albatros} type. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\index{Tram@{Tram}!plaatsen\+Te\+Kort@{plaatsen\+Te\+Kort}}
+\index{plaatsen\+Te\+Kort@{plaatsen\+Te\+Kort}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{plaatsen\+Te\+Kort(int aantal)}{plaatsenTeKort(int aantal)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Tram\+::plaatsen\+Te\+Kort (
+\begin{DoxyParamCaption}
+\item[{int}]{aantal}
+\end{DoxyParamCaption}
+)}\hypertarget{classTram_acbd3c261e6b3830741de4e37643cc9cf}{}\label{classTram_acbd3c261e6b3830741de4e37643cc9cf}
+
+
+Returns true if there\textquotesingle{}s enough seats available on the \hyperlink{classTram}{Tram}. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+aantal is a positive integer 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em aantal} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean 
 \end{DoxyReturn}
 \index{Tram@{Tram}!properly\+Initialized@{properly\+Initialized}}
 \index{properly\+Initialized@{properly\+Initialized}!Tram@{Tram}}
@@ -210,13 +283,21 @@ Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}
 {\em begin\+Station} & \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+begin\+Station is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Starting \hyperlink{classStation}{Station} is now equal to variable begin\+Station 
+\end{DoxyPostcond}
 \index{Tram@{Tram}!set\+Huidig\+Station@{set\+Huidig\+Station}}
 \index{set\+Huidig\+Station@{set\+Huidig\+Station}!Tram@{Tram}}
-\subsubsection[{\texorpdfstring{set\+Huidig\+Station(string huidig\+Staton)}{setHuidigStation(string huidigStaton)}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::set\+Huidig\+Station (
+\subsubsection[{\texorpdfstring{set\+Huidig\+Station(string huidig\+Station)}{setHuidigStation(string huidigStation)}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::set\+Huidig\+Station (
 \begin{DoxyParamCaption}
 \item[{string}]{huidig\+Station}
 \end{DoxyParamCaption}
-)}\hypertarget{classTram_acb4190c4fb33d7d97de38ea3a25a3522}{}\label{classTram_acb4190c4fb33d7d97de38ea3a25a3522}
+)}\hypertarget{classTram_a3db658161102fcd0eccf7975982b1f1d}{}\label{classTram_a3db658161102fcd0eccf7975982b1f1d}
 
 
 Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. 
@@ -226,6 +307,14 @@ Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}
 {\em huidig\+Station} & \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+huidig\+Station is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Current \hyperlink{classStation}{Station} is now equal to variable huidig\+Station 
+\end{DoxyPostcond}
 \index{Tram@{Tram}!set\+Lijn\+Nr@{set\+Lijn\+Nr}}
 \index{set\+Lijn\+Nr@{set\+Lijn\+Nr}!Tram@{Tram}}
 \subsubsection[{\texorpdfstring{set\+Lijn\+Nr(int lijn\+Nr)}{setLijnNr(int lijnNr)}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::set\+Lijn\+Nr (
@@ -242,6 +331,14 @@ Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number.
 {\em lijn\+Nr} & \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+lijn\+Nr is a positive integer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Line Number is now equal to variable lijn\+Nr 
+\end{DoxyPostcond}
 \index{Tram@{Tram}!set\+Snelheid@{set\+Snelheid}}
 \index{set\+Snelheid@{set\+Snelheid}!Tram@{Tram}}
 \subsubsection[{\texorpdfstring{set\+Snelheid(int snelheid)}{setSnelheid(int snelheid)}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::set\+Snelheid (
@@ -258,22 +355,38 @@ Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed.
 {\em snelheid} & \\
 \hline
 \end{DoxyParams}
-\index{Tram@{Tram}!set\+Type@{set\+Type}}
-\index{set\+Type@{set\+Type}!Tram@{Tram}}
-\subsubsection[{\texorpdfstring{set\+Type(string type)}{setType(string type)}}]{\setlength{\rightskip}{0pt plus 5cm}void Tram\+::set\+Type (
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+snelheid is a positive integer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Speed is now equal to variable snelheid 
+\end{DoxyPostcond}
+\index{Tram@{Tram}!set\+Voertuig\+Nr@{set\+Voertuig\+Nr}}
+\index{set\+Voertuig\+Nr@{set\+Voertuig\+Nr}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{set\+Voertuig\+Nr(int voertuig\+Nr)}{setVoertuigNr(int voertuigNr)}}]{\setlength{\rightskip}{0pt plus 5cm}void Tram\+::set\+Voertuig\+Nr (
 \begin{DoxyParamCaption}
-\item[{string}]{type}
+\item[{int}]{voertuig\+Nr}
 \end{DoxyParamCaption}
-)}\hypertarget{classTram_ae68c0ba51b98ed6fddee64cfe4410f7e}{}\label{classTram_ae68c0ba51b98ed6fddee64cfe4410f7e}
+)}\hypertarget{classTram_a4912c2cd70ee32329220618068c28692}{}\label{classTram_a4912c2cd70ee32329220618068c28692}
 
 
-Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s type. 
+Sets a new \hyperlink{classTram}{Tram} Object. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em type} & -\/ string \\
+{\em voertuig\+Nr} & \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+voertuig\+Nr is a positive integer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Vehicle Number is now equal to variable voertuig\+Nr 
+\end{DoxyPostcond}
 \index{Tram@{Tram}!set\+Zitplaatsen@{set\+Zitplaatsen}}
 \index{set\+Zitplaatsen@{set\+Zitplaatsen}!Tram@{Tram}}
 \subsubsection[{\texorpdfstring{set\+Zitplaatsen(int zitplaatsen)}{setZitplaatsen(int zitplaatsen)}}]{\setlength{\rightskip}{0pt plus 5cm}int Tram\+::set\+Zitplaatsen (
@@ -290,9 +403,61 @@ Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats
 {\em zitplaatsen} & \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+zitplaatsen is a positive integer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Amount of Seats is now equal to variable zitplaatsen 
+\end{DoxyPostcond}
+\index{Tram@{Tram}!type\+String@{type\+String}}
+\index{type\+String@{type\+String}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{type\+String()}{typeString()}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::type\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classTram_abf7bc69ead16170908a1e9364f5bc693}{}\label{classTram_abf7bc69ead16170908a1e9364f5bc693}
+
+
+Returns the \hyperlink{classTram}{Tram} Object\textquotesingle{}s type. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\index{Tram@{Tram}!verplaats\+Tram@{verplaats\+Tram}}
+\index{verplaats\+Tram@{verplaats\+Tram}!Tram@{Tram}}
+\subsubsection[{\texorpdfstring{verplaats\+Tram(string station)}{verplaatsTram(string station)}}]{\setlength{\rightskip}{0pt plus 5cm}string Tram\+::verplaats\+Tram (
+\begin{DoxyParamCaption}
+\item[{string}]{station}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classTram_ad19edde544946050f90efad784bdff50}{}\label{classTram_ad19edde544946050f90efad784bdff50}
+
+
+Sets the \hyperlink{classTram}{Tram} Object\textquotesingle{}s Current \hyperlink{classStation}{Station} to the next possible one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em station} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+station is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classTram}{Tram} Object\textquotesingle{}s Current \hyperlink{classStation}{Station} has been set to the next \hyperlink{classStation}{Station} 
+\end{DoxyPostcond}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-src/\hyperlink{Tram_8h}{Tram.\+h}\item 
-src/Tram.\+cpp\end{DoxyCompactItemize}
+src/\+Tram/\hyperlink{Tram_8h}{Tram.\+h}\item 
+src/\+Tram/Tram.\+cpp\end{DoxyCompactItemize}
