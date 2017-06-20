@@ -47,9 +47,9 @@ public:
     /**
      * @fn void setNaam(string naam)
      * @brief Sets a new Station object's name
+     * @param naam - string
      * @pre The Station Object has been properly initialized
      * @pre naam is a non-empty string
-     * @param naam - string
      * @post The Station Object's name is equal to variable naam
      */
     void setNaam(string naam);
@@ -64,9 +64,9 @@ public:
     /**
      * @fn void addPassagier(string Passagier)
      * @brief Adds a Passenger to the Station object's Passenger set
+     * @param Passagier - string
      * @pre The Station Object has been properly initialized
      * @pre Passagier is a non-empty string
-     * @param Passagier - string
      * @post A new Passenger has been added to the Station Object's Passenger Set
      */
     void addPassagier(string Passagier);
@@ -74,9 +74,9 @@ public:
     /**
      * @fn void removePassagier(string Passagier)
      * @brief Removes a Passenger from the Station object's Passenger set
+     * @param Passagier - string
      * @pre The Station Object has been properly initialized
      * @pre Passagier is a non-empty string
-     * @param Passagier - string
      * @post A Passenger has been removed from the Station Object's Passenger Set
      */
     void removePassagier(string Passagier);

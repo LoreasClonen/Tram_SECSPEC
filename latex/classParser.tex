@@ -16,9 +16,8 @@ This Class contains all the functionalities for the \hyperlink{classParser}{Pars
 \begin{DoxyCompactList}\small\item\em \hyperlink{classParser}{Parser} Default Constructor. \end{DoxyCompactList}\item 
 \hyperlink{classSystem}{System} $\ast$ \hyperlink{classParser_addad80574e43b744a82807d0f821d414}{get\+System} () const 
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object. \end{DoxyCompactList}\item 
-void {\bfseries set\+System} (\hyperlink{classSystem}{System} $\ast$system)\hypertarget{classParser_aaf58c6aafde4e7b889fbaa5d1f3aa6fe}{}\label{classParser_aaf58c6aafde4e7b889fbaa5d1f3aa6fe}
-
-\item 
+void \hyperlink{classParser_a6deb1e00329b1072886bd6d4b9642b5a}{set\+System} (\hyperlink{classSystem}{System} $\ast$system)
+\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object. \end{DoxyCompactList}\item 
 string \hyperlink{classParser_a36b746dbf631544851e0af2d0e7c6982}{get\+Element} (\hyperlink{classTiXmlElement}{Ti\+Xml\+Element} $\ast$elem)
 \begin{DoxyCompactList}\small\item\em Returns the text contained in a \hyperlink{classTiXmlElement}{Ti\+Xml\+Element} Object. \end{DoxyCompactList}\item 
 bool \hyperlink{classParser_aa8cdba8032e5d5d87b249be597b196c7}{Xml\+Parser} (string input\+File)
@@ -83,29 +82,14 @@ string
 
 Returns the \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object. 
 
-Sets a new \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object.
-
 \begin{DoxyPrecond}{Precondition}
 The \hyperlink{classParser}{Parser} Object has been properly initialized 
 
 The \hyperlink{classParser}{Parser} Object has a non-\/empty member variable system 
 \end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
-\hyperlink{classSystem}{System} Pointer
+\hyperlink{classSystem}{System} Pointer 
 \end{DoxyReturn}
-
-\begin{DoxyParams}{Parameters}
-{\em system} & -\/ \hyperlink{classSystem}{System} Pointer \\
-\hline
-\end{DoxyParams}
-\begin{DoxyPrecond}{Precondition}
-The \hyperlink{classParser}{Parser} Object has been properly initialized 
-
-system has been properly initialized 
-\end{DoxyPrecond}
-\begin{DoxyPostcond}{Postcondition}
-The \hyperlink{classParser}{Parser} Object\textquotesingle{}s \hyperlink{classSystem}{System} is equal to system 
-\end{DoxyPostcond}
 \index{Parser@{Parser}!is\+\_\+number@{is\+\_\+number}}
 \index{is\+\_\+number@{is\+\_\+number}!Parser@{Parser}}
 \subsubsection[{\texorpdfstring{is\+\_\+number(string s)}{is_number(string s)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Parser\+::is\+\_\+number (
@@ -125,6 +109,30 @@ s is a non-\/empty string
 \begin{DoxyReturn}{Returns}
 boolean 
 \end{DoxyReturn}
+\index{Parser@{Parser}!set\+System@{set\+System}}
+\index{set\+System@{set\+System}!Parser@{Parser}}
+\subsubsection[{\texorpdfstring{set\+System(\+System $\ast$system)}{setSystem(System *system)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf System} $\ast$ Parser\+::set\+System (
+\begin{DoxyParamCaption}
+\item[{{\bf System} $\ast$}]{system}
+\end{DoxyParamCaption}
+)}\hypertarget{classParser_a6deb1e00329b1072886bd6d4b9642b5a}{}\label{classParser_a6deb1e00329b1072886bd6d4b9642b5a}
+
+
+Sets a new \hyperlink{classParser}{Parser} object\textquotesingle{}s \hyperlink{classSystem}{System} Object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & -\/ \hyperlink{classSystem}{System} Pointer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classParser}{Parser} Object has been properly initialized 
+
+system has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classParser}{Parser} Object\textquotesingle{}s \hyperlink{classSystem}{System} is equal to system 
+\end{DoxyPostcond}
 \index{Parser@{Parser}!Xml\+Parser@{Xml\+Parser}}
 \index{Xml\+Parser@{Xml\+Parser}!Parser@{Parser}}
 \subsubsection[{\texorpdfstring{Xml\+Parser(string input\+File)}{XmlParser(string inputFile)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Parser\+::\+Xml\+Parser (

@@ -40,7 +40,7 @@ public:
     System *getSystem() const;
 
     /**
-    * @fn System* getSystem()
+    * @fn System* setSystem()
     * @brief Sets a new Parser object's System Object
     * @param system - System Pointer
     * @pre The Parser Object has been properly initialized

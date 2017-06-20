@@ -3,12 +3,16 @@ Starting Simulation
 ===================
 Tram 120 reed van station C naar station C
 	Groep1 stapt op op Tram 165 vanaf Station A
+	Groep2 stapt op op Tram 165 vanaf Station A
 Tram 165 reed van station C naar station C
-Tram 120 reed van station A naar station A
+Tram 120 reed van station D naar station D
+	Groep2 stapt af uit Tram 165 op Station C
+Tram 165 reed van station D naar station D
+Tram 120 reed van station E naar station E
+	Groep1 stapt af uit Tram 165 op Station D
 Tram 165 reed van station A naar station A
+Tram 120 reed van station A naar station A
 Tram 120 reed van station B naar station B
-
-De passagiers in Tram 165 raken niet op hun eindbestemming
 ===================
 Simulation finished
 ===================
