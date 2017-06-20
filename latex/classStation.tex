@@ -102,13 +102,17 @@ Adds a new \hyperlink{classStation}{Station} Track to the Tracks map.
 
 
 \begin{DoxyParams}{Parameters}
-{\em spoor} & -\/ \hyperlink{classSpoor}{Spoor} Pointer \\
+{\em spoor} & -\/ Spoor$\ast$ \\
 \hline
 {\em spoor\+Nr} & -\/ integer \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
 The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+spoor has been properly initialized 
+
+spoor\+Nr is a positive integer 
 \end{DoxyPrecond}
 \begin{DoxyPostcond}{Postcondition}
 The Track Object has been added to the \hyperlink{classStation}{Station} Object\textquotesingle{}s Track Map 
@@ -262,7 +266,7 @@ Sets a new map of Tracks as the \hyperlink{classStation}{Station} Object\textquo
 
 
 \begin{DoxyParams}{Parameters}
-{\em sporen} & \\
+{\em sporen} & -\/ map$<$int, Spoor$\ast$$>$ \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}

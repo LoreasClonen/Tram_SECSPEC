@@ -60,7 +60,7 @@ void Tram::setLijnNr(int lijnNr) {
 void Tram::setZitplaatsen(int zitplaatsen) {
     REQUIRE(this->properlyInitialized(),
             "Tram wasn't initialized when calling setZitplaatsen.");
-    ENSURE(zitplaatsen > 0,"No negative seats allowed");
+    ENSURE(zitplaatsen >= 0,"No negative seats allowed");
     Tram::zitplaatsen = zitplaatsen;
     REQUIRE(this->zitplaatsen == zitplaatsen, "Tram Amount of Seats wasn't set correctly");
 }
@@ -102,9 +102,10 @@ void Tram::setVoertuigNr(int voertuigNr) {
     ENSURE(this->voertuigNr == voertuigNr, "Tram Vehicle Nr. wasn't set correctly.");
 }
 
-bool Tram::plaatsenTeKort(int n ) {
+bool Tram::plaatsenTeKort(int n) {
     REQUIRE(this->properlyInitialized(),
             "Tram wasn't initialized when calling plaatsenTeKort.");
+    ENSURE(n >= 0, "No negative amount allowed");
     if(Tram::zitplaatsen < n) {
         return false;
     }

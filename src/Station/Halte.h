@@ -10,10 +10,8 @@
 *
 * @authors Loreas Clonen & Luuk van Sloun
 */
-
 #ifndef TRAM_NETWERK_HALTE_H
 #define TRAM_NETWERK_HALTE_H
-
 
 #include "Station.h"
 

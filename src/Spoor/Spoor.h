@@ -41,7 +41,7 @@ public:
 
     /**
     * @fn int getSpoorNr()
-    * @brief Returns the Spoor object's Track Number
+    * @brief Returns the Spoor Object's Track Number
     * @pre The Spoor Object has been properly initialized
     * @pre The Spoor Object has a non-empty member variable spoorNr
     * @return integer
@@ -50,7 +50,7 @@ public:
 
     /**
     * @fn int setSpoorNr()
-    * @brief Sets a new Spoor object's Track Number
+    * @brief Sets a new Spoor Object's Track Number
     * @param spoorNr - integer
     * @pre The Spoor Object has been properly initialized
     * @pre spoorNr is a positive integer
@@ -60,7 +60,7 @@ public:
 
     /**
     * @fn string getVolgende()
-    * @brief Returns the Station object's Next Station
+    * @brief Returns the Station Object's Next Station
     * @pre The Spoor Object has been properly initialized
     * @pre The Spoor Object has a non-empty member variable volgende
     * @return string
@@ -69,7 +69,7 @@ public:
 
     /**
      * @fn void setVolgende(string volgende)
-     * @brief Sets a new Spoor object's Next Station
+     * @brief Sets a new Spoor Object's Next Station
      * @param volgende - string
      * @pre The Spoor Object has been properly initialized
      * @pre volgende is a non-empty string
@@ -79,7 +79,7 @@ public:
 
     /**
     * @fn string getVorige()
-    * @brief Returns the Station object's Previous Station
+    * @brief Returns the Station Object's Previous Station
     * @pre The Spoor Object has been properly initialized
     * @pre The Spoor Object has a non-empty member variable vorige
     * @return string
@@ -88,7 +88,7 @@ public:
 
     /**
     * @fn void setVorige(string vorige)
-    * @brief Sets a new Spoor object's Previous Station
+    * @brief Sets a new Spoor Object's Previous Station
     * @param vorige - string
     * @pre The Spoor Object has been properly initialized
     * @pre vorige is a non-empty string

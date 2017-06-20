@@ -1,50 +1,16 @@
 --== STATIONS ==--
-tion Station A
-Type: Metrostation
---== SPOREN ==--
-Spoor 12
--> Station B
-<- Station E
-Wachtende passagiers:
- - Groep1, 15 mensen, reist naar Station: D
- - Groep2, 3 mensen, reist naar Station: C
-Station B
+Station A
 Type: Halte
 --== SPOREN ==--
-Spoor 12
--> Station C
-<- Station A
-Wachtende passagiers:
-Station C
-Type: Metrostation
---== SPOREN ==--
-Spoor 12
--> Station D
-<- Station B
-Wachtende passagiers:
-Station D
-Type: Metrostation
---== SPOREN ==--
-Spoor 12
--> Station E
+Spoor 10
+-> Station B
 <- Station C
 Wachtende passagiers:
-Station E
-Type: Halte
---== SPOREN ==--
-Spoor 12
--> Station A
-<- Station D
-Wachtende passagiers:
+ - Groep1, 25 mensen, reist naar Station: B
 
 --== TRAMS ==--
-Tram 120 nr 120
+Tram 10 nr 22
 Type: PCC
-Zitplaatsen: 32
-Snelheid: 60km/h
-Huidig Station: B
-Tram 165 nr 165
-Type: Albatros
-Zitplaatsen: 32
+Zitplaatsen: 55
 Snelheid: 60km/h
 Huidig Station: A

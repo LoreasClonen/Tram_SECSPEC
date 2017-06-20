@@ -263,6 +263,9 @@ The <a class="el" href="classTram.html" title="This Class contains all the funct
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> object's Passenger set. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> Object has been properly initialized </dd>
+<dd>
+The <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> Object has a non-empty member variable passagiers </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>passagiers - set </dd></dl>
 
 </div>
@@ -372,15 +375,15 @@ The <a class="el" href="classTram.html" title="This Class contains all the funct
 </div><div class="memdoc">
 
 <p>Returns true if there's enough seats available on the <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a>. </p>
-<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> Object has been properly initialized </dd>
-<dd>
-aantal is a positive integer </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">aantal</td><td></td></tr>
+    <tr><td class="paramname">aantal</td><td>- integer </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> Object has been properly initialized </dd>
+<dd>
+aantal is a positive integer </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
 
 </div>
@@ -420,7 +423,7 @@ aantal is a positive integer </dd></dl>
 <p>Sets a new Passenger object's Starting <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">beginStation</td><td></td></tr>
+    <tr><td class="paramname">beginStation</td><td>- string </td></tr>
   </table>
   </dd>
 </dl>
@@ -448,7 +451,7 @@ beginStation is a non-empty string </dd></dl>
 <p>Sets a new Passenger object's Starting <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">huidigStation</td><td></td></tr>
+    <tr><td class="paramname">huidigStation</td><td>- string </td></tr>
   </table>
   </dd>
 </dl>
@@ -476,7 +479,7 @@ huidigStation is a non-empty string </dd></dl>
 <p>Sets a new <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> object's Line Number. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">lijnNr</td><td></td></tr>
+    <tr><td class="paramname">lijnNr</td><td>- integer </td></tr>
   </table>
   </dd>
 </dl>
@@ -504,7 +507,7 @@ lijnNr is a positive integer </dd></dl>
 <p>Sets a new <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> object's Speed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">snelheid</td><td></td></tr>
+    <tr><td class="paramname">snelheid</td><td>- integer </td></tr>
   </table>
   </dd>
 </dl>
@@ -532,7 +535,7 @@ snelheid is a positive integer </dd></dl>
 <p>Sets a new <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> Object. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">voertuigNr</td><td></td></tr>
+    <tr><td class="paramname">voertuigNr</td><td>- integer </td></tr>
   </table>
   </dd>
 </dl>
@@ -560,7 +563,7 @@ voertuigNr is a positive integer </dd></dl>
 <p>Sets a new <a class="el" href="classTram.html" title="This Class contains all the functionalities for the Tram objects. ">Tram</a> object's Amount of Seats. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">zitplaatsen</td><td></td></tr>
+    <tr><td class="paramname">zitplaatsen</td><td>- int </td></tr>
   </table>
   </dd>
 </dl>

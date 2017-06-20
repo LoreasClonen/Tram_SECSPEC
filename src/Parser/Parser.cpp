@@ -363,15 +363,13 @@ bool Parser::XmlParser(string inputFile) {
                 if (type == "Albatros") {
                     tram = new Albatros;
                 }
-
                 else if (type == "PCC") {
                     tram = new PCC;
                 }
-
                 if (!outputTram) {
                     outputFile << "DELETING INCOMPLETE TRAM" << endl;
                     delete tram;
-                } else {
+                } else if(outputTram) {
                     tram->setLijnNr(lijnNr);
                     tram->setZitplaatsen(zitplaatsen);
                     tram->setSnelheid(snelheid);
@@ -482,6 +480,7 @@ bool Parser::XmlParser(string inputFile) {
                     errorFile << "STARTING STATION OF PASSENGER: NOT IN SYSTEM" << endl;
                 }
             }
+            outputFile << endl;
         }
     }
 

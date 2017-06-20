@@ -43,7 +43,7 @@ public:
 
     /**
     * @fn string getNaam()
-    * @brief Returns the Station object's name
+    * @brief Returns the Station Object's name
     * @pre The Passenger Object has been properly initialized
     * @pre The Passenger Object has a non-empty member variable naam
     * @return string
@@ -52,7 +52,7 @@ public:
 
     /**
      * @fn void setNaam(string naam)
-     * @brief Sets a new Passenger object's name
+     * @brief Sets a new Passenger Object's name
      * @param naam - string
      * @pre The Passenger Object has been properly initialized
      * @pre naam is a non-empty string
@@ -62,7 +62,7 @@ public:
 
     /**
     * @fn string getBeginStation()
-    * @brief Returns the Passenger object's Starting Station
+    * @brief Returns the Passenger Object's Starting Station
     * @pre The Passenger Object has been properly initialized
     * @pre The Passenger Object has a non-empty member variable beginStation
     * @return string
@@ -71,7 +71,7 @@ public:
 
     /**
      * @fn void setBeginStation(string beginStation)
-     * @brief Sets a new Passenger object's Starting Station
+     * @brief Sets a new Passenger Object's Starting Station
      * @param beginStation - string
      * @pre The Passenger Object has been properly initialized
      * @pre beginStation is a non-empty string
@@ -81,7 +81,7 @@ public:
 
     /**
     * @fn string getEindStation()
-    * @brief Returns the Passenger object's End Station
+    * @brief Returns the Passenger Object's End Station
     * @pre The Passenger Object has been properly initialized
     * @pre The Passenger Object has a non-empty member variable eindStation
     * @return string
@@ -90,7 +90,7 @@ public:
 
     /**
      * @fn void setEindStation(string eindStation)
-     * @brief Sets a new Passenger object's End Station
+     * @brief Sets a new Passenger Object's End Station
      * @param eindStation - string
      * @pre The Passenger Object has been properly initialized
      * @pre eindStation is a non-empty string

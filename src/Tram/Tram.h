@@ -97,7 +97,7 @@ public:
     /**
     * @fn int setLijnNr(int lijnNr)
     * @brief Sets a new Tram object's Line Number
-    * @param lijnNr
+    * @param lijnNr - integer
     * @pre The Tram Object has been properly initialized
     * @pre lijnNr is a positive integer
     * @post The Tram Object's Line Number is now equal to variable lijnNr
@@ -107,7 +107,7 @@ public:
     /**
     * @fn int setZitplaatsen(int zitplaatsen)
     * @brief Sets a new Tram object's Amount of Seats
-    * @param zitplaatsen
+    * @param zitplaatsen - int
     * @pre The Tram Object has been properly initialized
     * @pre zitplaatsen is a positive integer
     * @post The Tram Object's Amount of Seats is now equal to variable zitplaatsen
@@ -117,7 +117,7 @@ public:
     /**
     * @fn int setSnelheid(int snelheid)
     * @brief Sets a new Tram object's Speed
-    * @param snelheid
+    * @param snelheid - integer
     * @pre The Tram Object has been properly initialized
     * @pre snelheid is a positive integer
     * @post The Tram Object's Speed is now equal to variable snelheid
@@ -127,7 +127,7 @@ public:
     /**
     * @fn string setBeginStation(string beginStation)
     * @brief Sets a new Passenger object's Starting Station
-    * @param beginStation
+    * @param beginStation - string
     * @pre The Tram Object has been properly initialized
     * @pre beginStation is a non-empty string
     * @post The Tram Object's Starting Station is now equal to variable beginStation
@@ -137,7 +137,7 @@ public:
     /**
     * @fn string setHuidigStation(string huidigStation)
     * @brief Sets a new Passenger object's Starting Station
-    * @param huidigStation
+    * @param huidigStation - string
     * @pre The Tram Object has been properly initialized
     * @pre huidigStation is a non-empty string
     * @post The Tram Object's Current Station is now equal to variable huidigStation
@@ -147,7 +147,7 @@ public:
     /**
      * @fn void setVoertuigNr(int voertuigNr)
      * @brief Sets a new Tram Object
-     * @param voertuigNr
+     * @param voertuigNr - integer
      * @pre The Tram Object has been properly initialized
      * @pre voertuigNr is a positive integer
      * @post The Tram Object's Vehicle Number is now equal to variable voertuigNr
@@ -164,9 +164,9 @@ public:
     /**
      * @fn bool plaatsenTeKort(int aantal)
      * @brief Returns true if there's enough seats available on the Tram
+     * @param aantal - integer
      * @pre The Tram Object has been properly initialized
      * @pre aantal is a positive integer
-     * @param aantal
      * @return boolean
      */
     bool plaatsenTeKort(int aantal);
@@ -178,7 +178,9 @@ public:
      * @param Aantal - integer
      * @param Station - string
      * @pre The Tram Object has been properly initialized
-     * @pre Passagier is a non-empty string, Aantal is a positive integer, Station is non-empty string
+     * @pre Passagier is a non-empty string
+     * @pre Aantal is a positive integer
+     * @pre Station is non-empty string
      * @post A new Passenger has been added to the Tram Object's Passenger Set
      * @return string
      */
@@ -191,7 +193,9 @@ public:
      * @param Aantal - integer
      * @param Station - string
      * @pre The Tram Object has been properly initialized
-     * @pre Passagier is a non-empty string, Aantal is a positive integer, Station is non-empty string
+     * @pre Passagier is a non-empty string
+     * @pre Aantal is a positive integer
+     * @pre Station is non-empty string
      * @post A Passenger has been removed from the Tram Object's Passenger Set
      * @return string
      */
@@ -200,7 +204,8 @@ public:
     /**
      * @fn set<string> getPassagiers()
      * @brief Returns the Tram object's Passenger set
-     *
+     * @pre The Tram Object has been properly initialized
+     * @pre The Tram Object has a non-empty member variable passagiers
      * @return passagiers - set
      */
     set<string> getPassagiers();

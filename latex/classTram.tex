@@ -152,6 +152,11 @@ integer
 
 Returns the \hyperlink{classTram}{Tram} object\textquotesingle{}s Passenger set. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+
+The \hyperlink{classTram}{Tram} Object has a non-\/empty member variable passagiers 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 passagiers -\/ set 
 \end{DoxyReturn}
@@ -240,16 +245,16 @@ boolean
 
 Returns true if there\textquotesingle{}s enough seats available on the \hyperlink{classTram}{Tram}. 
 
+
+\begin{DoxyParams}{Parameters}
+{\em aantal} & -\/ integer \\
+\hline
+\end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
 The \hyperlink{classTram}{Tram} Object has been properly initialized 
 
 aantal is a positive integer 
 \end{DoxyPrecond}
-
-\begin{DoxyParams}{Parameters}
-{\em aantal} & \\
-\hline
-\end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 boolean 
 \end{DoxyReturn}
@@ -280,7 +285,7 @@ Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}
 
 
 \begin{DoxyParams}{Parameters}
-{\em begin\+Station} & \\
+{\em begin\+Station} & -\/ string \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
@@ -304,7 +309,7 @@ Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}
 
 
 \begin{DoxyParams}{Parameters}
-{\em huidig\+Station} & \\
+{\em huidig\+Station} & -\/ string \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
@@ -328,7 +333,7 @@ Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Line Number.
 
 
 \begin{DoxyParams}{Parameters}
-{\em lijn\+Nr} & \\
+{\em lijn\+Nr} & -\/ integer \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
@@ -352,7 +357,7 @@ Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Speed.
 
 
 \begin{DoxyParams}{Parameters}
-{\em snelheid} & \\
+{\em snelheid} & -\/ integer \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
@@ -376,7 +381,7 @@ Sets a new \hyperlink{classTram}{Tram} Object.
 
 
 \begin{DoxyParams}{Parameters}
-{\em voertuig\+Nr} & \\
+{\em voertuig\+Nr} & -\/ integer \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}
@@ -400,7 +405,7 @@ Sets a new \hyperlink{classTram}{Tram} object\textquotesingle{}s Amount of Seats
 
 
 \begin{DoxyParams}{Parameters}
-{\em zitplaatsen} & \\
+{\em zitplaatsen} & -\/ int \\
 \hline
 \end{DoxyParams}
 \begin{DoxyPrecond}{Precondition}

@@ -102,7 +102,7 @@ public:
     /**
      * @fn void setSporen(map<int, Spoor*> sporen)
      * @brief Sets a new map of Tracks as the Station Object's Track Map
-     * @param sporen
+     * @param sporen - map<int, Spoor*>
      * @pre The Station Object has been properly initialized
      * @post The Station Object's Track Map is equal to sporen
      */
@@ -111,9 +111,11 @@ public:
     /**
      * @fn void addSpoor(Spoor* spoor, int spoorNr)
      * @brief Adds a new Station Track to the Tracks map
-     * @param spoor - Spoor Pointer
+     * @param spoor - Spoor*
      * @param spoorNr - integer
      * @pre The Station Object has been properly initialized
+     * @pre spoor has been properly initialized
+     * @pre spoorNr is a positive integer
      * @post The Track Object has been added to the Station Object's Track Map
      */
     void addSpoor(Spoor* spoor, int spoorNr);

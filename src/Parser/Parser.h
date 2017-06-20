@@ -35,14 +35,14 @@ public:
     * @brief Returns the Parser object's System Object
     * @pre The Parser Object has been properly initialized
     * @pre The Parser Object has a non-empty member variable system
-    * @return System Pointer
+    * @return System*
     */
     System *getSystem() const;
 
     /**
     * @fn System* setSystem()
     * @brief Sets a new Parser object's System Object
-    * @param system - System Pointer
+    * @param system - System*
     * @pre The Parser Object has been properly initialized
     * @pre system has been properly initialized
     * @post The Parser Object's System is equal to system

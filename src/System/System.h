@@ -53,8 +53,8 @@ public:
     System();
     /**
      * @fn bool properlyInitialized()
-     * @brief Returns the system object's properlyInitialized member
-     * @return bool
+     * @brief Returns the System Object's properlyInitialized member
+     * @return boolean
      */
     bool properlyInitialized();
 
@@ -86,7 +86,7 @@ public:
 
     /**
      * @fn void addStation(string naam, Station* station)
-     * @brief adds a Station* to the stations member
+     * @brief Adds a Station* to the stations member
      * @param naam - string
      * @param station - Station*
      * @pre The System Object has been properly initialized
@@ -97,7 +97,7 @@ public:
 
     /**
      * @fn void addTram(int lijnNr, Tram* tram)
-     * @brief adds a Tram* to the trams member
+     * @brief Adds a Tram* to the trams member
      * @param lijnNr - int
      * @param tram - Tram*
      * @pre The System Object has been properly initialized
@@ -109,13 +109,13 @@ public:
 
     /**
      * @fn void properlyparsed()
-     * @brief Checks wether or not the system is properly parsed
+     * @brief Checks if the System is properly parsed
      */
     void properlyparsed();
 
     /**
      * @fn void setProperlyParsed(bool properlyparsed)
-     * @brief Gives a new value to the member properlyparsed
+     * @brief Sets the System Object's member variable properlyParsed
      * @post The System Object's member variable properlyParsed is equal to variable properlyParsed
      */
 
@@ -132,7 +132,7 @@ public:
 
     /**
      * @fn void addPassagier(string naam, Passagier* passagier)
-     * @brief adds a Passagier* to the passagiers member
+     * @brief Adds a Passagier* to the passagiers member
      * @param naam - string
      * @param passagier - Passagier*
      * @pre The System object has been properly initialized

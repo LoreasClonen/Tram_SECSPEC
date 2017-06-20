@@ -214,12 +214,16 @@ Public Member Functions</h2></td></tr>
 <p>Adds a new <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> Track to the Tracks map. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">spoor</td><td>- <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Pointer </td></tr>
+    <tr><td class="paramname">spoor</td><td>- Spoor* </td></tr>
     <tr><td class="paramname">spoorNr</td><td>- integer </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> Object has been properly initialized </dd></dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> Object has been properly initialized </dd>
+<dd>
+spoor has been properly initialized </dd>
+<dd>
+spoorNr is a positive integer </dd></dl>
 <dl class="section post"><dt>Postcondition</dt><dd>The Track Object has been added to the <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> Object's Track Map </dd></dl>
 
 </div>
@@ -405,7 +409,7 @@ naam is a non-empty string </dd></dl>
 <p>Sets a new map of Tracks as the <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> Object's Track Map. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sporen</td><td></td></tr>
+    <tr><td class="paramname">sporen</td><td>- map&lt;int, Spoor*&gt; </td></tr>
   </table>
   </dd>
 </dl>
