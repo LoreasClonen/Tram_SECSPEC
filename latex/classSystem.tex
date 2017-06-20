@@ -12,8 +12,7 @@ This Class contains all the functionalities for the \hyperlink{classSystem}{Syst
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{System} ()\hypertarget{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{}\label{classSystem_ae317936c9bcf1374d61745572e0f2f8a}
-
+\hyperlink{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{System} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classSystem}{System} Default Constructor. \end{DoxyCompactList}\item 
 bool \hyperlink{classSystem_a8532240d722aafc7084ca6047909c8da}{properly\+Initialized} ()
 \begin{DoxyCompactList}\small\item\em Returns the system object\textquotesingle{}s properly\+Initialized member. \end{DoxyCompactList}\item 
@@ -22,23 +21,21 @@ map$<$ string, \hyperlink{classStation}{Station} $\ast$ $>$ \hyperlink{classSyst
 map$<$ int, \hyperlink{classTram}{Tram} $\ast$ $>$ \hyperlink{classSystem_a7ef5389572f830ddaa61052ce09f48de}{get\+Trams} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classSystem}{System} object\textquotesingle{}s trams member. \end{DoxyCompactList}\item 
 string \hyperlink{classSystem_afd117849fbf4d7d8dc0f54988589c249}{Output} ()
-\begin{DoxyCompactList}\small\item\em Returns a string of the current system lay-\/out. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Returns a string containing the current \hyperlink{classSystem}{System} lay-\/out. \end{DoxyCompactList}\item 
 void \hyperlink{classSystem_a8d73a59e5ca0c23cc36d3bf4b7ac902d}{add\+Station} (string naam, \hyperlink{classStation}{Station} $\ast$station)
 \begin{DoxyCompactList}\small\item\em adds a Station$\ast$ to the stations member \end{DoxyCompactList}\item 
 void \hyperlink{classSystem_a9c6d16ae38e21499491a7059d67f9284}{add\+Tram} (int lijn\+Nr, \hyperlink{classTram}{Tram} $\ast$tram)
 \begin{DoxyCompactList}\small\item\em adds a Tram$\ast$ to the trams member \end{DoxyCompactList}\item 
 void \hyperlink{classSystem_a8060d45e6030ee1ad01a11a990bdd1ad}{properlyparsed} ()\hypertarget{classSystem_a8060d45e6030ee1ad01a11a990bdd1ad}{}\label{classSystem_a8060d45e6030ee1ad01a11a990bdd1ad}
 
-\begin{DoxyCompactList}\small\item\em checks wether or not the system is properly parsed \end{DoxyCompactList}\item 
-void \hyperlink{classSystem_af140010428a79ddde06f3546e7737d86}{set\+Properly\+Parsed} (bool properly\+Parsed)\hypertarget{classSystem_af140010428a79ddde06f3546e7737d86}{}\label{classSystem_af140010428a79ddde06f3546e7737d86}
-
+\begin{DoxyCompactList}\small\item\em Checks wether or not the system is properly parsed. \end{DoxyCompactList}\item 
+void \hyperlink{classSystem_af140010428a79ddde06f3546e7737d86}{set\+Properly\+Parsed} (bool properly\+Parsed)
 \begin{DoxyCompactList}\small\item\em Gives a new value to the member properlyparsed. \end{DoxyCompactList}\item 
 map$<$ string, \hyperlink{classPassagier}{Passagier} $\ast$ $>$ \hyperlink{classSystem_a25bf1c319312604ce89890fa827f4552}{get\+Passagiers} ()
 \begin{DoxyCompactList}\small\item\em Returns the member passagiers. \end{DoxyCompactList}\item 
 void \hyperlink{classSystem_ad2a3016a3d4cf9273cf8156f4fc69dfb}{add\+Passagier} (string naam, \hyperlink{classPassagier}{Passagier} $\ast$passagier)
 \begin{DoxyCompactList}\small\item\em adds a Passagier$\ast$ to the passagiers member \end{DoxyCompactList}\item 
-void \hyperlink{classSystem_ae392bbed93678914f3b0aff18c4a6d4d}{auto\+Simulation} ()\hypertarget{classSystem_ae392bbed93678914f3b0aff18c4a6d4d}{}\label{classSystem_ae392bbed93678914f3b0aff18c4a6d4d}
-
+void \hyperlink{classSystem_ae392bbed93678914f3b0aff18c4a6d4d}{auto\+Simulation} ()
 \begin{DoxyCompactList}\small\item\em Simulates the system running. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
@@ -48,6 +45,23 @@ This Class contains all the functionalities for the \hyperlink{classSystem}{Syst
 \begin{DoxyAuthor}{Authors}
 Loreas Clonen \& Luuk van Sloun 
 \end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{System@{System}!System@{System}}
+\index{System@{System}!System@{System}}
+\subsubsection[{\texorpdfstring{System()}{System()}}]{\setlength{\rightskip}{0pt plus 5cm}System\+::\+System (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{}\label{classSystem_ae317936c9bcf1374d61745572e0f2f8a}
+
+
+\hyperlink{classSystem}{System} Default Constructor. 
+
+\begin{DoxyPostcond}{Postcondition}
+A new \hyperlink{classSystem}{System} Object has been created 
+\end{DoxyPostcond}
 
 
 \subsection{Member Function Documentation}
@@ -70,6 +84,14 @@ adds a Passagier$\ast$ to the passagiers member
 {\em passagier} & -\/ Passagier$\ast$ \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} object has been properly initialized 
+
+naam is a non-\/empty string, passagier has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A new Passenger Object has been added to the \hyperlink{classSystem}{System} Object\textquotesingle{}s Passenger map 
+\end{DoxyPostcond}
 \index{System@{System}!add\+Station@{add\+Station}}
 \index{add\+Station@{add\+Station}!System@{System}}
 \subsubsection[{\texorpdfstring{add\+Station(string naam, Station $\ast$station)}{addStation(string naam, Station *station)}}]{\setlength{\rightskip}{0pt plus 5cm}void System\+::add\+Station (
@@ -89,6 +111,14 @@ adds a Station$\ast$ to the stations member
 {\em station} & -\/ Station$\ast$ \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+
+naam is a non-\/empty string, station has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A new \hyperlink{classStation}{Station} Object has been added to the \hyperlink{classSystem}{System} Object\textquotesingle{}s \hyperlink{classStation}{Station} map 
+\end{DoxyPostcond}
 \index{System@{System}!add\+Tram@{add\+Tram}}
 \index{add\+Tram@{add\+Tram}!System@{System}}
 \subsubsection[{\texorpdfstring{add\+Tram(int lijn\+Nr, Tram $\ast$tram)}{addTram(int lijnNr, Tram *tram)}}]{\setlength{\rightskip}{0pt plus 5cm}void System\+::add\+Tram (
@@ -108,6 +138,28 @@ adds a Tram$\ast$ to the trams member
 {\em tram} & -\/ Tram$\ast$ \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+
+lijn\+Nr is a positive integer, tram has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A new \hyperlink{classTram}{Tram} Object has been added to the \hyperlink{classSystem}{System} Object\textquotesingle{}s \hyperlink{classTram}{Tram} map 
+\end{DoxyPostcond}
+\index{System@{System}!auto\+Simulation@{auto\+Simulation}}
+\index{auto\+Simulation@{auto\+Simulation}!System@{System}}
+\subsubsection[{\texorpdfstring{auto\+Simulation()}{autoSimulation()}}]{\setlength{\rightskip}{0pt plus 5cm}void System\+::auto\+Simulation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classSystem_ae392bbed93678914f3b0aff18c4a6d4d}{}\label{classSystem_ae392bbed93678914f3b0aff18c4a6d4d}
+
+
+Simulates the system running. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+\end{DoxyPrecond}
 \index{System@{System}!get\+Passagiers@{get\+Passagiers}}
 \index{get\+Passagiers@{get\+Passagiers}!System@{System}}
 \subsubsection[{\texorpdfstring{get\+Passagiers()}{getPassagiers()}}]{\setlength{\rightskip}{0pt plus 5cm}map$<$ string, {\bf Passagier} $\ast$ $>$ System\+::get\+Passagiers (
@@ -119,6 +171,11 @@ adds a Tram$\ast$ to the trams member
 
 Returns the member passagiers. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+
+The \hyperlink{classSystem}{System} Object has a non-\/empty member variable passagiers 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 map$<$string, Passagier$\ast$$>$ 
 \end{DoxyReturn}
@@ -133,6 +190,11 @@ map$<$string, Passagier$\ast$$>$
 
 Returns the \hyperlink{classSystem}{System} object\textquotesingle{}s stations member. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+
+The \hyperlink{classSystem}{System} Object has a non-\/empty member variable stations 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 map$<$string, Tram$\ast$$>$ 
 \end{DoxyReturn}
@@ -147,6 +209,11 @@ map$<$string, Tram$\ast$$>$
 
 Returns the \hyperlink{classSystem}{System} object\textquotesingle{}s trams member. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+
+The \hyperlink{classSystem}{System} Object has a non-\/empty member variable trams 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 map$<$string, Tram$\ast$$>$ 
 \end{DoxyReturn}
@@ -159,8 +226,11 @@ map$<$string, Tram$\ast$$>$
 )}\hypertarget{classSystem_afd117849fbf4d7d8dc0f54988589c249}{}\label{classSystem_afd117849fbf4d7d8dc0f54988589c249}
 
 
-Returns a string of the current system lay-\/out. 
+Returns a string containing the current \hyperlink{classSystem}{System} lay-\/out. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSystem}{System} Object has been properly initialized 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -178,6 +248,20 @@ Returns the system object\textquotesingle{}s properly\+Initialized member.
 \begin{DoxyReturn}{Returns}
 bool 
 \end{DoxyReturn}
+\index{System@{System}!set\+Properly\+Parsed@{set\+Properly\+Parsed}}
+\index{set\+Properly\+Parsed@{set\+Properly\+Parsed}!System@{System}}
+\subsubsection[{\texorpdfstring{set\+Properly\+Parsed(bool properly\+Parsed)}{setProperlyParsed(bool properlyParsed)}}]{\setlength{\rightskip}{0pt plus 5cm}void System\+::set\+Properly\+Parsed (
+\begin{DoxyParamCaption}
+\item[{bool}]{properlyparsed}
+\end{DoxyParamCaption}
+)}\hypertarget{classSystem_af140010428a79ddde06f3546e7737d86}{}\label{classSystem_af140010428a79ddde06f3546e7737d86}
+
+
+Gives a new value to the member properlyparsed. 
+
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classSystem}{System} Object\textquotesingle{}s member variable properly\+Parsed is equal to variable properly\+Parsed 
+\end{DoxyPostcond}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

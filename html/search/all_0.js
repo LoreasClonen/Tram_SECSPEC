@@ -6,6 +6,7 @@ var searchData=
   ['addstation',['addStation',['../classSystem.html#a8d73a59e5ca0c23cc36d3bf4b7ac902d',1,'System']]],
   ['addtram',['addTram',['../classSystem.html#a9c6d16ae38e21499491a7059d67f9284',1,'System']]],
   ['albatros',['Albatros',['../classAlbatros.html',1,'']]],
+  ['albatros_2eh',['Albatros.h',['../Albatros_8h.html',1,'']]],
   ['attribute',['Attribute',['../classTiXmlElement.html#ac1e4691e9375ba4e665dce7e46a50a9c',1,'TiXmlElement::Attribute(const char *name) const '],['../classTiXmlElement.html#aa9192e80567b5042dbded80b78c44339',1,'TiXmlElement::Attribute(const char *name, int *i) const '],['../classTiXmlElement.html#aec4f727f8aa49b51248d80125d173136',1,'TiXmlElement::Attribute(const char *name, double *d) const ']]],
   ['autosimulation',['autoSimulation',['../classSystem.html#ae392bbed93678914f3b0aff18c4a6d4d',1,'System']]]
 ];

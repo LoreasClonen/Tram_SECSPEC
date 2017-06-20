@@ -2,7 +2,7 @@
 \label{classPCC}\index{P\+CC@{P\+CC}}
 
 
-This Class contains all the functionalities for the \hyperlink{classPCC}{P\+CC} objects.  
+This Class contains all the functionalities for the \hyperlink{classPCC}{P\+CC} objects, which is a derived class of the \hyperlink{classTram}{Tram} class.  
 
 
 
@@ -30,20 +30,55 @@ Collaboration diagram for P\+CC\+:\nopagebreak
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-string {\bfseries type\+String} ()\hypertarget{classPCC_a6cc8b127dc4790be8e73c974704903eb}{}\label{classPCC_a6cc8b127dc4790be8e73c974704903eb}
-
-\item 
-bool {\bfseries is\+Albatros} ()\hypertarget{classPCC_aebc2128b783f1013ec39fa55a2df7276}{}\label{classPCC_aebc2128b783f1013ec39fa55a2df7276}
-
-\end{DoxyCompactItemize}
+bool \hyperlink{classPCC_aebc2128b783f1013ec39fa55a2df7276}{is\+Albatros} ()
+\begin{DoxyCompactList}\small\item\em Returns true if the \hyperlink{classTram}{Tram} Object is of the \hyperlink{classAlbatros}{Albatros} type. \end{DoxyCompactList}\item 
+string \hyperlink{classPCC_a6cc8b127dc4790be8e73c974704903eb}{type\+String} ()
+\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classTram}{Tram} Object\textquotesingle{}s type. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
-This Class contains all the functionalities for the \hyperlink{classPCC}{P\+CC} objects. 
+This Class contains all the functionalities for the \hyperlink{classPCC}{P\+CC} objects, which is a derived class of the \hyperlink{classTram}{Tram} class. 
 
 \begin{DoxyAuthor}{Authors}
 Loreas Clonen \& Luuk van Sloun 
 \end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\index{P\+CC@{P\+CC}!is\+Albatros@{is\+Albatros}}
+\index{is\+Albatros@{is\+Albatros}!P\+CC@{P\+CC}}
+\subsubsection[{\texorpdfstring{is\+Albatros()}{isAlbatros()}}]{\setlength{\rightskip}{0pt plus 5cm}bool P\+C\+C\+::is\+Albatros (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPCC_aebc2128b783f1013ec39fa55a2df7276}{}\label{classPCC_aebc2128b783f1013ec39fa55a2df7276}
+
+
+Returns true if the \hyperlink{classTram}{Tram} Object is of the \hyperlink{classAlbatros}{Albatros} type. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+boolean 
+\end{DoxyReturn}
+\index{P\+CC@{P\+CC}!type\+String@{type\+String}}
+\index{type\+String@{type\+String}!P\+CC@{P\+CC}}
+\subsubsection[{\texorpdfstring{type\+String()}{typeString()}}]{\setlength{\rightskip}{0pt plus 5cm}string P\+C\+C\+::type\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPCC_a6cc8b127dc4790be8e73c974704903eb}{}\label{classPCC_a6cc8b127dc4790be8e73c974704903eb}
+
+
+Returns the \hyperlink{classTram}{Tram} Object\textquotesingle{}s type. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classTram}{Tram} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

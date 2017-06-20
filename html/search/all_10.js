@@ -28,5 +28,5 @@ var searchData=
   ['tram',['Tram',['../classTram.html',1,'Tram'],['../classTram.html#aad83b2e7e79d57528691bf317ab0e1ef',1,'Tram::Tram()']]],
   ['tram_2eh',['Tram.h',['../Tram_8h.html',1,'']]],
   ['type',['Type',['../classTiXmlNode.html#a57b99d5c97d67a42b9752f5210a1ba5e',1,'TiXmlNode']]],
-  ['typestring',['typeString',['../classTram.html#abf7bc69ead16170908a1e9364f5bc693',1,'Tram']]]
+  ['typestring',['typeString',['../classAlbatros.html#ad1d8db48a50695b66117033911597513',1,'Albatros::typeString()'],['../classPCC.html#a6cc8b127dc4790be8e73c974704903eb',1,'PCC::typeString()'],['../classTram.html#abf7bc69ead16170908a1e9364f5bc693',1,'Tram::typeString()'],['../classHalte.html#a8f1ba2d889f79a81d72d9c401732f8b6',1,'Halte::typeString()'],['../classMetrostation.html#afc130023eefd0a8360358607b0d807d7',1,'Metrostation::typeString()'],['../classStation.html#ad83c424982c3e8e85d446593cc833141',1,'Station::typeString()']]]
 ];

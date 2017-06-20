@@ -99,9 +99,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1a2bc82f5780448cd2a9a47d08cc824f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a2bc82f5780448cd2a9a47d08cc824f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassagier.html#a1a2bc82f5780448cd2a9a47d08cc824f">Passagier</a> ()</td></tr>
-<tr class="memdesc:a1a2bc82f5780448cd2a9a47d08cc824f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passenger Default Constructor. <br /></td></tr>
+<tr class="memitem:a1a2bc82f5780448cd2a9a47d08cc824f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassagier.html#a1a2bc82f5780448cd2a9a47d08cc824f">Passagier</a> ()</td></tr>
+<tr class="memdesc:a1a2bc82f5780448cd2a9a47d08cc824f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passenger Default Constructor.  <a href="#a1a2bc82f5780448cd2a9a47d08cc824f">More...</a><br /></td></tr>
 <tr class="separator:a1a2bc82f5780448cd2a9a47d08cc824f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae271ce7875b2a7d17704e204ce9d8568"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPassagier.html#ae271ce7875b2a7d17704e204ce9d8568">properlyInitialized</a> ()</td></tr>
 <tr class="memdesc:ae271ce7875b2a7d17704e204ce9d8568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if properly initialized, false if not.  <a href="#ae271ce7875b2a7d17704e204ce9d8568">More...</a><br /></td></tr>
@@ -134,7 +133,26 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This Class contains all the functionalities for the <a class="el" href="classPassagier.html" title="This Class contains all the functionalities for the Passagier objects. ">Passagier</a> objects. </p>
 <dl class="section author"><dt>Authors</dt><dd>Loreas Clonen &amp; Luuk van Sloun </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a1a2bc82f5780448cd2a9a47d08cc824f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Passagier::Passagier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Passenger Default Constructor. </p>
+<dl class="section post"><dt>Postcondition</dt><dd>A new Passenger Object has been created </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a41e0870bb942364181aa17e2c9c7ca6c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -149,6 +167,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the Passenger object's Starting <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+The Passenger Object has a non-empty member variable beginStation </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
 </div>
@@ -167,6 +188,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the Passenger object's End <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+The Passenger Object has a non-empty member variable eindStation </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
 </div>
@@ -185,6 +209,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the Passenger object's amount. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+The Passenger Object has a non-empty member variable hoeveelheid </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>integer </dd></dl>
 
 </div>
@@ -203,6 +230,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> object's name. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+The Passenger Object has a non-empty member variable naam </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
 </div>
@@ -246,6 +276,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+beginStation is a non-empty string </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The Passenger Object's Starting <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> is equal to variable beginStation </dd></dl>
 
 </div>
 </div>
@@ -270,6 +304,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+eindStation is a non-empty string </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The Passenger Object's End <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> is equal to variable eindStation </dd></dl>
 
 </div>
 </div>
@@ -294,6 +332,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+hoeveelheid is a positive integer </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The Passenger Object's Amount is equal to variable hoeveelheid </dd></dl>
 
 </div>
 </div>
@@ -318,6 +360,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The Passenger Object has been properly initialized </dd>
+<dd>
+naam is a non-empty string </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The Passenger Object's Name is equal to variable naam </dd></dl>
 
 </div>
 </div>

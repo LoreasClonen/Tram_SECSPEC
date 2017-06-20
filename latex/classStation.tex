@@ -12,8 +12,7 @@ This Class contains all the functionalities for the \hyperlink{classStation}{Sta
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classStation_a73d335726aad1d844d81cda6d9fd74e6}{Station} ()\hypertarget{classStation_a73d335726aad1d844d81cda6d9fd74e6}{}\label{classStation_a73d335726aad1d844d81cda6d9fd74e6}
-
+\hyperlink{classStation_a73d335726aad1d844d81cda6d9fd74e6}{Station} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classStation}{Station} Default Constructor. \end{DoxyCompactList}\item 
 string \hyperlink{classStation_a7db91849f0d5bab0a4ac0aa4967721cf}{get\+Naam} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s name. \end{DoxyCompactList}\item 
@@ -21,10 +20,6 @@ void \hyperlink{classStation_a9838301eaa0d45561877bcebc19a663c}{set\+Naam} (stri
 \begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classStation}{Station} object\textquotesingle{}s name. \end{DoxyCompactList}\item 
 bool \hyperlink{classStation_aab182a50a2992afe0df4412f7de4b73d}{properly\+Initialized} ()
 \begin{DoxyCompactList}\small\item\em Returns true if properly initialized, false if not. \end{DoxyCompactList}\item 
-string \hyperlink{classStation_aac519858a1ac53608d24d78e4b9231ab}{get\+Type} ()
-\begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
-void \hyperlink{classStation_a1a38a1c6db22cfda3c5885281252a3b9}{set\+Type} (string type)
-\begin{DoxyCompactList}\small\item\em Sets a new \hyperlink{classStation}{Station} object\textquotesingle{}s type. \end{DoxyCompactList}\item 
 void \hyperlink{classStation_a9584a65058bdf75254e3a2d79ddcdba1}{add\+Passagier} (string \hyperlink{classPassagier}{Passagier})
 \begin{DoxyCompactList}\small\item\em Adds a Passenger to the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\item 
 void \hyperlink{classStation_aa250b3ba3e62c3d433b4c29f6cca38d4}{remove\+Passagier} (string \hyperlink{classPassagier}{Passagier})
@@ -33,17 +28,14 @@ set$<$ string $>$ \hyperlink{classStation_a3c25e627a9036778a4d6d08ca1454aa6}{get
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. \end{DoxyCompactList}\item 
 map$<$ int, \hyperlink{classSpoor}{Spoor} $\ast$ $>$ \hyperlink{classStation_a8ee617b13d4d67d0d3d1384d6d33226f}{get\+Sporen} ()
 \begin{DoxyCompactList}\small\item\em Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Tracks map. \end{DoxyCompactList}\item 
+void \hyperlink{classStation_a036804467eb7a7c3bf51a90b4ee57eee}{set\+Sporen} (map$<$ int, \hyperlink{classSpoor}{Spoor} $\ast$ $>$ sporen)
+\begin{DoxyCompactList}\small\item\em Sets a new map of Tracks as the \hyperlink{classStation}{Station} Object\textquotesingle{}s Track Map. \end{DoxyCompactList}\item 
 void \hyperlink{classStation_a55911b5e0a355f085afd75391827729f}{add\+Spoor} (\hyperlink{classSpoor}{Spoor} $\ast$spoor, int spoor\+Nr)
 \begin{DoxyCompactList}\small\item\em Adds a new \hyperlink{classStation}{Station} Track to the Tracks map. \end{DoxyCompactList}\item 
-virtual string {\bfseries type\+String} ()\hypertarget{classStation_ad83c424982c3e8e85d446593cc833141}{}\label{classStation_ad83c424982c3e8e85d446593cc833141}
-
-\item 
-void {\bfseries set\+Sporen} (map$<$ int, \hyperlink{classSpoor}{Spoor} $\ast$ $>$ sporen)\hypertarget{classStation_a036804467eb7a7c3bf51a90b4ee57eee}{}\label{classStation_a036804467eb7a7c3bf51a90b4ee57eee}
-
-\item 
-virtual bool {\bfseries is\+Metrostation} ()\hypertarget{classStation_a6c9833b35ffe26df4a0b163c9186be07}{}\label{classStation_a6c9833b35ffe26df4a0b163c9186be07}
-
-\end{DoxyCompactItemize}
+virtual string \hyperlink{classStation_ad83c424982c3e8e85d446593cc833141}{type\+String} ()
+\begin{DoxyCompactList}\small\item\em The class\textquotesingle{} name is returned. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classStation_a6c9833b35ffe26df4a0b163c9186be07}{is\+Metrostation} ()
+\begin{DoxyCompactList}\small\item\em returns wether or not the class is a metrostation \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -52,6 +44,23 @@ This Class contains all the functionalities for the \hyperlink{classStation}{Sta
 \begin{DoxyAuthor}{Authors}
 Loreas Clonen \& Luuk van Sloun 
 \end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Station@{Station}!Station@{Station}}
+\index{Station@{Station}!Station@{Station}}
+\subsubsection[{\texorpdfstring{Station()}{Station()}}]{\setlength{\rightskip}{0pt plus 5cm}Station\+::\+Station (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classStation_a73d335726aad1d844d81cda6d9fd74e6}{}\label{classStation_a73d335726aad1d844d81cda6d9fd74e6}
+
+
+\hyperlink{classStation}{Station} Default Constructor. 
+
+\begin{DoxyPostcond}{Postcondition}
+A new \hyperlink{classStation}{Station} Object has been created 
+\end{DoxyPostcond}
 
 
 \subsection{Member Function Documentation}
@@ -66,11 +75,19 @@ Loreas Clonen \& Luuk van Sloun
 
 Adds a Passenger to the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+\hyperlink{classPassagier}{Passagier} is a non-\/empty string 
+\end{DoxyPrecond}
 
 \begin{DoxyParams}{Parameters}
 {\em \hyperlink{classPassagier}{Passagier}} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+A new Passenger has been added to the \hyperlink{classStation}{Station} Object\textquotesingle{}s Passenger Set 
+\end{DoxyPostcond}
 \index{Station@{Station}!add\+Spoor@{add\+Spoor}}
 \index{add\+Spoor@{add\+Spoor}!Station@{Station}}
 \subsubsection[{\texorpdfstring{add\+Spoor(\+Spoor $\ast$spoor, int spoor\+Nr)}{addSpoor(Spoor *spoor, int spoorNr)}}]{\setlength{\rightskip}{0pt plus 5cm}void Station\+::add\+Spoor (
@@ -90,6 +107,12 @@ Adds a new \hyperlink{classStation}{Station} Track to the Tracks map.
 {\em spoor\+Nr} & -\/ integer \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The Track Object has been added to the \hyperlink{classStation}{Station} Object\textquotesingle{}s Track Map 
+\end{DoxyPostcond}
 \index{Station@{Station}!get\+Naam@{get\+Naam}}
 \index{get\+Naam@{get\+Naam}!Station@{Station}}
 \subsubsection[{\texorpdfstring{get\+Naam()}{getNaam()}}]{\setlength{\rightskip}{0pt plus 5cm}string Station\+::get\+Naam (
@@ -101,6 +124,11 @@ Adds a new \hyperlink{classStation}{Station} Track to the Tracks map.
 
 Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s name. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+The \hyperlink{classStation}{Station} Object has a non-\/empty member variable naam 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -115,6 +143,11 @@ string
 
 Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+The \hyperlink{classStation}{Station} Object has a non-\/empty member variable passagier 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 passagier -\/ set 
 \end{DoxyReturn}
@@ -129,22 +162,30 @@ passagier -\/ set
 
 Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Tracks map. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+The \hyperlink{classStation}{Station} Object has a non-\/empty member variable sporen 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 sporen -\/ map 
 \end{DoxyReturn}
-\index{Station@{Station}!get\+Type@{get\+Type}}
-\index{get\+Type@{get\+Type}!Station@{Station}}
-\subsubsection[{\texorpdfstring{get\+Type()}{getType()}}]{\setlength{\rightskip}{0pt plus 5cm}string Station\+::get\+Type (
+\index{Station@{Station}!is\+Metrostation@{is\+Metrostation}}
+\index{is\+Metrostation@{is\+Metrostation}!Station@{Station}}
+\subsubsection[{\texorpdfstring{is\+Metrostation()}{isMetrostation()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Station\+::is\+Metrostation (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}\hypertarget{classStation_aac519858a1ac53608d24d78e4b9231ab}{}\label{classStation_aac519858a1ac53608d24d78e4b9231ab}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classStation_a6c9833b35ffe26df4a0b163c9186be07}{}\label{classStation_a6c9833b35ffe26df4a0b163c9186be07}
 
 
-Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s type. 
+returns wether or not the class is a metrostation 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
-string 
+boolean 
 \end{DoxyReturn}
 \index{Station@{Station}!properly\+Initialized@{properly\+Initialized}}
 \index{properly\+Initialized@{properly\+Initialized}!Station@{Station}}
@@ -171,11 +212,19 @@ boolean
 
 Removes a Passenger from the \hyperlink{classStation}{Station} object\textquotesingle{}s Passenger set. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+\hyperlink{classPassagier}{Passagier} is a non-\/empty string 
+\end{DoxyPrecond}
 
 \begin{DoxyParams}{Parameters}
 {\em \hyperlink{classPassagier}{Passagier}} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+A Passenger has been removed from the \hyperlink{classStation}{Station} Object\textquotesingle{}s Passenger Set 
+\end{DoxyPostcond}
 \index{Station@{Station}!set\+Naam@{set\+Naam}}
 \index{set\+Naam@{set\+Naam}!Station@{Station}}
 \subsubsection[{\texorpdfstring{set\+Naam(string naam)}{setNaam(string naam)}}]{\setlength{\rightskip}{0pt plus 5cm}void Station\+::set\+Naam (
@@ -187,27 +236,58 @@ Removes a Passenger from the \hyperlink{classStation}{Station} object\textquotes
 
 Sets a new \hyperlink{classStation}{Station} object\textquotesingle{}s name. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+
+naam is a non-\/empty string 
+\end{DoxyPrecond}
 
 \begin{DoxyParams}{Parameters}
 {\em naam} & -\/ string \\
 \hline
 \end{DoxyParams}
-\index{Station@{Station}!set\+Type@{set\+Type}}
-\index{set\+Type@{set\+Type}!Station@{Station}}
-\subsubsection[{\texorpdfstring{set\+Type(string type)}{setType(string type)}}]{\setlength{\rightskip}{0pt plus 5cm}void Station\+::set\+Type (
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classStation}{Station} Object\textquotesingle{}s name is equal to variable naam 
+\end{DoxyPostcond}
+\index{Station@{Station}!set\+Sporen@{set\+Sporen}}
+\index{set\+Sporen@{set\+Sporen}!Station@{Station}}
+\subsubsection[{\texorpdfstring{set\+Sporen(map$<$ int, Spoor $\ast$ $>$ sporen)}{setSporen(map< int, Spoor * > sporen)}}]{\setlength{\rightskip}{0pt plus 5cm}void Station\+::set\+Sporen (
 \begin{DoxyParamCaption}
-\item[{string}]{type}
+\item[{map$<$ int, {\bf Spoor} $\ast$ $>$}]{sporen}
 \end{DoxyParamCaption}
-)}\hypertarget{classStation_a1a38a1c6db22cfda3c5885281252a3b9}{}\label{classStation_a1a38a1c6db22cfda3c5885281252a3b9}
+)}\hypertarget{classStation_a036804467eb7a7c3bf51a90b4ee57eee}{}\label{classStation_a036804467eb7a7c3bf51a90b4ee57eee}
 
 
-Sets a new \hyperlink{classStation}{Station} object\textquotesingle{}s type. 
+Sets a new map of Tracks as the \hyperlink{classStation}{Station} Object\textquotesingle{}s Track Map. 
 
 
 \begin{DoxyParams}{Parameters}
-{\em type} & -\/ string \\
+{\em sporen} & \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classStation}{Station} Object\textquotesingle{}s Track Map is equal to sporen 
+\end{DoxyPostcond}
+\index{Station@{Station}!type\+String@{type\+String}}
+\index{type\+String@{type\+String}!Station@{Station}}
+\subsubsection[{\texorpdfstring{type\+String()}{typeString()}}]{\setlength{\rightskip}{0pt plus 5cm}string Station\+::type\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classStation_ad83c424982c3e8e85d446593cc833141}{}\label{classStation_ad83c424982c3e8e85d446593cc833141}
+
+
+The class\textquotesingle{} name is returned. 
+
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classStation}{Station} Object has been properly initialized 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

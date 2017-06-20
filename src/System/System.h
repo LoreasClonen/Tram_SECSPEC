@@ -46,8 +46,9 @@ private:
 
 public:
     /**
-     * @brief System Default Constructor
      * @fn System()
+     * @brief System Default Constructor
+     * @post A new System Object has been created
      */
     System();
     /**
@@ -56,9 +57,12 @@ public:
      * @return bool
      */
     bool properlyInitialized();
+
     /**
      * @fn map<string, Station*> getStations()
      * @brief Returns the System object's stations member
+     * @pre The System Object has been properly initialized
+     * @pre The System Object has a non-empty member variable stations
      * @return map<string, Tram*>
      */
     map<string, Station*> getStations();
@@ -66,13 +70,16 @@ public:
     /**
      * @fn map<string, Tram*> getTrams()
      * @brief Returns the System object's trams member
+     * @pre The System Object has been properly initialized
+     * @pre The System Object has a non-empty member variable trams
      * @return map<string, Tram*>
      */
     map<int, Tram*> getTrams();
 
     /**
      * @fn string Output()
-     * @brief Returns a string of the current system lay-out
+     * @brief Returns a string containing the current System lay-out
+     * @pre The System Object has been properly initialized
      * @return string
      */
     string Output();
@@ -82,6 +89,9 @@ public:
      * @brief adds a Station* to the stations member
      * @param naam - string
      * @param station - Station*
+     * @pre The System Object has been properly initialized
+     * @pre naam is a non-empty string, station has been properly initialized
+     * @post A new Station Object has been added to the System Object's Station map
      */
     void addStation(string naam, Station* station);
 
@@ -90,26 +100,32 @@ public:
      * @brief adds a Tram* to the trams member
      * @param lijnNr - int
      * @param tram - Tram*
+     * @pre The System Object has been properly initialized
+     * @pre lijnNr is a positive integer, tram has been properly initialized
+     * @post A new Tram Object has been added to the System Object's Tram map
      */
 
     void addTram(int lijnNr, Tram* tram);
 
     /**
      * @fn void properlyparsed()
-     * @brief checks wether or not the system is properly parsed
+     * @brief Checks wether or not the system is properly parsed
      */
     void properlyparsed();
 
     /**
      * @fn void setProperlyParsed(bool properlyparsed)
      * @brief Gives a new value to the member properlyparsed
+     * @post The System Object's member variable properlyParsed is equal to variable properlyParsed
      */
 
     void setProperlyParsed(bool properlyParsed);
 
-        /**
+    /**
      * @fn map<string, Passagier*> getPassagiers()
      * @brief Returns the member passagiers
+     * @pre The System Object has been properly initialized
+     * @pre The System Object has a non-empty member variable passagiers
      * @return map<string, Passagier*>
      */
     map<string, Passagier *> getPassagiers();
@@ -119,14 +135,17 @@ public:
      * @brief adds a Passagier* to the passagiers member
      * @param naam - string
      * @param passagier - Passagier*
+     * @pre The System object has been properly initialized
+     * @pre naam is a non-empty string, passagier has been properly initialized
+     * @post A new Passenger Object has been added to the System Object's Passenger map
      */
     void addPassagier(string naam, Passagier* passagier);
 
     /**
      * @fn void autoSimulation()
      * @brief Simulates the system running
+     * @pre The System Object has been properly initialized
      */
-
     void autoSimulation();
 };
 

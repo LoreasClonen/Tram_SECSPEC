@@ -12,8 +12,7 @@ This Class contains all the functionalities for the \hyperlink{classSpoor}{Spoor
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classSpoor_a64778a4094d2d9cd3a08cbbef5a11787}{Spoor} ()\hypertarget{classSpoor_a64778a4094d2d9cd3a08cbbef5a11787}{}\label{classSpoor_a64778a4094d2d9cd3a08cbbef5a11787}
-
+\hyperlink{classSpoor_a64778a4094d2d9cd3a08cbbef5a11787}{Spoor} ()
 \begin{DoxyCompactList}\small\item\em \hyperlink{classSpoor}{Spoor} Default Constructor. \end{DoxyCompactList}\item 
 bool \hyperlink{classSpoor_a31982084b33e5946f1e15844b084f62f}{properly\+Initialized} ()
 \begin{DoxyCompactList}\small\item\em Returns true if properly initialized, false if not. \end{DoxyCompactList}\item 
@@ -39,6 +38,23 @@ Loreas Clonen \& Luuk van Sloun
 \end{DoxyAuthor}
 
 
+\subsection{Constructor \& Destructor Documentation}
+\index{Spoor@{Spoor}!Spoor@{Spoor}}
+\index{Spoor@{Spoor}!Spoor@{Spoor}}
+\subsubsection[{\texorpdfstring{Spoor()}{Spoor()}}]{\setlength{\rightskip}{0pt plus 5cm}Spoor\+::\+Spoor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classSpoor_a64778a4094d2d9cd3a08cbbef5a11787}{}\label{classSpoor_a64778a4094d2d9cd3a08cbbef5a11787}
+
+
+\hyperlink{classSpoor}{Spoor} Default Constructor. 
+
+\begin{DoxyPostcond}{Postcondition}
+A new \hyperlink{classSpoor}{Spoor} Object has been created 
+\end{DoxyPostcond}
+
+
 \subsection{Member Function Documentation}
 \index{Spoor@{Spoor}!get\+Spoor\+Nr@{get\+Spoor\+Nr}}
 \index{get\+Spoor\+Nr@{get\+Spoor\+Nr}!Spoor@{Spoor}}
@@ -51,6 +67,11 @@ Loreas Clonen \& Luuk van Sloun
 
 Returns the \hyperlink{classSpoor}{Spoor} object\textquotesingle{}s Track Number. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSpoor}{Spoor} Object has been properly initialized 
+
+The \hyperlink{classSpoor}{Spoor} Object has a non-\/empty member variable spoor\+Nr 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 integer 
 \end{DoxyReturn}
@@ -65,6 +86,11 @@ integer
 
 Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Next \hyperlink{classStation}{Station}. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSpoor}{Spoor} Object has been properly initialized 
+
+The \hyperlink{classSpoor}{Spoor} Object has a non-\/empty member variable volgende 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -79,6 +105,11 @@ string
 
 Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s Previous \hyperlink{classStation}{Station}. 
 
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSpoor}{Spoor} Object has been properly initialized 
+
+The \hyperlink{classSpoor}{Spoor} Object has a non-\/empty member variable vorige 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -112,6 +143,14 @@ Sets a new \hyperlink{classSpoor}{Spoor} object\textquotesingle{}s Track Number.
 {\em spoor\+Nr} & -\/ integer \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSpoor}{Spoor} Object has been properly initialized 
+
+spoor\+Nr is a positive integer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classSpoor}{Spoor} Object\textquotesingle{}s Track Number is equal to variable spoor\+Nr 
+\end{DoxyPostcond}
 \index{Spoor@{Spoor}!set\+Volgende@{set\+Volgende}}
 \index{set\+Volgende@{set\+Volgende}!Spoor@{Spoor}}
 \subsubsection[{\texorpdfstring{set\+Volgende(string volgende)}{setVolgende(string volgende)}}]{\setlength{\rightskip}{0pt plus 5cm}void Spoor\+::set\+Volgende (
@@ -128,6 +167,14 @@ Sets a new \hyperlink{classSpoor}{Spoor} object\textquotesingle{}s Next \hyperli
 {\em volgende} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSpoor}{Spoor} Object has been properly initialized 
+
+volgende is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classSpoor}{Spoor} Object\textquotesingle{}s Next \hyperlink{classStation}{Station} is equal to variable volgende 
+\end{DoxyPostcond}
 \index{Spoor@{Spoor}!set\+Vorige@{set\+Vorige}}
 \index{set\+Vorige@{set\+Vorige}!Spoor@{Spoor}}
 \subsubsection[{\texorpdfstring{set\+Vorige(string vorige)}{setVorige(string vorige)}}]{\setlength{\rightskip}{0pt plus 5cm}void Spoor\+::set\+Vorige (
@@ -144,6 +191,14 @@ Sets a new \hyperlink{classSpoor}{Spoor} object\textquotesingle{}s Previous \hyp
 {\em vorige} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The \hyperlink{classSpoor}{Spoor} Object has been properly initialized 
+
+vorige is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The \hyperlink{classSpoor}{Spoor} Object\textquotesingle{}s Next \hyperlink{classStation}{Station} is equal to variable vorige 
+\end{DoxyPostcond}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

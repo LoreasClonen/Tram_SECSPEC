@@ -5,7 +5,7 @@
  *
  * @class PCC
  *
- * @brief This Class contains all the functionalities for the PCC objects.
+ * @brief This Class contains all the functionalities for the PCC objects, which is a derived class of the Tram class
  *
  * @authors Loreas Clonen & Luuk van Sloun
  */
@@ -17,6 +17,19 @@
 
 class PCC: public::Tram{
 public:
-    string typeString();
+    /**
+     * @fn bool isAlbatros()
+     * @brief Returns true if the Tram Object is of the Albatros type
+     * @pre The Tram Object has been properly initialized
+     * @return boolean
+     */
     bool isAlbatros();
+
+    /**
+     * @fn string typeString()
+     * @brief Returns the Tram Object's type
+     * @pre The Tram Object has been properly initialized
+     * @return string
+     */
+    string typeString();
 };

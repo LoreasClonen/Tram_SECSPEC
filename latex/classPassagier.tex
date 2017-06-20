@@ -12,8 +12,7 @@ This Class contains all the functionalities for the \hyperlink{classPassagier}{P
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classPassagier_a1a2bc82f5780448cd2a9a47d08cc824f}{Passagier} ()\hypertarget{classPassagier_a1a2bc82f5780448cd2a9a47d08cc824f}{}\label{classPassagier_a1a2bc82f5780448cd2a9a47d08cc824f}
-
+\hyperlink{classPassagier_a1a2bc82f5780448cd2a9a47d08cc824f}{Passagier} ()
 \begin{DoxyCompactList}\small\item\em Passenger Default Constructor. \end{DoxyCompactList}\item 
 bool \hyperlink{classPassagier_ae271ce7875b2a7d17704e204ce9d8568}{properly\+Initialized} ()
 \begin{DoxyCompactList}\small\item\em Returns true if properly initialized, false if not. \end{DoxyCompactList}\item 
@@ -43,6 +42,23 @@ Loreas Clonen \& Luuk van Sloun
 \end{DoxyAuthor}
 
 
+\subsection{Constructor \& Destructor Documentation}
+\index{Passagier@{Passagier}!Passagier@{Passagier}}
+\index{Passagier@{Passagier}!Passagier@{Passagier}}
+\subsubsection[{\texorpdfstring{Passagier()}{Passagier()}}]{\setlength{\rightskip}{0pt plus 5cm}Passagier\+::\+Passagier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classPassagier_a1a2bc82f5780448cd2a9a47d08cc824f}{}\label{classPassagier_a1a2bc82f5780448cd2a9a47d08cc824f}
+
+
+Passenger Default Constructor. 
+
+\begin{DoxyPostcond}{Postcondition}
+A new Passenger Object has been created 
+\end{DoxyPostcond}
+
+
 \subsection{Member Function Documentation}
 \index{Passagier@{Passagier}!get\+Begin\+Station@{get\+Begin\+Station}}
 \index{get\+Begin\+Station@{get\+Begin\+Station}!Passagier@{Passagier}}
@@ -55,6 +71,11 @@ Loreas Clonen \& Luuk van Sloun
 
 Returns the Passenger object\textquotesingle{}s Starting \hyperlink{classStation}{Station}. 
 
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+The Passenger Object has a non-\/empty member variable begin\+Station 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -69,6 +90,11 @@ string
 
 Returns the Passenger object\textquotesingle{}s End \hyperlink{classStation}{Station}. 
 
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+The Passenger Object has a non-\/empty member variable eind\+Station 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -83,6 +109,11 @@ string
 
 Returns the Passenger object\textquotesingle{}s amount. 
 
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+The Passenger Object has a non-\/empty member variable hoeveelheid 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 integer 
 \end{DoxyReturn}
@@ -97,6 +128,11 @@ integer
 
 Returns the \hyperlink{classStation}{Station} object\textquotesingle{}s name. 
 
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+The Passenger Object has a non-\/empty member variable naam 
+\end{DoxyPrecond}
 \begin{DoxyReturn}{Returns}
 string 
 \end{DoxyReturn}
@@ -130,6 +166,14 @@ Sets a new Passenger object\textquotesingle{}s Starting \hyperlink{classStation}
 {\em begin\+Station} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+begin\+Station is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The Passenger Object\textquotesingle{}s Starting \hyperlink{classStation}{Station} is equal to variable begin\+Station 
+\end{DoxyPostcond}
 \index{Passagier@{Passagier}!set\+Eind\+Station@{set\+Eind\+Station}}
 \index{set\+Eind\+Station@{set\+Eind\+Station}!Passagier@{Passagier}}
 \subsubsection[{\texorpdfstring{set\+Eind\+Station(string eind\+Station)}{setEindStation(string eindStation)}}]{\setlength{\rightskip}{0pt plus 5cm}void Passagier\+::set\+Eind\+Station (
@@ -146,6 +190,14 @@ Sets a new Passenger object\textquotesingle{}s End \hyperlink{classStation}{Stat
 {\em eind\+Station} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+eind\+Station is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The Passenger Object\textquotesingle{}s End \hyperlink{classStation}{Station} is equal to variable eind\+Station 
+\end{DoxyPostcond}
 \index{Passagier@{Passagier}!set\+Hoeveelheid@{set\+Hoeveelheid}}
 \index{set\+Hoeveelheid@{set\+Hoeveelheid}!Passagier@{Passagier}}
 \subsubsection[{\texorpdfstring{set\+Hoeveelheid(int hoeveelheid)}{setHoeveelheid(int hoeveelheid)}}]{\setlength{\rightskip}{0pt plus 5cm}void Passagier\+::set\+Hoeveelheid (
@@ -162,6 +214,14 @@ Sets a new Passenger object\textquotesingle{}s amount.
 {\em hoeveelheid} & -\/ integer \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+hoeveelheid is a positive integer 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The Passenger Object\textquotesingle{}s Amount is equal to variable hoeveelheid 
+\end{DoxyPostcond}
 \index{Passagier@{Passagier}!set\+Naam@{set\+Naam}}
 \index{set\+Naam@{set\+Naam}!Passagier@{Passagier}}
 \subsubsection[{\texorpdfstring{set\+Naam(string naam)}{setNaam(string naam)}}]{\setlength{\rightskip}{0pt plus 5cm}void Passagier\+::set\+Naam (
@@ -178,6 +238,14 @@ Sets a new Passenger object\textquotesingle{}s name.
 {\em naam} & -\/ string \\
 \hline
 \end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+The Passenger Object has been properly initialized 
+
+naam is a non-\/empty string 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+The Passenger Object\textquotesingle{}s Name is equal to variable naam 
+\end{DoxyPostcond}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

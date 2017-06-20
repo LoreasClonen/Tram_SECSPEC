@@ -28,6 +28,7 @@ public:
     /**
      * @fn Spoor();
      * @brief Spoor Default Constructor
+     * @post A new Spoor Object has been created
      */
     Spoor();
 
@@ -41,6 +42,8 @@ public:
     /**
     * @fn int getSpoorNr()
     * @brief Returns the Spoor object's Track Number
+    * @pre The Spoor Object has been properly initialized
+    * @pre The Spoor Object has a non-empty member variable spoorNr
     * @return integer
     */
     int getSpoorNr();
@@ -49,12 +52,17 @@ public:
     * @fn int setSpoorNr()
     * @brief Sets a new Spoor object's Track Number
     * @param spoorNr - integer
+    * @pre The Spoor Object has been properly initialized
+    * @pre spoorNr is a positive integer
+    * @post The Spoor Object's Track Number is equal to variable spoorNr
     */
     void setSpoorNr(int spoorNr);
 
     /**
     * @fn string getVolgende()
     * @brief Returns the Station object's Next Station
+    * @pre The Spoor Object has been properly initialized
+    * @pre The Spoor Object has a non-empty member variable volgende
     * @return string
     */
     string getVolgende();
@@ -63,21 +71,29 @@ public:
      * @fn void setVolgende(string volgende)
      * @brief Sets a new Spoor object's Next Station
      * @param volgende - string
+     * @pre The Spoor Object has been properly initialized
+     * @pre volgende is a non-empty string
+     * @post The Spoor Object's Next Station is equal to variable volgende
      */
     void setVolgende(string volgende);
 
     /**
     * @fn string getVorige()
     * @brief Returns the Station object's Previous Station
+    * @pre The Spoor Object has been properly initialized
+    * @pre The Spoor Object has a non-empty member variable vorige
     * @return string
     */
     string getVorige();
 
     /**
-     * @fn void setVorige(string vorige)
-     * @brief Sets a new Spoor object's Previous Station
-     * @param vorige - string
-     */
+    * @fn void setVorige(string vorige)
+    * @brief Sets a new Spoor object's Previous Station
+    * @param vorige - string
+    * @pre The Spoor Object has been properly initialized
+    * @pre vorige is a non-empty string
+    * @post The Spoor Object's Next Station is equal to variable vorige
+    */
     void setVorige(string vorige);
 };
 

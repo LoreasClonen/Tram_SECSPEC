@@ -99,9 +99,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a64778a4094d2d9cd3a08cbbef5a11787"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64778a4094d2d9cd3a08cbbef5a11787"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpoor.html#a64778a4094d2d9cd3a08cbbef5a11787">Spoor</a> ()</td></tr>
-<tr class="memdesc:a64778a4094d2d9cd3a08cbbef5a11787"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Default Constructor. <br /></td></tr>
+<tr class="memitem:a64778a4094d2d9cd3a08cbbef5a11787"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpoor.html#a64778a4094d2d9cd3a08cbbef5a11787">Spoor</a> ()</td></tr>
+<tr class="memdesc:a64778a4094d2d9cd3a08cbbef5a11787"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Default Constructor.  <a href="#a64778a4094d2d9cd3a08cbbef5a11787">More...</a><br /></td></tr>
 <tr class="separator:a64778a4094d2d9cd3a08cbbef5a11787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31982084b33e5946f1e15844b084f62f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSpoor.html#a31982084b33e5946f1e15844b084f62f">properlyInitialized</a> ()</td></tr>
 <tr class="memdesc:a31982084b33e5946f1e15844b084f62f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if properly initialized, false if not.  <a href="#a31982084b33e5946f1e15844b084f62f">More...</a><br /></td></tr>
@@ -128,7 +127,26 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This Class contains all the functionalities for the <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> objects. </p>
 <dl class="section author"><dt>Authors</dt><dd>Loreas Clonen &amp; Luuk van Sloun </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a64778a4094d2d9cd3a08cbbef5a11787"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Spoor::Spoor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Default Constructor. </p>
+<dl class="section post"><dt>Postcondition</dt><dd>A new <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been created </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a17c71f600581bc91b85c92d6628d14c5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -143,6 +161,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> object's Track Number. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been properly initialized </dd>
+<dd>
+The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has a non-empty member variable spoorNr </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>integer </dd></dl>
 
 </div>
@@ -161,6 +182,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> object's Next <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been properly initialized </dd>
+<dd>
+The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has a non-empty member variable volgende </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
 </div>
@@ -179,6 +203,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> object's Previous <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been properly initialized </dd>
+<dd>
+The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has a non-empty member variable vorige </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
 </div>
@@ -222,6 +249,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been properly initialized </dd>
+<dd>
+spoorNr is a positive integer </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object's Track Number is equal to variable spoorNr </dd></dl>
 
 </div>
 </div>
@@ -246,6 +277,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been properly initialized </dd>
+<dd>
+volgende is a non-empty string </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object's Next <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> is equal to variable volgende </dd></dl>
 
 </div>
 </div>
@@ -270,6 +305,10 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section pre"><dt>Precondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object has been properly initialized </dd>
+<dd>
+vorige is a non-empty string </dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd>The <a class="el" href="classSpoor.html" title="This Class contains all the functionalities for the Spoor objects. ">Spoor</a> Object's Next <a class="el" href="classStation.html" title="This Class contains all the functionalities for the Station objects. ">Station</a> is equal to variable vorige </dd></dl>
 
 </div>
 </div>

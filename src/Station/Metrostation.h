@@ -5,7 +5,7 @@
 *
 * @class Metrostation
 *
-* @brief This Class contains all the functionalities for the Metrostation objects which is the daughterclass
+* @brief This Class contains all the functionalities for the Metrostation objects, which is a derived class
          of the Station class.
 *
 * @authors Loreas Clonen & Luuk van Sloun
@@ -21,13 +21,16 @@ public:
     /**
      * @fn string typeString()
      * @brief The class' name is returned.
-     * @return a string with the class' name.
+     * @pre The Station Object has been properly initialized
+     * @return string
      */
     string typeString();
+
     /**
      * @fn bool isMetrostation()
      * @brief returns wether or not the class is a metrostation
-     * @return bool true
+     * @pre The Station Object has been properly initialized
+     * @return boolean
      */
     bool isMetrostation();
 };

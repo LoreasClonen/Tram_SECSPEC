@@ -30,6 +30,7 @@ public:
     /**
      * @fn Passagier();
      * @brief Passenger Default Constructor
+     * @post A new Passenger Object has been created
      */
     Passagier();
 
@@ -43,6 +44,8 @@ public:
     /**
     * @fn string getNaam()
     * @brief Returns the Station object's name
+    * @pre The Passenger Object has been properly initialized
+    * @pre The Passenger Object has a non-empty member variable naam
     * @return string
     */
     string getNaam();
@@ -51,12 +54,17 @@ public:
      * @fn void setNaam(string naam)
      * @brief Sets a new Passenger object's name
      * @param naam - string
+     * @pre The Passenger Object has been properly initialized
+     * @pre naam is a non-empty string
+     * @post The Passenger Object's Name is equal to variable naam
      */
     void setNaam(string naam);
 
     /**
     * @fn string getBeginStation()
     * @brief Returns the Passenger object's Starting Station
+    * @pre The Passenger Object has been properly initialized
+    * @pre The Passenger Object has a non-empty member variable beginStation
     * @return string
     */
     string getBeginStation();
@@ -65,12 +73,17 @@ public:
      * @fn void setBeginStation(string beginStation)
      * @brief Sets a new Passenger object's Starting Station
      * @param beginStation - string
+     * @pre The Passenger Object has been properly initialized
+     * @pre beginStation is a non-empty string
+     * @post The Passenger Object's Starting Station is equal to variable beginStation
      */
     void setBeginStation(string beginStation);
 
     /**
     * @fn string getEindStation()
     * @brief Returns the Passenger object's End Station
+    * @pre The Passenger Object has been properly initialized
+    * @pre The Passenger Object has a non-empty member variable eindStation
     * @return string
     */
     string getEindStation();
@@ -79,12 +92,17 @@ public:
      * @fn void setEindStation(string eindStation)
      * @brief Sets a new Passenger object's End Station
      * @param eindStation - string
+     * @pre The Passenger Object has been properly initialized
+     * @pre eindStation is a non-empty string
+     * @post The Passenger Object's End Station is equal to variable eindStation
      */
     void setEindStation(string eindStation);
 
     /**
     * @fn string getHoeveelheid()
     * @brief Returns the Passenger object's amount
+    * @pre The Passenger Object has been properly initialized
+    * @pre The Passenger Object has a non-empty member variable hoeveelheid
     * @return integer
     */
     int getHoeveelheid();
@@ -93,6 +111,9 @@ public:
      * @fn void setHoeveelheid(string hoeveelheid)
      * @brief Sets a new Passenger object's amount
      * @param hoeveelheid - integer
+     * @pre The Passenger Object has been properly initialized
+     * @pre hoeveelheid is a positive integer
+     * @post The Passenger Object's Amount is equal to variable hoeveelheid
      */
     void setHoeveelheid(int hoeveelheid);
 

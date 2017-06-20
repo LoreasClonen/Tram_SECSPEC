@@ -17,7 +17,6 @@ var searchData=
   ['getsystem',['getSystem',['../classParser.html#addad80574e43b744a82807d0f821d414',1,'Parser']]],
   ['gettext',['GetText',['../classTiXmlElement.html#aa6dedd8a146acf3b1bc0903deb2d411a',1,'TiXmlElement']]],
   ['gettrams',['getTrams',['../classSystem.html#a7ef5389572f830ddaa61052ce09f48de',1,'System']]],
-  ['gettype',['getType',['../classStation.html#aac519858a1ac53608d24d78e4b9231ab',1,'Station']]],
   ['getuserdata',['GetUserData',['../classTiXmlBase.html#a6559a530ca6763fc301a14d77ed28c17',1,'TiXmlBase::GetUserData()'],['../classTiXmlBase.html#ad0120210e4680ef2088601753ce0ede4',1,'TiXmlBase::GetUserData() const ']]],
   ['getvoertuignr',['getVoertuigNr',['../classTram.html#abce34b0915945a2d7ede17297a727301',1,'Tram']]],
   ['getvolgende',['getVolgende',['../classSpoor.html#af72fa63d73e10bb5d0bb0e15958260d5',1,'Spoor']]],

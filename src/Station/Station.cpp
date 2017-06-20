@@ -60,7 +60,6 @@ map<int, Spoor*> Station::getSporen() {
 void Station::setSporen(map<int, Spoor *> sporen){
     REQUIRE(this->properlyInitialized(),
             "Station wasn't initialized when calling setSporen.");
-//    ENSURE(sporen.size() != 0, "Tracks weren't set due to empty map");
     Station::sporen = sporen;
     REQUIRE(this->getSporen() == sporen, "Tracks weren't correctly set.");
 }
