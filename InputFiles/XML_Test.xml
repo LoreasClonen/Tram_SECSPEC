@@ -72,4 +72,10 @@
         <eindstation>C</eindstation>
         <hoeveelheid>3</hoeveelheid>
     </passagier>
+	<passagier>
+		<naam>Groep3</naam>
+		<beginstation>B</beginstation>
+		<eindstation>E</eindstation>
+		<hoeveelheid>32</hoeveelheid>
+	</passagier>
 </SYSTEM>
