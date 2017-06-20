@@ -1,13 +1,4 @@
 "/home/loreas/program files/clion-2017.1.2/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/loreas/Documents/pse/Tram_SECSPEC
 -- Configuring done
-CMake Error at CMakeLists.txt:15 (add_executable):
-  Cannot find source file:
-
-    src/main.cpp.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
-  .hxx .in .txx
-
-
 -- Generating done
 -- Build files have been written to: /home/loreas/Documents/pse/Tram_SECSPEC
