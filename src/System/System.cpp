@@ -244,6 +244,7 @@ map<string, Passagier *> System::getPassagiers() {
 }
 
 void System::autoSimulation() {
+    bool end = true;
     ofstream file;
     file.open("LogFiles/autoSimulation.txt");
 
@@ -256,13 +257,17 @@ void System::autoSimulation() {
         if(tram.second->getPassagiers().size() != 0){
             file << endl << "De passagiers in Tram " << tram.second->getVoertuigNr() <<
                  " raken niet op hun eindbestemming" << endl;
+            end = false;
         }
     }
     file << "===================" << endl;
     file << "Simulation finished" << endl;
     file << "===================";
-
     file.close();
+    
+    REQUIRE(end, "Passengers don't arrive on destination.");
+
+
 }
 
 set<int> System::overeenkomstigeSporen(Station* huidig, Station* eind){

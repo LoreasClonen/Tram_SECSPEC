@@ -6,37 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/gmock-all.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock-all.cc
 gmock/gmock.h
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/gmock/gmock.h
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/gmock/gmock.h
 src/gmock-cardinalities.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/src/gmock-cardinalities.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/src/gmock-cardinalities.cc
 src/gmock-internal-utils.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/src/gmock-internal-utils.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/src/gmock-internal-utils.cc
 src/gmock-matchers.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/src/gmock-matchers.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/src/gmock-matchers.cc
 src/gmock-spec-builders.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/src/gmock-spec-builders.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googlemock/src/src/gmock.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googlemock/src/src/gmock.cc
 
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/gtest-all.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest-all.cc
 gtest/gtest.h
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/gtest/gtest.h
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/gtest/gtest.h
 src/gtest.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest-death-test.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest-filepath.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest-port.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest-printers.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest-test-part.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/googletest/src/src/gtest-typed-test.cc
+/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/googletest/src/src/gtest-typed-test.cc
 
 gtest/lib/googletest-master/googlemock/include/gmock/gmock-actions.h
 errno.h

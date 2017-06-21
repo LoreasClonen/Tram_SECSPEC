@@ -97,6 +97,6 @@ TEST_F(SystemOutputTests, NoPassengerArrivalTest){
     parser.XmlParser("testInput/NoPassengerArrival.xml");
     System* system = parser.getSystem();
     system->properlyparsed();
-    system->autoSimulation();
+    EXPECT_DEATH(system->autoSimulation(), "Passengers don't arrive on destination.");
     EXPECT_TRUE(FileCompare("LogFiles/autoSimulation.txt","testOutput/NoPassengerArrival.txt"));
 }

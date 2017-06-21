@@ -1,4 +1,4 @@
-# Install script for directory: /home/luuk/CLionProjects/TRAM
+# Install script for directory: /home/uauser/Desktop/Tram_SECSPEC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luuk/CLionProjects/TRAM/gtest/lib/googletest-master/cmake_install.cmake")
+  include("/home/uauser/Desktop/Tram_SECSPEC/gtest/lib/googletest-master/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luuk/CLionProjects/TRAM/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/uauser/Desktop/Tram_SECSPEC/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
