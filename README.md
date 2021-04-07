@@ -1,7 +1,7 @@
 Metro Netwerk
 ============
 
-This is the documentation, created with Doxygen, for Project Software Engineering: Metro Network.
+The documentation is created with doxygen comments.
 
 Usage
 -----
@@ -16,3 +16,4 @@ Usage
 
 	To run the debug version of the executable, enter the following command:
 		   ./Tram_Netwerk_debug
+	This will run the gtest library with all the tests
